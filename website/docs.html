@@ -7,7 +7,11 @@
   <title>API Documentation – Movies Hub</title>
   <meta name="description"
     content="Learn how to integrate the Movies Hub API into your Android app. Step-by-step guide with Kotlin code examples." />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="style.css" fetchpriority="high" />
   <script>
     (function() {
       var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -22,20 +26,7 @@
   <a href="#docs" class="skip-link">Skip to content</a>
 
   <!-- ═══ Navbar ═══ -->
-  <nav class="navbar" id="navbar">
-    <div class="navbar-inner">
-      <a href="index.html" class="logo">
-        <div class="logo-icon">🎬</div>
-        <div class="logo-text">Movies<span>Hub</span></div>
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="docs.html" class="active">Docs</a></li>
-        <li><a href="https://github.com/samyak2403/daily-movies-api" target="_blank" rel="noopener">GitHub</a></li>
-      </ul>
-      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark/light mode">☀️</button>
-    </div>
-  </nav>
+  <nav class="navbar" id="navbar"></nav>
 
   <!-- ═══ Docs Content ═══ -->
   <main id="docs">
@@ -406,79 +397,19 @@
   </main>
 
   <!-- ═══ Footer ═══ -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <h3>Movies<span>Hub</span></h3>
-        <p>A free, open-source video discovery platform powered by YouTube. New videos are added daily through an
-          automated scraper across 11 categories.</p>
-      </div>
+  <footer class="footer" id="footer"></footer>
 
-      <div class="footer-col">
-        <h4>Categories</h4>
-        <ul>
-          <li><a href="index.html">Hindi</a></li>
-          <li><a href="index.html">Marathi</a></li>
-          <li><a href="index.html">English</a></li>
-          <li><a href="index.html">Tamil</a></li>
-          <li><a href="index.html">Telugu</a></li>
-          <li><a href="index.html">Kannada</a></li>
-          <li><a href="index.html">Cartoons</a></li>
-          <li><a href="index.html">Comedy</a></li>
-          <li><a href="index.html">Taarak Mehta</a></li>
-          <li><a href="index.html">Yam Hain Hum</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="docs.html">API Documentation</a></li>
-          <li><a href="https://github.com/samyak2403/daily-movies-api" target="_blank" rel="noopener">GitHub Repo</a>
-          </li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/movies.json"
-              target="_blank" rel="noopener">JSON API</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>API Endpoints</h4>
-        <ul>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/hindi/hindi.json"
-              target="_blank" rel="noopener">Hindi API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/marathi/marathi.json"
-              target="_blank" rel="noopener">Marathi API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/english/english.json"
-              target="_blank" rel="noopener">English API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/tamil/tamil.json"
-              target="_blank" rel="noopener">Tamil API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/telugu/telugu.json"
-              target="_blank" rel="noopener">Telugu API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/kannada/kannada.json"
-              target="_blank" rel="noopener">Kannada API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/cartoons/cartoons.json"
-              target="_blank" rel="noopener">Cartoons API</a></li>
-          <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/comedy/comedy.json"
-              target="_blank" rel="noopener">Comedy API</a></li>
-          <li><a
-              href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/taarak_mehta/taarak_mehta.json"
-              target="_blank" rel="noopener">Taarak Mehta API</a></li>
-          <li><a
-              href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/yam_hain_hum/yam_hain_hum.json"
-              target="_blank" rel="noopener">Yam Hain Hum API</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>© 2026 Movies Hub. Powered by <a href="https://github.com/samyak2403/daily-movies-api" target="_blank"
-          rel="noopener">daily-movies-api</a></span>
-      <span>Updated daily via GitHub Actions</span>
-    </div>
-  </footer>
-
+  <script src="components.js"></script>
   <script src="script.js"></script>
   <script>
+    fetch('site-config.json').then(r=>r.json()).then(c=>{
+      window.siteConfig=c;
+      renderNavbar('docs');
+      renderFooter();
+    }).catch(()=>{
+      renderNavbar('docs');
+      renderFooter();
+    });
     (function() {
       var theme = document.documentElement.getAttribute('data-theme') || 'dark';
       var btn = document.getElementById('themeToggle');

@@ -19,7 +19,11 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Content Hub" />
   <meta name="twitter:description" content="Discover free content on YouTube. Updated daily." />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
+  <link rel="stylesheet" href="style.css" fetchpriority="high" />
   <script>
     (function() {
       var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
@@ -28,27 +32,26 @@
   </script>
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ContentHub",
+    "url": "https://example.com",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://example.com/index.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 
 <body>
   <a href="#moviesGrid" class="skip-link">Skip to content</a>
 
   <!-- ═══ Navbar ═══ -->
-  <nav class="navbar" id="navbar">
-    <div class="navbar-inner">
-      <a href="index.html" class="logo">
-        <div class="logo-icon">🎬</div>
-        <div class="logo-text">Loading...</div>
-      </a>
-      <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="docs.html">Docs</a></li>
-        <li><a href="#" id="navGithubLink" target="_blank" rel="noopener">GitHub</a></li>
-      </ul>
-      <button class="sync-btn" onclick="showSyncModal()" aria-label="Sync data" title="Save or restore your watchlist">🔄</button>
-      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark/light mode">☀️</button>
-    </div>
-  </nav>
+  <nav class="navbar" id="navbar"></nav>
 
   <main id="main">
 
@@ -107,33 +110,9 @@
   </main>
 
   <!-- ═══ Footer ═══ -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <h3>Loading...</h3>
-        <p>A free, open-source content discovery platform powered by YouTube.</p>
-      </div>
+  <footer class="footer" id="footer"></footer>
 
-      <div class="footer-col">
-        <h4>Categories</h4>
-        <ul id="footerCategories"></ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Resources</h4>
-        <ul>
-          <li><a href="docs.html">API Documentation</a></li>
-          <li><a href="#" id="footerGithubLink" target="_blank" rel="noopener">GitHub Repo</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <span>© <span id="footerYear">2026</span> <span id="footerSiteName">Content Hub</span>.</span>
-      <span>Updated daily via GitHub Actions</span>
-    </div>
-  </footer>
-
+  <script src="components.js"></script>
   <script src="script.js"></script>
   <script>
     if ('serviceWorker' in navigator) {

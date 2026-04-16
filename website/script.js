@@ -630,6 +630,7 @@ async function init() {
     await loadSiteConfig();
     applyTheme();
     applySiteIdentity();
+    if (typeof renderNavbar === 'function') { renderNavbar('home'); renderFooter(); }
     renderFilterButtons();
 
     const res = await fetch(getApiUrl());

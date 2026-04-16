@@ -4,21 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>How to Sync – ContentHub</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="stylesheet" href="style.css" fetchpriority="high" />
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
   <script>(function(){var t=localStorage.getItem('theme')||(window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);})()</script>
 </head>
 <body>
-  <nav class="navbar"><div class="navbar-inner">
-    <a href="index.html" class="logo"><div class="logo-icon">🎬</div><div class="logo-text">Content<span>Hub</span></div></a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="docs.html">Docs</a></li>
-    </ul>
-  </div></nav>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <nav class="navbar" id="navbar"></nav>
 
-  <main>
+  <main id="main">
   <div class="docs-container">
     <h1>🔄 How to Sync Your Data</h1>
     <p class="subtitle">Keep your watchlist and viewing history across all your devices — no account needed.</p>
@@ -61,11 +60,19 @@
   </div>
   </main>
 
-  <footer class="footer">
-    <div class="footer-bottom">
-      <span>© 2026 ContentHub</span>
-    </div>
-  </footer>
+  <footer class="footer" id="footer"></footer>
+
+  <script src="components.js"></script>
   <script src="script.js"></script>
+  <script>
+    fetch('site-config.json').then(r=>r.json()).then(c=>{
+      window.siteConfig=c;
+      renderNavbar('sync-help');
+      renderFooter();
+    }).catch(()=>{
+      renderNavbar('sync-help');
+      renderFooter();
+    });
+  </script>
 </body>
 </html>
