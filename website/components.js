@@ -18,13 +18,13 @@ function renderNavbar(activePage) {
   const theme = document.documentElement.getAttribute('data-theme') || 'dark';
 
   nav.innerHTML = `<div class="navbar-inner">
-    <a href="index.html" class="logo">
+    <a href="/" class="logo">
       <div class="logo-icon">${emoji}</div>
       <div class="logo-text">${logoHtml}</div>
     </a>
     <ul class="nav-links">
-      <li><a href="index.html"${isHome ? ' class="active"' : ''}>Home</a></li>
-      <li><a href="docs.html"${isDocs ? ' class="active"' : ''}>Docs</a></li>
+      <li><a href="/"${isHome ? ' class="active"' : ''}>Home</a></li>
+      <li><a href="/docs"${isDocs ? ' class="active"' : ''}>Docs</a></li>
       <li><a href="${_esc(ghRepo)}" target="_blank" rel="noopener">GitHub</a></li>
     </ul>
     ${showSync ? '<button class="sync-btn" onclick="showSyncModal()" aria-label="Sync data" title="Save or restore your watchlist">🔄</button>' : ''}
@@ -47,7 +47,7 @@ function renderFooter() {
     : _esc(name);
 
   const catItems = Object.entries(cats).map(([, c]) =>
-    `<li><a href="index.html">${_esc(c.display_name || '')}</a></li>`
+    `<li><a href="/">${_esc(c.display_name || '')}</a></li>`
   ).join('');
 
   el.innerHTML = `<div class="footer-inner">
@@ -62,7 +62,7 @@ function renderFooter() {
     <div class="footer-col">
       <h4>Resources</h4>
       <ul>
-        <li><a href="docs.html">API Documentation</a></li>
+        <li><a href="/docs">API Documentation</a></li>
         <li><a href="${_esc(ghRepo)}" target="_blank" rel="noopener">GitHub Repo</a></li>
       </ul>
     </div>

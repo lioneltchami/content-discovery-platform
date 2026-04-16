@@ -16,7 +16,7 @@
   container.style.cssText = `font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:${colors.bg};border-radius:12px;padding:16px;border:1px solid ${colors.border};overflow:hidden;`;
   container.innerHTML = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
     <span style="font-weight:700;font-size:14px;color:${colors.text};">Powered by ContentHub</span>
-    <a href="${baseUrl}/index.html" target="_blank" rel="noopener" style="font-size:12px;color:${colors.accent};text-decoration:none;">View all →</a>
+    <a href="${baseUrl}/" target="_blank" rel="noopener" style="font-size:12px;color:${colors.accent};text-decoration:none;">View all →</a>
   </div>
   <div id="${container.id}-grid" style="display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;"></div>`;
   script.parentNode.insertBefore(container, script);
@@ -39,7 +39,7 @@
       const thumb = m.thumbnail || `https://i.ytimg.com/vi/${m.id}/hqdefault.jpg`;
       const dur = m.duration ? `${Math.floor(m.duration/3600)}:${String(Math.floor((m.duration%3600)/60)).padStart(2,'0')}:${String(Math.floor(m.duration%60)).padStart(2,'0')}` : '';
       const card = document.createElement('a');
-      card.href = `${baseUrl}/player.html?v=${m.id}&source=${m.source||'youtube'}`;
+      card.href = `${baseUrl}/player?v=${m.id}&source=${m.source||'youtube'}`;
       card.target = '_blank';
       card.rel = 'noopener';
       card.style.cssText = `flex:0 0 200px;scroll-snap-align:start;text-decoration:none;color:${colors.text};background:${colors.card};border-radius:10px;overflow:hidden;border:1px solid ${colors.border};transition:transform 0.2s;`;

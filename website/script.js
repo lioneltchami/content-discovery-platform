@@ -756,7 +756,7 @@ function showSyncModal() {
         <button class="sync-action-btn" onclick="doSyncRestore()" id="syncRestoreBtn">Restore My Stuff</button>
         <div id="syncRestoreResult" class="sync-result"></div>
       </div>
-      <a href="sync-help.html" class="sync-help-link">How does this work?</a>
+      <a href="/sync-help" class="sync-help-link">How does this work?</a>
     </div>
   `;
   modal.addEventListener('click', (e) => { if (e.target === modal) modal.remove(); });

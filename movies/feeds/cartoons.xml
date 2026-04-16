@@ -3,9 +3,9 @@
   <channel>
     <title>ContentHub — Cartoons</title>
     <description>A config-driven content discovery platform. Define your categories, and the pipeline handles the rest.</description>
-    <link>https://github.com/samyak2403/daily-movies-api</link>
+    <link>https://github.com/lioneltchami/content-discovery-platform</link>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2026 06:06:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 07:19:44 +0000</lastBuildDate>
     <item>
       <title>A Turtle's Tale 2: Sammy's Escape From Paradise | Full Animated Adventure Movie | Family Central</title>
       <link>https://www.youtube.com/watch?v=5AO8qfcmMOw</link>
@@ -45,14 +45,6 @@
       <guid isPermaLink="false">aP-qKaig84M</guid>
       <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/aP-qKaig84M/hq720.jpg" type="image/jpeg" length="0" />
-    </item>
-    <item>
-      <title>Stuart Little 2 Ft. Michael J. Fox | FULL MOVIE | Indoor Recess</title>
-      <link>https://www.youtube.com/watch?v=cBRcitt0f_c</link>
-      <description>Category: cartoons | Duration: 1h 17m | Views: 3.2M | Source: YouTube</description>
-      <guid isPermaLink="false">cBRcitt0f_c</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
-      <enclosure url="https://i.ytimg.com/vi/cBRcitt0f_c/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Spookiz: The Movie | Cartoons for Kids | Official Full Movie</title>
@@ -245,6 +237,14 @@
       <guid isPermaLink="false">rood-cmbQ5s</guid>
       <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/rood-cmbQ5s/hq720.jpg" type="image/jpeg" length="0" />
+    </item>
+    <item>
+      <title>The Princess and the Dragon | Full Movie in English (HD) | Disney-Style Family Movie</title>
+      <link>https://www.youtube.com/watch?v=xnxWGVYVbwc</link>
+      <description>Category: cartoons | Duration: 1h 14m | Views: 7.7M | Source: YouTube</description>
+      <guid isPermaLink="false">xnxWGVYVbwc</guid>
+      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <enclosure url="https://i.ytimg.com/vi/xnxWGVYVbwc/hq720.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
 </rss>
