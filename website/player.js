@@ -91,7 +91,7 @@ function applyPlayerConfig() {
         for (const [key, cat] of Object.entries(siteConfig.categories)) {
             const li = document.createElement('li');
             const a = document.createElement('a');
-            a.href = 'index.html';
+            a.href = '/';
             a.textContent = cat.display_name;
             li.appendChild(a);
             footerCats.appendChild(li);
@@ -278,7 +278,7 @@ function showQRCode() {
 function createRelatedCard(movie) {
     const card = document.createElement('a');
     card.className = 'movie-card';
-    card.href = `player.html?v=${movie.id}&source=${movie.source || 'youtube'}`;
+    card.href = `/player?v=${movie.id}&source=${movie.source || 'youtube'}`;
     card.dataset.category = (movie.category || '').toLowerCase();
 
     const thumb = movie.thumbnail || `https://i.ytimg.com/vi/${movie.id}/hqdefault.jpg`;

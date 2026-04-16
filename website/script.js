@@ -73,7 +73,7 @@ function formatViews(count) {
 function createMovieCard(movie) {
   const card = document.createElement('a');
   card.className = 'movie-card';
-  card.href = `player.html?v=${movie.id}&source=${movie.source || 'youtube'}`;
+  card.href = `/player?v=${movie.id}&source=${movie.source || 'youtube'}`;
   card.dataset.category = (movie.category || '').toLowerCase();
 
   const thumbnailUrl = movie.thumbnail || `https://i.ytimg.com/vi/${movie.id}/hqdefault.jpg`;
@@ -495,7 +495,7 @@ function renderFilterButtons() {
     const filtered = currentFilter === 'all' ? allMovies : allMovies.filter(m => (m.category || '').toLowerCase() === currentFilter);
     if (filtered.length === 0) return;
     const random = filtered[Math.floor(Math.random() * filtered.length)];
-    window.location.href = `player.html?v=${random.id}&source=${random.source || 'youtube'}`;
+    window.location.href = `/player?v=${random.id}&source=${random.source || 'youtube'}`;
   });
   bar.appendChild(surpriseBtn);
 }
@@ -668,7 +668,7 @@ function renderFeatured() {
     </div>
   `;
   card.addEventListener('click', () => {
-    window.location.href = `player.html?v=${top.id}&source=${top.source || 'youtube'}`;
+    window.location.href = `/player?v=${top.id}&source=${top.source || 'youtube'}`;
   });
   section.style.display = '';
 }
