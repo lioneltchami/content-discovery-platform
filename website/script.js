@@ -448,17 +448,18 @@ function renderFilterButtons() {
   bar.appendChild(recentBtn);
 
   // Category buttons
-  for (const [key, cat] of Object.entries(siteConfig.categories)) {
+  const cats = Array.isArray(siteConfig.categories) ? siteConfig.categories : Object.entries(siteConfig.categories).map(([k,v]) => ({key:k,...v}));
+  for (const cat of cats) {
     const btn = document.createElement('button');
     btn.className = 'filter-btn';
-    btn.dataset.category = key;
+    btn.dataset.category = cat.key;
     btn.textContent = `${cat.icon} ${cat.display_name}`;
-    btn.addEventListener('click', () => filterMovies(key));
+    btn.addEventListener('click', () => filterMovies(cat.key));
     bar.appendChild(btn);
   }
 
   // Cartoon shows dropdown
-  if (siteConfig.cartoon_shows && Object.keys(siteConfig.cartoon_shows).length > 0) {
+  if (siteConfig.cartoon_shows && siteConfig.cartoon_shows.length > 0) {
     const dropdownWrapper = document.createElement('div');
     dropdownWrapper.className = 'filter-dropdown';
 
@@ -474,12 +475,13 @@ function renderFilterButtons() {
     const dropdownContent = document.createElement('div');
     dropdownContent.className = 'filter-dropdown-content';
 
-    for (const [key, show] of Object.entries(siteConfig.cartoon_shows)) {
+    const shows = Array.isArray(siteConfig.cartoon_shows) ? siteConfig.cartoon_shows : Object.entries(siteConfig.cartoon_shows).map(([k,v]) => ({key:k,...v}));
+    for (const show of shows) {
       const btn = document.createElement('button');
       btn.className = 'filter-btn';
-      btn.dataset.category = `cartoons/${key}`;
+      btn.dataset.category = show.key;
       btn.textContent = `${show.icon} ${show.display_name}`;
-      btn.addEventListener('click', () => filterMovies(`cartoons/${key}`));
+      btn.addEventListener('click', () => filterMovies(show.key));
       dropdownContent.appendChild(btn);
     }
 
