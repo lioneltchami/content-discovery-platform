@@ -1,0 +1,145 @@
+# ============================================================
+# Example: Indian Movies & Cartoons Platform
+# ============================================================
+# Copy this to config.yaml to create a Bollywood/regional Indian
+# movie discovery platform with Hindi cartoon shows.
+# ============================================================
+
+site:
+  name: "Movies Hub"
+  tagline: "Free full-length movies, comedy shows & cartoons on YouTube"
+  description: "Discover free Bollywood, regional Indian movies and Hindi cartoons on YouTube. Updated every 6 hours."
+  theme_color: "#7c3aed"
+  accent_color: "#ec4899"
+  background_color: "#0a0a1a"
+  logo_emoji: "🎬"
+  footer_text: "A free, open-source video discovery platform powered by YouTube."
+  github_repo: ""
+  content_label: "movie"
+  content_label_plural: "movies"
+
+scraper:
+  results_per_category: 15
+  schedule_cron: "0 */6 * * *"
+  output_dir: "movies"
+  default_sources: [youtube]
+  quality:
+    min_resolution: 480
+
+categories:
+  hindi:
+    query: "full movie hindi"
+    type: movie
+    min_duration: 2400
+    icon: "🇮🇳"
+    sources: [youtube, dailymotion]
+  marathi:
+    query: "full movie marathi"
+    type: movie
+    min_duration: 2400
+    icon: "📜"
+    sources: [youtube, dailymotion]
+  english:
+    query: "full movie english"
+    type: movie
+    min_duration: 2400
+    icon: "🎬"
+    sources: [youtube, dailymotion]
+  tamil:
+    query: "full movie tamil"
+    type: movie
+    min_duration: 2400
+    icon: "⭐"
+    sources: [youtube, dailymotion]
+  telugu:
+    query: "full movie telugu"
+    type: movie
+    min_duration: 2400
+    icon: "🎭"
+    sources: [youtube, dailymotion]
+  kannada:
+    query: "full movie kannada"
+    type: movie
+    min_duration: 2400
+    icon: "🎥"
+    sources: [youtube, dailymotion]
+  comedy:
+    query: "hindi comedy videos"
+    type: show
+    min_duration: 600
+    icon: "😂"
+  taarak_mehta:
+    query: "taarak mehta ka ooltah chashmah"
+    type: show
+    min_duration: 600
+    icon: "📺"
+  yam_hain_hum:
+    query: "yam hain hum"
+    type: show
+    min_duration: 600
+    icon: "👨‍👩‍👧"
+  cartoons:
+    query: "cartoon full movie for kids"
+    type: cartoon
+    min_duration: 600
+    icon: "🧸"
+
+cartoon_shows:
+  oggy_and_the_cockroaches:
+    query: "oggy and the cockroaches hindi full episodes"
+    icon: "🪳"
+    display_name: "Oggy & Cockroaches"
+    sources: [youtube]
+  chhota_bheem:
+    query: "chhota bheem hindi full episodes"
+    icon: "💪"
+    display_name: "Chhota Bheem"
+    sources: [youtube]
+  motu_patlu:
+    query: "motu patlu hindi full episodes"
+    icon: "🍩"
+    display_name: "Motu Patlu"
+    sources: [youtube]
+  doraemon:
+    query: "doraemon hindi full episodes"
+    icon: "🤖"
+    display_name: "Doraemon"
+    sources: [youtube]
+  shinchan:
+    query: "shinchan hindi full episodes"
+    icon: "👦"
+    display_name: "Shinchan"
+    sources: [youtube]
+  pokemon:
+    query: "pokemon hindi full episodes"
+    icon: "⚡"
+    display_name: "Pokemon"
+    sources: [youtube]
+  tom_and_jerry:
+    query: "tom and jerry hindi full episodes"
+    icon: "🐱"
+    display_name: "Tom and Jerry"
+    sources: [youtube]
+  mr_bean:
+    query: "mr bean cartoon hindi full episodes"
+    icon: "🧸"
+    display_name: "Mr Bean"
+    sources: [youtube]
+  peppa_pig:
+    query: "peppa pig hindi full episodes"
+    icon: "🐷"
+    display_name: "Peppa Pig"
+    sources: [youtube]
+  ben_10:
+    query: "ben 10 hindi full episodes"
+    icon: "⌚"
+    display_name: "Ben 10"
+    sources: [youtube]
+
+sponsorship:
+  enabled: true
+  github_sponsors: ""
+  buy_me_a_coffee: ""
+  ko_fi: ""
+  custom_url: ""
+  message: "If you find this useful, consider supporting the project!"

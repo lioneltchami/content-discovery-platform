@@ -1,700 +1,719 @@
 {
-    "last_updated": "2026-04-16T03:01:11.928001Z",
-    "show_name": "Mr Bean",
-    "language": "Hindi",
-    "category": "cartoons",
-    "description": "Auto-generated category for Mr Bean.",
-    "total_episodes": 69,
-    "episodes": [
-        {
-            "id": "AsakezBU3SQ",
-            "title": "Mr Bean In The Snow & Cold | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=AsakezBU3SQ",
-            "duration": 2674.0,
-            "view_count": 103418586,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/AsakezBU3SQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAEfSK1CSH6ws_hz9k5mjLwknntlQ"
-        },
-        {
-            "id": "nONJU-c8ZQY",
-            "title": "Teddy Hotel | Mr Bean Cartoon Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=nONJU-c8ZQY",
-            "duration": 2584.0,
-            "view_count": 8276657,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/nONJU-c8ZQY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDcofY0tWEu9h1KsrXaD35Y1N66Hg"
-        },
-        {
-            "id": "HOYpAgWPTps",
-            "title": "Ice Cream | Funny Episodes | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=HOYpAgWPTps",
-            "duration": 2452.0,
-            "view_count": 117471682,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/HOYpAgWPTps/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2GpLOGQo7460iJxKv1rr6MywlEg"
-        },
-        {
-            "id": "ze3cICcTM_E",
-            "title": "| Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=ze3cICcTM_E",
-            "duration": 5166.0,
-            "view_count": 4795362,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/ze3cICcTM_E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtSydDlGzL2Q1hNqrSb9qFifWoZg"
-        },
-        {
-            "id": "6qD6-zSsmy8",
-            "title": "Scientist Bean! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=6qD6-zSsmy8",
-            "duration": 5167.0,
-            "view_count": 3693878,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/6qD6-zSsmy8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDsNwZ0Nfk8J8hug3mRHEq6qbvOJw"
-        },
-        {
-            "id": "LBvgXBClClY",
-            "title": "Mr Bean's Portly House Guest | Mr Bean Animated Season 1 | Full Episodes | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=LBvgXBClClY",
-            "duration": 3230.0,
-            "view_count": 1664202,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/LBvgXBClClY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCRRE7Qx887YSdiZUPlBexaZ3rTzw"
-        },
-        {
-            "id": "4yvxC57NnPE",
-            "title": "Bean's Big Adventure! | Mr. Bean | Cartoons for Kids | WildBrain Kids",
-            "url": "https://www.youtube.com/watch?v=4yvxC57NnPE",
-            "duration": 9458.0,
-            "view_count": 12807466,
-            "uploader": "WildBrain Kids",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/4yvxC57NnPE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBU58kHJuvLc-pnhpaTfSST-t5B2w"
-        },
-        {
-            "id": "R0OD5F-WO9A",
-            "title": "Egg & Bean 🍳| Mr Bean Cartoon Season 1 | Full Episodes | Cartoons for Kids",
-            "url": "https://www.youtube.com/watch?v=R0OD5F-WO9A",
-            "duration": 2599.0,
-            "view_count": 6558043,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/R0OD5F-WO9A/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhdIGUoVzAP&rs=AOn4CLBsbv_3JNY8UqddXJxAIrOkj2wbOQ"
-        },
-        {
-            "id": "6DQrfYYnwi4",
-            "title": "Pizza Bean! | Mr Bean Cartoon Season 2 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=6DQrfYYnwi4",
-            "duration": 3302.0,
-            "view_count": 32044827,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/6DQrfYYnwi4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBj2kDJusDMU2-Tx9jW9a8Nz15cRw"
-        },
-        {
-            "id": "0p78BJDCT9U",
-            "title": "Mr Bean new episode in Hindi pray 3(1)",
-            "url": "https://www.youtube.com/watch?v=0p78BJDCT9U",
-            "duration": 630.0,
-            "view_count": 7446488,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/0p78BJDCT9U/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4K82ZE9jb2aCOHj8v5D-lwhBJfg"
-        },
-        {
-            "id": "I4GyOjpf0Ts",
-            "title": "Bean's New Flat-Screen TV! | Mr Bean Animated | Full Episode Compilation | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=I4GyOjpf0Ts",
-            "duration": 3231.0,
-            "view_count": 4128653,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/I4GyOjpf0Ts/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFHS4WZ8OIxuv_GEoULELyfu04Tw"
-        },
-        {
-            "id": "LN_7UC1kfcA",
-            "title": "Mr Bean Enjoys Jail! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=LN_7UC1kfcA",
-            "duration": 5168.0,
-            "view_count": 21158150,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/LN_7UC1kfcA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtG-MqVZ-fJxhBYHK7akXxqP3nMQ"
-        },
-        {
-            "id": "eLgxBaiwuA8",
-            "title": "Watermelon Winner 🍉 | Funny Episodes | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=eLgxBaiwuA8",
-            "duration": 3194.0,
-            "view_count": 109932307,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/eLgxBaiwuA8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXPSZhHEPDFQOWvhmUQK-a5GUFaA"
-        },
-        {
-            "id": "J-X2GwBIj0M",
-            "title": "Jingle Bean , Jingle Bean! 🎄| Mr Bean Animated Season 2 | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=J-X2GwBIj0M",
-            "duration": 2674.0,
-            "view_count": 538221,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/J-X2GwBIj0M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAs-8_Cdrt1ekz1j4yXSH7h9ma24w"
-        },
-        {
-            "id": "aryCScSrDa0",
-            "title": "Mr Bean Is HOMELESS! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=aryCScSrDa0",
-            "duration": 3228.0,
-            "view_count": 18879451,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/aryCScSrDa0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLConLgEJ2kaHJvncagTRzsXcq8qPw"
-        },
-        {
-            "id": "FIX7cSCEqfQ",
-            "title": "A New Car For Christmas? | Mr Bean Animated Season 3 | Full Episodes | Cartoons For Kids",
-            "url": "https://www.youtube.com/watch?v=FIX7cSCEqfQ",
-            "duration": 3302.0,
-            "view_count": 1617345,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/FIX7cSCEqfQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUszrMQNw47HGHFREEdMrzo92INA"
-        },
-        {
-            "id": "J324nu1vjVg",
-            "title": "Camping | Funny Episodes | Mr Bean Animated | Cartoons for Kids",
-            "url": "https://www.youtube.com/watch?v=J324nu1vjVg",
-            "duration": 2584.0,
-            "view_count": 5643627,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/J324nu1vjVg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxKBsRy2_smTqVPpK04PouP18cjQ"
-        },
-        {
-            "id": "sJ7QikIf0fQ",
-            "title": "Mr bean season 1 episode 2 in hindi",
-            "url": "https://www.youtube.com/watch?v=sJ7QikIf0fQ",
-            "duration": 630.0,
-            "view_count": 67067,
-            "uploader": "mr bean topic",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/sJ7QikIf0fQ/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARh_IFEoGzAP&rs=AOn4CLASVnX7gOZbOkmdv_cnMgnr8Rhzcg"
-        },
-        {
-            "id": "fzymK2GyAtU",
-            "title": "What Did Mr Bean Hatch!? | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=fzymK2GyAtU",
-            "duration": 5166.0,
-            "view_count": 5855957,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/fzymK2GyAtU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVPuu-_-MsjKPYKF5IAXeW57yCTw"
-        },
-        {
-            "id": "VUwObyvSzRY",
-            "title": "Mr Bean new episode in Hindi pray 3(3)",
-            "url": "https://www.youtube.com/watch?v=VUwObyvSzRY",
-            "duration": 631.0,
-            "view_count": 2116234,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/VUwObyvSzRY/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCW-M6ztrps3pJML0Y7US8dEeVDUQ"
-        },
-        {
-            "id": "1tVh6C6PwsQ",
-            "title": "Mr Bean Turns His House into Soft Play! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=1tVh6C6PwsQ",
-            "duration": 3300.0,
-            "view_count": 15402512,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/1tVh6C6PwsQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD7t7SxBxhMgGnuqqKweMFTZLfLA"
-        },
-        {
-            "id": "v4SD0YKxUKI",
-            "title": "Mr Bean Becomes a Celebrity 🤳 | Mr Bean Animated Season 2 | Full Episodes | Cartoons for Kids",
-            "url": "https://www.youtube.com/watch?v=v4SD0YKxUKI",
-            "duration": 2657.0,
-            "view_count": 6589436,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/v4SD0YKxUKI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBD17PcBQXuu3Ef1jBUsUsEk7eCKA"
-        },
-        {
-            "id": "lxCpkno_hd4",
-            "title": "Hamburger Day With Mr Bean and Teddy! 🍔| Mr Bean Animated Season 1 | Funny Clips | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=lxCpkno_hd4",
-            "duration": 2583.0,
-            "view_count": 20805578,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/lxCpkno_hd4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAju1BCG_Utk-7eU1zNJZrJB-1FBw"
-        },
-        {
-            "id": "0hYs01K3nd8",
-            "title": "Mr Bean's Mansion Visit! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=0hYs01K3nd8",
-            "duration": 5167.0,
-            "view_count": 1247501,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/0hYs01K3nd8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD1_cMZAx4rGrBsdu4wA0jjMprcmQ"
-        },
-        {
-            "id": "IdnnTf2GWjA",
-            "title": "Mr Bean's AMAZING New Perfume! | Mr Bean Animated season 3 | Full Episodes | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=IdnnTf2GWjA",
-            "duration": 5283.0,
-            "view_count": 4378331,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/IdnnTf2GWjA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCEnJ9BvtOQDjV7pxfryPc7OXF9lw"
-        },
-        {
-            "id": "kZWBWB0P-m8",
-            "title": "Mr Bean Cartoon Full Episodes | Mr Bean the Animated Series New Collection #26",
-            "url": "https://www.youtube.com/watch?v=kZWBWB0P-m8",
-            "duration": 1260.0,
-            "view_count": 11293632,
-            "uploader": "Mr Bean Hindi",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/kZWBWB0P-m8/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhYIGUoZTAP&rs=AOn4CLD0vPoHUHnzM8pOqFn9t4w0WPRJhw"
-        },
-        {
-            "id": "YykoZcVC0AA",
-            "title": "Scary Fun Fair | Mr. Bean | Season 2 Compilation | Halloween Kids Videos | WildBrain Bananas",
-            "url": "https://www.youtube.com/watch?v=YykoZcVC0AA",
-            "duration": 12580.0,
-            "view_count": 979576,
-            "uploader": "WildBrain Circus ",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/YykoZcVC0AA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAASeMm0NVjGAgphxjNVNugwRU5VQ"
-        },
-        {
-            "id": "3Ug9KIAMFcY",
-            "title": "The Great Bottle Chase! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=3Ug9KIAMFcY",
-            "duration": 5167.0,
-            "view_count": 3021429,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/3Ug9KIAMFcY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAC3DXfcLibvNimxgR4Uy7D7NTLSA"
-        },
-        {
-            "id": "Ih76cnYuEoY",
-            "title": "Arcade Trouble | Mr Bean Animated  | New Episodes 2025 | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=Ih76cnYuEoY",
-            "duration": 1297.0,
-            "view_count": 1126686,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/Ih76cnYuEoY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDzjUnIUruVF_POnLq0ZMgGGWA2zQ"
-        },
-        {
-            "id": "QZI_nkGotGY",
-            "title": "The Beanshank Redemption | Mr Bean Animated | Full Episode Compilation | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=QZI_nkGotGY",
-            "duration": 3229.0,
-            "view_count": 8717644,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/QZI_nkGotGY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVVvU9VSBzNoBSdGycwvaJYuykWg"
-        },
-        {
-            "id": "mhE4i0Rxvok",
-            "title": "मिस्टर बीन टर्की पकाते हैं 🍗 | धन्यवाद विशेष | मिस्टर बीन पूरा एपिसोड | मिस्टर बिन हिंदी",
-            "url": "https://www.youtube.com/watch?v=mhE4i0Rxvok",
-            "duration": 3242.0,
-            "view_count": 814251,
-            "uploader": "Mr Bean Hindi",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/mhE4i0Rxvok/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVeOumlGb-MduqX7o6tZiq5LCkJQ"
-        },
-        {
-            "id": "tI1jF98hlmM",
-            "title": "Shopping For NEW YEAR! | Mr Bean Cartoon Season 1 | Full Episodes | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=tI1jF98hlmM",
-            "duration": 2584.0,
-            "view_count": 50518401,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/tI1jF98hlmM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAY4dVD6SW-Iv26cuPBAGVPdhQbjw"
-        },
-        {
-            "id": "QsDsT6h1cgQ",
-            "title": "Mr Bean Makes a Model! | Mr Bean Animated Cartoons | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=QsDsT6h1cgQ",
-            "duration": 2584.0,
-            "view_count": 3527160,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/QsDsT6h1cgQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBxaR94DdmzCsNZ0nrlfDDVZ9bi2w"
-        },
-        {
-            "id": "dqL9zNn2VDM",
-            "title": "Mr Bean Animated | TAXI BEAN | Season 2 | Full Episodes Compilation | Cartoons for Children",
-            "url": "https://www.youtube.com/watch?v=dqL9zNn2VDM",
-            "duration": 676.0,
-            "view_count": 47791008,
-            "uploader": "WildBrain Circus ",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/dqL9zNn2VDM/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhlIGUoZTAP&rs=AOn4CLBpz7APDJiWADJJ44CbnVCBG2M3hA"
-        },
-        {
-            "id": "ofJ0_NbSQa0",
-            "title": "Mr Bean Cooks CHRISTMAS DINNER | Mr Bean Cartoon Season 1 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=ofJ0_NbSQa0",
-            "duration": 2583.0,
-            "view_count": 16229321,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/ofJ0_NbSQa0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB0PYTrcHjQSv_n2kP3smRKe4jCVQ"
-        },
-        {
-            "id": "m1oPIrWKnf8",
-            "title": "Mr Bean Cooks up A Feast 🥘 | Mr Bean Cartoons | Season 1 | Full Episodes | Cartoons for Kids",
-            "url": "https://www.youtube.com/watch?v=m1oPIrWKnf8",
-            "duration": 2582.0,
-            "view_count": 10893405,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/m1oPIrWKnf8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUFxFe1_f0K-hiLHJFj_DksggHuw"
-        },
-        {
-            "id": "5Q7h3GwihlY",
-            "title": "Mr bean season 1 episode 3 in hindi",
-            "url": "https://www.youtube.com/watch?v=5Q7h3GwihlY",
-            "duration": 601.0,
-            "view_count": 13781,
-            "uploader": "mr bean topic",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/5Q7h3GwihlY/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhlIGUoVjAP&rs=AOn4CLAPjJSwMiTlCY90O5joJ7f-5VvQ7A"
-        },
-        {
-            "id": "Ok-92dycIp0",
-            "title": "Mr Bean goes on a date as Mrs Wicket! | Mr Bean Animated Season 3 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=Ok-92dycIp0",
-            "duration": 3303.0,
-            "view_count": 1160490,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/Ok-92dycIp0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAiPp4PiZxizDF7TBAevh3WOb-sCw"
-        },
-        {
-            "id": "xRwIqdON1WM",
-            "title": "When You Forget to Set the Timer! | Mr Bean Animated Season 3 | Full Episodes | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=xRwIqdON1WM",
-            "duration": 3484.0,
-            "view_count": 10207154,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/xRwIqdON1WM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAC1gKzDe_ES_hXdU5bL6qJ0L9EsA"
-        },
-        {
-            "id": "rVmyZ-1achI",
-            "title": "Garden Bean | Funny Episodes | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=rVmyZ-1achI",
-            "duration": 2427.0,
-            "view_count": 26661308,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/rVmyZ-1achI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBEMeLan1FNh2HFH6bJ6JGi11Zl2Q"
-        },
-        {
-            "id": "GsbJY-97WqE",
-            "title": "IRMA'S NEW BOYFRIEND! (THIS IS BAD)! | Mr Bean | Cartoons For Kids | WildBrain Kids",
-            "url": "https://www.youtube.com/watch?v=GsbJY-97WqE",
-            "duration": 32646.0,
-            "view_count": 7880616,
-            "uploader": "WildBrain Kids",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/GsbJY-97WqE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCZwk1NxLoSou0PsYnLyqPMLIx05w"
-        },
-        {
-            "id": "bmLklzwS1Wk",
-            "title": "Mr HATES The Rain | Mr Bean Animated Season 2 | Full Episodes | Cartoons For Kids",
-            "url": "https://www.youtube.com/watch?v=bmLklzwS1Wk",
-            "duration": 3301.0,
-            "view_count": 5173002,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/bmLklzwS1Wk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBn5Pcf1S7ZmH740tWAG9mYplIn_Q"
-        },
-        {
-            "id": "18pw1rQ33t0",
-            "title": "Mr Bean Enters a HAUNTED HOUSE! | Mr Bean Animated Season 3 | Funny Clips | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=18pw1rQ33t0",
-            "duration": 3301.0,
-            "view_count": 6269594,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/18pw1rQ33t0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwI6-OcaMquaLvYX5gV-nBae7ddw"
-        },
-        {
-            "id": "IQzDaJfnCvQ",
-            "title": "The Hospital Isn't As Nice As It Seems... | Mr Bean Animated Season 1 | Full Episodes | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=IQzDaJfnCvQ",
-            "duration": 5166.0,
-            "view_count": 15448020,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/IQzDaJfnCvQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6Q6BmZqLJJwUfDiuoyxS5AMooqA"
-        },
-        {
-            "id": "CVOByo1n4NE",
-            "title": "मिस्टर बीन बेघर हैं | मिस्टर बीन पूरा एपिसोड | मिस्टर बीन हिंदी",
-            "url": "https://www.youtube.com/watch?v=CVOByo1n4NE",
-            "duration": 3876.0,
-            "view_count": 208437,
-            "uploader": "Mr Bean Hindi",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/CVOByo1n4NE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIFPtCdMEiIV8e-r-aODWdcXodqg"
-        },
-        {
-            "id": "chDzys9QnIs",
-            "title": "Chocolate Bean 🍫 | (Mr Bean Cartoon) | Mr Bean Full Episodes | Mr Bean Comedy",
-            "url": "https://www.youtube.com/watch?v=chDzys9QnIs",
-            "duration": 2599.0,
-            "view_count": 27044633,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/chDzys9QnIs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMpYhsx0uWMUbYGVn92v36TMWYOw"
-        },
-        {
-            "id": "Tm91mtdlkEc",
-            "title": "Mr Bean's Car Wash 🚗🧼 | Mr Bean Animated Cartoons | Season 2 | Full Episodes | Cartoons for Kids",
-            "url": "https://www.youtube.com/watch?v=Tm91mtdlkEc",
-            "duration": 3302.0,
-            "view_count": 17336019,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/Tm91mtdlkEc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2OCgWGtKTQGO_Vch94ImLPjRjag"
-        },
-        {
-            "id": "HF48Ur2dbMM",
-            "title": "LONDON Bean | Funny Episodes | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=HF48Ur2dbMM",
-            "duration": 2657.0,
-            "view_count": 35484450,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/HF48Ur2dbMM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQaB-v5yXKGiz_k0eq8GN9ODCEew"
-        },
-        {
-            "id": "XeltZ_MOIik",
-            "title": "Farmer Bean! | Mr Bean Animated season 1 | Mr Bean Full Episodes | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=XeltZ_MOIik",
-            "duration": 3230.0,
-            "view_count": 6596156,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/XeltZ_MOIik/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVqwwhOA0lEtJKJHsnrh-8QgK1Lg"
-        },
-        {
-            "id": "MGocTIbIWN4",
-            "title": "Mr. Bean's Ages Quick | Mr Bean Animated Season 3 | Full Episodes | Mr Bean Cartoons",
-            "url": "https://www.youtube.com/watch?v=MGocTIbIWN4",
-            "duration": 3485.0,
-            "view_count": 1370436,
-            "uploader": "Mr Bean TV",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/MGocTIbIWN4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCWpkGYH4KUgF1cA75b8Y6qnSKjg"
-        },
-        {
-            "id": "on-UjA2CwmI",
-            "title": "Clothes Shopping In The JANUARY SALES | Mr Bean Cartoon Season 2 | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=on-UjA2CwmI",
-            "duration": 2658.0,
-            "view_count": 14459937,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/on-UjA2CwmI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAky08GnwWSUHVLNc94rDriMUrlbQ"
-        },
-        {
-            "id": "jcFebm5dgTw",
-            "title": "Merry Christmas, Mr Bean 🎅🎄 | Mr Bean Animated Season 1 | Full Episodes | Cartoons For Kids",
-            "url": "https://www.youtube.com/watch?v=jcFebm5dgTw",
-            "duration": 2583.0,
-            "view_count": 3878075,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/jcFebm5dgTw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCLO-AIq1i2P51_rcrt4JJ-k1vC7A"
-        },
-        {
-            "id": "W1TM9rhYu-E",
-            "title": "Mr Bean's Home Movie | Mr Bean | Cartoons for Kids | WildBrain Kids",
-            "url": "https://www.youtube.com/watch?v=W1TM9rhYu-E",
-            "duration": 1890.0,
-            "view_count": 114122205,
-            "uploader": "WildBrain Kids",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/W1TM9rhYu-E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHRV_ByldZim2ZnyMHUvgLA1AcEw"
-        },
-        {
-            "id": "mK_xnSMwb60",
-            "title": "The OCTOPUS ROLLERCOASTER! | Mr Bean Animated Season 2 | Full Episodes | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=mK_xnSMwb60",
-            "duration": 3300.0,
-            "view_count": 1993942,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/mK_xnSMwb60/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBItrXG43-2_Rg-mAHEBTL7meGjgg"
-        },
-        {
-            "id": "vTlx-pmjTkM",
-            "title": "Safari Bean! | Mr Bean Animated Season 2 | Full Episodes | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=vTlx-pmjTkM",
-            "duration": 3301.0,
-            "view_count": 8785244,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/vTlx-pmjTkM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAs5k2YWLnzO-m-Y3BEwc1w2ftSdg"
-        },
-        {
-            "id": "niVDwHZ8lh0",
-            "title": "महा सफ़ाई | मिस्टर बीन एनिमेटेड | पूर्ण एपिसोड | मिस्टर बीन हिंदी",
-            "url": "https://www.youtube.com/watch?v=niVDwHZ8lh0",
-            "duration": 673.0,
-            "view_count": 1114197,
-            "uploader": "Mr Bean Hindi",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/niVDwHZ8lh0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8j-SsVIZUGgWbvjbGPXJf8G2tUA"
-        },
-        {
-            "id": "W2VWO13X7AQ",
-            "title": "CHRISTMAS CRUISE! 🎅🛳 | Mr Bean Cartoon Season 2 | Full Episodes | Cartoons for Kids",
-            "url": "https://www.youtube.com/watch?v=W2VWO13X7AQ",
-            "duration": 2641.0,
-            "view_count": 5525399,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/W2VWO13X7AQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXd4U_X9i9oGgytIEyMvJEL4fWGQ"
-        },
-        {
-            "id": "48013shJrBs",
-            "title": "Taxi Bean | Mr Bean Animated | Full Episode | Season 2 Episode 26 | Mr Bean",
-            "url": "https://www.youtube.com/watch?v=48013shJrBs",
-            "duration": 662.0,
-            "view_count": 0,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/48013shJrBs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmht7W0d33LKt8U5j860kdsuAnQw"
-        },
-        {
-            "id": "DsCkuZRnQUM",
-            "title": "Mr.ben hindi hd full episode",
-            "url": "https://www.youtube.com/watch?v=DsCkuZRnQUM",
-            "duration": 613.0,
-            "view_count": 305302,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/DsCkuZRnQUM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAB-dJcpJMXLtCWiX0uC5KTz5nf_A"
-        },
-        {
-            "id": "FIw3PvDjqi0",
-            "title": "Spring Clean | Mr Bean Animated | Season 1 Episode 8 | Full Episode | Mr Bean And Teddy Cartoons",
-            "url": "https://www.youtube.com/watch?v=FIw3PvDjqi0",
-            "duration": 673.0,
-            "view_count": 311827,
-            "uploader": "Mr Bean And Teddy Cartoons",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/FIw3PvDjqi0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCg1EYfwVd-OukAVshUbk6Yyo2C1A"
-        },
-        {
-            "id": "fAMIh-GkJdg",
-            "title": "Mr Bean new episodes in Hindi(2)",
-            "url": "https://www.youtube.com/watch?v=fAMIh-GkJdg",
-            "duration": 631.0,
-            "view_count": 1839123,
-            "uploader": "Cartoons for Kids - Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/fAMIh-GkJdg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdDJLlb_zQqdUR8myIdRRjSbBpQw"
-        },
-        {
-            "id": "4Unv7rw5HNk",
-            "title": "Mr Bean | Baking | Full Episodes Compilation | Cartoons for Children",
-            "url": "https://www.youtube.com/watch?v=4Unv7rw5HNk",
-            "duration": 646.0,
-            "view_count": 23571035,
-            "uploader": "WildBrain Circus ",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/4Unv7rw5HNk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCoRcufHGK5mzTHSaqtinLeWQ_RiA"
-        },
-        {
-            "id": "f1OvieYLHQE",
-            "title": "Bed Time | Funny Episodes | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=f1OvieYLHQE",
-            "duration": 2453.0,
-            "view_count": 44935371,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/f1OvieYLHQE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB77yM8J6uK4xwlFmNAvT-Jxc0F3g"
-        },
-        {
-            "id": "gxbRnnucIPU",
-            "title": "Mr Bean Enters A Pie Eating Competition! |Mr Bean Animated | Full Episodes | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=gxbRnnucIPU",
-            "duration": 3300.0,
-            "view_count": 5873180,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/gxbRnnucIPU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDIUJbzArL8vPQGaHJgq1AscvW_ZQ"
-        },
-        {
-            "id": "MGX400LDfVU",
-            "title": "BEAN BURGER! 🍔 | Mr Bean Cartoon Season 1 | Funny Clips | Mr Bean Cartoon World",
-            "url": "https://www.youtube.com/watch?v=MGX400LDfVU",
-            "duration": 2899.0,
-            "view_count": 18118929,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/MGX400LDfVU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLASD6Q5NqivX_WCtWQITCWoBYA1xg"
-        },
-        {
-            "id": "7cLsFAhML8Y",
-            "title": "SHARK ATTACK! | Mr Bean | WildBrain Kids",
-            "url": "https://www.youtube.com/watch?v=7cLsFAhML8Y",
-            "duration": 32646.0,
-            "view_count": 7364027,
-            "uploader": "WildBrain Kids",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/7cLsFAhML8Y/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHc0AQeywbtOiL5-AFyDCV_jISfQ"
-        },
-        {
-            "id": "Rwaaml11CCc",
-            "title": "Mr Bean Vs Obstacle Course | Mr Bean Animated Season 3 | Full Episodes | Mr Bean Official",
-            "url": "https://www.youtube.com/watch?v=Rwaaml11CCc",
-            "duration": 3302.0,
-            "view_count": 2797206,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/Rwaaml11CCc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAskCkbKlXC30Vs22bu23JNHL-rKQ"
-        },
-        {
-            "id": "2ta7fj0AFrM",
-            "title": "Bean’s DIY Furniture Mission Gone Wrong | Mr Bean Animated Season 2  | Mr Bean World",
-            "url": "https://www.youtube.com/watch?v=2ta7fj0AFrM",
-            "duration": 2674.0,
-            "view_count": 34503,
-            "uploader": "Mr Bean World",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/2ta7fj0AFrM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABPgDbj__5UFOL7wlbfhzMAwm_bA"
-        },
-        {
-            "id": "0YOgFYBF7uY",
-            "title": "DIY Bean | (Mr Bean Cartoon) | Mr Bean Full Episodes | Mr Bean Comedy",
-            "url": "https://www.youtube.com/watch?v=0YOgFYBF7uY",
-            "duration": 2641.0,
-            "view_count": 17386087,
-            "uploader": "Mr Bean",
-            "category": "cartoons/mr_bean",
-            "thumbnail": "https://i.ytimg.com/vi/0YOgFYBF7uY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBvggGjFbkWgH9FqYI2AAUKPlZBxA"
-        }
-    ]
+  "last_updated": "2026-04-16T05:12:36.802178Z",
+  "show_name": "Bean Books a Holiday",
+  "language": "Hindi",
+  "category": "cartoons",
+  "total_episodes": 71,
+  "episodes": [
+    {
+      "id": "yBTZmd3hwwc",
+      "title": "Bean Books a Holiday! | Mr Bean Animated Full Episodes | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=yBTZmd3hwwc",
+      "duration": 2642.0,
+      "view_count": 2728855,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/yBTZmd3hwwc/hq720.jpg"
+    },
+    {
+      "id": "J324nu1vjVg",
+      "title": "Camping | Funny Episodes | Mr Bean Animated | Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=J324nu1vjVg",
+      "duration": 2584.0,
+      "view_count": 5643627,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/J324nu1vjVg/hq720.jpg"
+    },
+    {
+      "id": "XeltZ_MOIik",
+      "title": "Farmer Bean! | Mr Bean Animated season 1 | Mr Bean Full Episodes | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=XeltZ_MOIik",
+      "duration": 3230.0,
+      "view_count": 6596156,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/XeltZ_MOIik/hq720.jpg"
+    },
+    {
+      "id": "j1fYTtD-uhk",
+      "title": "Good Dog | Jungle Beat: Munki & Trunk | Full Episodes | Kids Cartoon 2024",
+      "url": "https://www.youtube.com/watch?v=j1fYTtD-uhk",
+      "duration": 10103.0,
+      "view_count": 1523771,
+      "uploader": "Jungle Beat",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/j1fYTtD-uhk/hq720.jpg"
+    },
+    {
+      "id": "AsakezBU3SQ",
+      "title": "Mr Bean In The Snow & Cold | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=AsakezBU3SQ",
+      "duration": 2674.0,
+      "view_count": 103118255,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/AsakezBU3SQ/hq720.jpg"
+    },
+    {
+      "id": "nONJU-c8ZQY",
+      "title": "Teddy Hotel | Mr Bean Cartoon Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=nONJU-c8ZQY",
+      "duration": 2584.0,
+      "view_count": 8255050,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/nONJU-c8ZQY/hq720.jpg"
+    },
+    {
+      "id": "HOYpAgWPTps",
+      "title": "Ice Cream | Funny Episodes | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=HOYpAgWPTps",
+      "duration": 2452.0,
+      "view_count": 117471682,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/HOYpAgWPTps/hq720.jpg"
+    },
+    {
+      "id": "ze3cICcTM_E",
+      "title": "| Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=ze3cICcTM_E",
+      "duration": 5166.0,
+      "view_count": 4795362,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/ze3cICcTM_E/hq720.jpg"
+    },
+    {
+      "id": "6qD6-zSsmy8",
+      "title": "Scientist Bean! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=6qD6-zSsmy8",
+      "duration": 5167.0,
+      "view_count": 3573309,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/6qD6-zSsmy8/hq720.jpg"
+    },
+    {
+      "id": "LBvgXBClClY",
+      "title": "Mr Bean's Portly House Guest | Mr Bean Animated Season 1 | Full Episodes | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=LBvgXBClClY",
+      "duration": 3230.0,
+      "view_count": 1664202,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/LBvgXBClClY/hq720.jpg"
+    },
+    {
+      "id": "4yvxC57NnPE",
+      "title": "Bean's Big Adventure! | Mr. Bean | Cartoons for Kids | WildBrain Kids",
+      "url": "https://www.youtube.com/watch?v=4yvxC57NnPE",
+      "duration": 9458.0,
+      "view_count": 12807466,
+      "uploader": "WildBrain Kids",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/4yvxC57NnPE/hq720.jpg"
+    },
+    {
+      "id": "R0OD5F-WO9A",
+      "title": "Egg & Bean 🍳| Mr Bean Cartoon Season 1 | Full Episodes | Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=R0OD5F-WO9A",
+      "duration": 2599.0,
+      "view_count": 6558043,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/R0OD5F-WO9A/hq720.jpg"
+    },
+    {
+      "id": "6DQrfYYnwi4",
+      "title": "Pizza Bean! | Mr Bean Cartoon Season 2 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=6DQrfYYnwi4",
+      "duration": 3302.0,
+      "view_count": 32044827,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/6DQrfYYnwi4/hq720.jpg"
+    },
+    {
+      "id": "0p78BJDCT9U",
+      "title": "Mr Bean new episode in Hindi pray 3(1)",
+      "url": "https://www.youtube.com/watch?v=0p78BJDCT9U",
+      "duration": 630.0,
+      "view_count": 7446488,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/0p78BJDCT9U/hqdefault.jpg"
+    },
+    {
+      "id": "I4GyOjpf0Ts",
+      "title": "Bean's New Flat-Screen TV! | Mr Bean Animated | Full Episode Compilation | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=I4GyOjpf0Ts",
+      "duration": 3231.0,
+      "view_count": 4128653,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/I4GyOjpf0Ts/hq720.jpg"
+    },
+    {
+      "id": "LN_7UC1kfcA",
+      "title": "Mr Bean Enjoys Jail! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=LN_7UC1kfcA",
+      "duration": 5168.0,
+      "view_count": 21158150,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/LN_7UC1kfcA/hq720.jpg"
+    },
+    {
+      "id": "eLgxBaiwuA8",
+      "title": "Watermelon Winner 🍉 | Funny Episodes | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=eLgxBaiwuA8",
+      "duration": 3194.0,
+      "view_count": 109932307,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/eLgxBaiwuA8/hq720.jpg"
+    },
+    {
+      "id": "J-X2GwBIj0M",
+      "title": "Jingle Bean , Jingle Bean! 🎄| Mr Bean Animated Season 2 | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=J-X2GwBIj0M",
+      "duration": 2674.0,
+      "view_count": 538221,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/J-X2GwBIj0M/hq720.jpg"
+    },
+    {
+      "id": "aryCScSrDa0",
+      "title": "Mr Bean Is HOMELESS! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=aryCScSrDa0",
+      "duration": 3228.0,
+      "view_count": 18700416,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/aryCScSrDa0/hq720.jpg"
+    },
+    {
+      "id": "FIX7cSCEqfQ",
+      "title": "A New Car For Christmas? | Mr Bean Animated Season 3 | Full Episodes | Cartoons For Kids",
+      "url": "https://www.youtube.com/watch?v=FIX7cSCEqfQ",
+      "duration": 3302.0,
+      "view_count": 1617345,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/FIX7cSCEqfQ/hq720.jpg"
+    },
+    {
+      "id": "sJ7QikIf0fQ",
+      "title": "Mr bean season 1 episode 2 in hindi",
+      "url": "https://www.youtube.com/watch?v=sJ7QikIf0fQ",
+      "duration": 630.0,
+      "view_count": 67067,
+      "uploader": "mr bean topic",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/sJ7QikIf0fQ/hqdefault.jpg"
+    },
+    {
+      "id": "fzymK2GyAtU",
+      "title": "What Did Mr Bean Hatch!? | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=fzymK2GyAtU",
+      "duration": 5166.0,
+      "view_count": 5688171,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/fzymK2GyAtU/hq720.jpg"
+    },
+    {
+      "id": "VUwObyvSzRY",
+      "title": "Mr Bean new episode in Hindi pray 3(3)",
+      "url": "https://www.youtube.com/watch?v=VUwObyvSzRY",
+      "duration": 631.0,
+      "view_count": 2116234,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/VUwObyvSzRY/hqdefault.jpg"
+    },
+    {
+      "id": "1tVh6C6PwsQ",
+      "title": "Mr Bean Turns His House into Soft Play! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=1tVh6C6PwsQ",
+      "duration": 3300.0,
+      "view_count": 15402512,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/1tVh6C6PwsQ/hq720.jpg"
+    },
+    {
+      "id": "v4SD0YKxUKI",
+      "title": "Mr Bean Becomes a Celebrity 🤳 | Mr Bean Animated Season 2 | Full Episodes | Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=v4SD0YKxUKI",
+      "duration": 2657.0,
+      "view_count": 6589436,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/v4SD0YKxUKI/hq720.jpg"
+    },
+    {
+      "id": "lxCpkno_hd4",
+      "title": "Hamburger Day With Mr Bean and Teddy! 🍔| Mr Bean Animated Season 1 | Funny Clips | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=lxCpkno_hd4",
+      "duration": 2583.0,
+      "view_count": 20805578,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/lxCpkno_hd4/hq720.jpg"
+    },
+    {
+      "id": "0hYs01K3nd8",
+      "title": "Mr Bean's Mansion Visit! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=0hYs01K3nd8",
+      "duration": 5167.0,
+      "view_count": 1247501,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/0hYs01K3nd8/hq720.jpg"
+    },
+    {
+      "id": "IdnnTf2GWjA",
+      "title": "Mr Bean's AMAZING New Perfume! | Mr Bean Animated season 3 | Full Episodes | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=IdnnTf2GWjA",
+      "duration": 5283.0,
+      "view_count": 4337989,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/IdnnTf2GWjA/hq720.jpg"
+    },
+    {
+      "id": "kZWBWB0P-m8",
+      "title": "Mr Bean Cartoon Full Episodes | Mr Bean the Animated Series New Collection #26",
+      "url": "https://www.youtube.com/watch?v=kZWBWB0P-m8",
+      "duration": 1260.0,
+      "view_count": 11293632,
+      "uploader": "Mr Bean Hindi",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/kZWBWB0P-m8/hqdefault.jpg"
+    },
+    {
+      "id": "YykoZcVC0AA",
+      "title": "Scary Fun Fair | Mr. Bean | Season 2 Compilation | Halloween Kids Videos | WildBrain Bananas",
+      "url": "https://www.youtube.com/watch?v=YykoZcVC0AA",
+      "duration": 12580.0,
+      "view_count": 979576,
+      "uploader": "WildBrain Circus ",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/YykoZcVC0AA/hq720.jpg"
+    },
+    {
+      "id": "3Ug9KIAMFcY",
+      "title": "The Great Bottle Chase! | Mr Bean Animated Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=3Ug9KIAMFcY",
+      "duration": 5167.0,
+      "view_count": 3021429,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/3Ug9KIAMFcY/hq720.jpg"
+    },
+    {
+      "id": "Ih76cnYuEoY",
+      "title": "Arcade Trouble | Mr Bean Animated  | New Episodes 2025 | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=Ih76cnYuEoY",
+      "duration": 1297.0,
+      "view_count": 1126686,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/Ih76cnYuEoY/hq720.jpg"
+    },
+    {
+      "id": "QZI_nkGotGY",
+      "title": "The Beanshank Redemption | Mr Bean Animated | Full Episode Compilation | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=QZI_nkGotGY",
+      "duration": 3229.0,
+      "view_count": 8717644,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/QZI_nkGotGY/hq720.jpg"
+    },
+    {
+      "id": "mhE4i0Rxvok",
+      "title": "मिस्टर बीन टर्की पकाते हैं 🍗 | धन्यवाद विशेष | मिस्टर बीन पूरा एपिसोड | मिस्टर बिन हिंदी",
+      "url": "https://www.youtube.com/watch?v=mhE4i0Rxvok",
+      "duration": 3242.0,
+      "view_count": 814251,
+      "uploader": "Mr Bean Hindi",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/mhE4i0Rxvok/hq720.jpg"
+    },
+    {
+      "id": "tI1jF98hlmM",
+      "title": "Shopping For NEW YEAR! | Mr Bean Cartoon Season 1 | Full Episodes | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=tI1jF98hlmM",
+      "duration": 2584.0,
+      "view_count": 50518401,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/tI1jF98hlmM/hq720.jpg"
+    },
+    {
+      "id": "QsDsT6h1cgQ",
+      "title": "Mr Bean Makes a Model! | Mr Bean Animated Cartoons | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=QsDsT6h1cgQ",
+      "duration": 2584.0,
+      "view_count": 3527160,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/QsDsT6h1cgQ/hq720.jpg"
+    },
+    {
+      "id": "dqL9zNn2VDM",
+      "title": "Mr Bean Animated | TAXI BEAN | Season 2 | Full Episodes Compilation | Cartoons for Children",
+      "url": "https://www.youtube.com/watch?v=dqL9zNn2VDM",
+      "duration": 676.0,
+      "view_count": 47791008,
+      "uploader": "WildBrain Circus ",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/dqL9zNn2VDM/hqdefault.jpg"
+    },
+    {
+      "id": "ofJ0_NbSQa0",
+      "title": "Mr Bean Cooks CHRISTMAS DINNER | Mr Bean Cartoon Season 1 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=ofJ0_NbSQa0",
+      "duration": 2583.0,
+      "view_count": 16229321,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/ofJ0_NbSQa0/hq720.jpg"
+    },
+    {
+      "id": "m1oPIrWKnf8",
+      "title": "Mr Bean Cooks up A Feast 🥘 | Mr Bean Cartoons | Season 1 | Full Episodes | Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=m1oPIrWKnf8",
+      "duration": 2582.0,
+      "view_count": 10893405,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/m1oPIrWKnf8/hq720.jpg"
+    },
+    {
+      "id": "5Q7h3GwihlY",
+      "title": "Mr bean season 1 episode 3 in hindi",
+      "url": "https://www.youtube.com/watch?v=5Q7h3GwihlY",
+      "duration": 601.0,
+      "view_count": 13781,
+      "uploader": "mr bean topic",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/5Q7h3GwihlY/hqdefault.jpg"
+    },
+    {
+      "id": "Ok-92dycIp0",
+      "title": "Mr Bean goes on a date as Mrs Wicket! | Mr Bean Animated Season 3 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=Ok-92dycIp0",
+      "duration": 3303.0,
+      "view_count": 1160490,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/Ok-92dycIp0/hq720.jpg"
+    },
+    {
+      "id": "xRwIqdON1WM",
+      "title": "When You Forget to Set the Timer! | Mr Bean Animated Season 3 | Full Episodes | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=xRwIqdON1WM",
+      "duration": 3484.0,
+      "view_count": 10207154,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/xRwIqdON1WM/hq720.jpg"
+    },
+    {
+      "id": "rVmyZ-1achI",
+      "title": "Garden Bean | Funny Episodes | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=rVmyZ-1achI",
+      "duration": 2427.0,
+      "view_count": 26661308,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/rVmyZ-1achI/hq720.jpg"
+    },
+    {
+      "id": "GsbJY-97WqE",
+      "title": "IRMA'S NEW BOYFRIEND! (THIS IS BAD)! | Mr Bean | Cartoons For Kids | WildBrain Kids",
+      "url": "https://www.youtube.com/watch?v=GsbJY-97WqE",
+      "duration": 32646.0,
+      "view_count": 7880616,
+      "uploader": "WildBrain Kids",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/GsbJY-97WqE/hq720.jpg"
+    },
+    {
+      "id": "bmLklzwS1Wk",
+      "title": "Mr HATES The Rain | Mr Bean Animated Season 2 | Full Episodes | Cartoons For Kids",
+      "url": "https://www.youtube.com/watch?v=bmLklzwS1Wk",
+      "duration": 3301.0,
+      "view_count": 5203710,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/bmLklzwS1Wk/hq720.jpg"
+    },
+    {
+      "id": "18pw1rQ33t0",
+      "title": "Mr Bean Enters a HAUNTED HOUSE! | Mr Bean Animated Season 3 | Funny Clips | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=18pw1rQ33t0",
+      "duration": 3301.0,
+      "view_count": 6269594,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/18pw1rQ33t0/hq720.jpg"
+    },
+    {
+      "id": "IQzDaJfnCvQ",
+      "title": "The Hospital Isn't As Nice As It Seems... | Mr Bean Animated Season 1 | Full Episodes | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=IQzDaJfnCvQ",
+      "duration": 5166.0,
+      "view_count": 15448020,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/IQzDaJfnCvQ/hq720.jpg"
+    },
+    {
+      "id": "CVOByo1n4NE",
+      "title": "मिस्टर बीन बेघर हैं | मिस्टर बीन पूरा एपिसोड | मिस्टर बीन हिंदी",
+      "url": "https://www.youtube.com/watch?v=CVOByo1n4NE",
+      "duration": 3876.0,
+      "view_count": 208437,
+      "uploader": "Mr Bean Hindi",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/CVOByo1n4NE/hq720.jpg"
+    },
+    {
+      "id": "chDzys9QnIs",
+      "title": "Chocolate Bean 🍫 | (Mr Bean Cartoon) | Mr Bean Full Episodes | Mr Bean Comedy",
+      "url": "https://www.youtube.com/watch?v=chDzys9QnIs",
+      "duration": 2599.0,
+      "view_count": 27044633,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/chDzys9QnIs/hq720.jpg"
+    },
+    {
+      "id": "Tm91mtdlkEc",
+      "title": "Mr Bean's Car Wash 🚗🧼 | Mr Bean Animated Cartoons | Season 2 | Full Episodes | Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=Tm91mtdlkEc",
+      "duration": 3302.0,
+      "view_count": 17336019,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/Tm91mtdlkEc/hq720.jpg"
+    },
+    {
+      "id": "HF48Ur2dbMM",
+      "title": "LONDON Bean | Funny Episodes | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=HF48Ur2dbMM",
+      "duration": 2657.0,
+      "view_count": 35484450,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/HF48Ur2dbMM/hq720.jpg"
+    },
+    {
+      "id": "MGocTIbIWN4",
+      "title": "Mr. Bean's Ages Quick | Mr Bean Animated Season 3 | Full Episodes | Mr Bean Cartoons",
+      "url": "https://www.youtube.com/watch?v=MGocTIbIWN4",
+      "duration": 3485.0,
+      "view_count": 1370436,
+      "uploader": "Mr Bean TV",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/MGocTIbIWN4/hq720.jpg"
+    },
+    {
+      "id": "on-UjA2CwmI",
+      "title": "Clothes Shopping In The JANUARY SALES | Mr Bean Cartoon Season 2 | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=on-UjA2CwmI",
+      "duration": 2658.0,
+      "view_count": 14459937,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/on-UjA2CwmI/hq720.jpg"
+    },
+    {
+      "id": "jcFebm5dgTw",
+      "title": "Merry Christmas, Mr Bean 🎅🎄 | Mr Bean Animated Season 1 | Full Episodes | Cartoons For Kids",
+      "url": "https://www.youtube.com/watch?v=jcFebm5dgTw",
+      "duration": 2583.0,
+      "view_count": 3878075,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/jcFebm5dgTw/hq720.jpg"
+    },
+    {
+      "id": "W1TM9rhYu-E",
+      "title": "Mr Bean's Home Movie | Mr Bean | Cartoons for Kids | WildBrain Kids",
+      "url": "https://www.youtube.com/watch?v=W1TM9rhYu-E",
+      "duration": 1890.0,
+      "view_count": 114122205,
+      "uploader": "WildBrain Kids",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/W1TM9rhYu-E/hq720.jpg"
+    },
+    {
+      "id": "mK_xnSMwb60",
+      "title": "The OCTOPUS ROLLERCOASTER! | Mr Bean Animated Season 2 | Full Episodes | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=mK_xnSMwb60",
+      "duration": 3300.0,
+      "view_count": 1993942,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/mK_xnSMwb60/hq720.jpg"
+    },
+    {
+      "id": "vTlx-pmjTkM",
+      "title": "Safari Bean! | Mr Bean Animated Season 2 | Full Episodes | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=vTlx-pmjTkM",
+      "duration": 3301.0,
+      "view_count": 8650837,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/vTlx-pmjTkM/hq720.jpg"
+    },
+    {
+      "id": "niVDwHZ8lh0",
+      "title": "महा सफ़ाई | मिस्टर बीन एनिमेटेड | पूर्ण एपिसोड | मिस्टर बीन हिंदी",
+      "url": "https://www.youtube.com/watch?v=niVDwHZ8lh0",
+      "duration": 673.0,
+      "view_count": 1114197,
+      "uploader": "Mr Bean Hindi",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/niVDwHZ8lh0/hq720.jpg"
+    },
+    {
+      "id": "W2VWO13X7AQ",
+      "title": "CHRISTMAS CRUISE! 🎅🛳 | Mr Bean Cartoon Season 2 | Full Episodes | Cartoons for Kids",
+      "url": "https://www.youtube.com/watch?v=W2VWO13X7AQ",
+      "duration": 2641.0,
+      "view_count": 5525399,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/W2VWO13X7AQ/hq720.jpg"
+    },
+    {
+      "id": "48013shJrBs",
+      "title": "Taxi Bean | Mr Bean Animated | Full Episode | Season 2 Episode 26 | Mr Bean",
+      "url": "https://www.youtube.com/watch?v=48013shJrBs",
+      "duration": 662.0,
+      "view_count": 0,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/48013shJrBs/hq720.jpg"
+    },
+    {
+      "id": "DsCkuZRnQUM",
+      "title": "Mr.ben hindi hd full episode",
+      "url": "https://www.youtube.com/watch?v=DsCkuZRnQUM",
+      "duration": 613.0,
+      "view_count": 305302,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/DsCkuZRnQUM/hq720.jpg"
+    },
+    {
+      "id": "FIw3PvDjqi0",
+      "title": "Spring Clean | Mr Bean Animated | Season 1 Episode 8 | Full Episode | Mr Bean And Teddy Cartoons",
+      "url": "https://www.youtube.com/watch?v=FIw3PvDjqi0",
+      "duration": 673.0,
+      "view_count": 311827,
+      "uploader": "Mr Bean And Teddy Cartoons",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/FIw3PvDjqi0/hq720.jpg"
+    },
+    {
+      "id": "fAMIh-GkJdg",
+      "title": "Mr Bean new episodes in Hindi(2)",
+      "url": "https://www.youtube.com/watch?v=fAMIh-GkJdg",
+      "duration": 631.0,
+      "view_count": 1839123,
+      "uploader": "Cartoons for Kids - Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/fAMIh-GkJdg/hqdefault.jpg"
+    },
+    {
+      "id": "4Unv7rw5HNk",
+      "title": "Mr Bean | Baking | Full Episodes Compilation | Cartoons for Children",
+      "url": "https://www.youtube.com/watch?v=4Unv7rw5HNk",
+      "duration": 646.0,
+      "view_count": 23571035,
+      "uploader": "WildBrain Circus ",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/4Unv7rw5HNk/hq720.jpg"
+    },
+    {
+      "id": "f1OvieYLHQE",
+      "title": "Bed Time | Funny Episodes | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=f1OvieYLHQE",
+      "duration": 2453.0,
+      "view_count": 44935371,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/f1OvieYLHQE/hq720.jpg"
+    },
+    {
+      "id": "gxbRnnucIPU",
+      "title": "Mr Bean Enters A Pie Eating Competition! |Mr Bean Animated | Full Episodes | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=gxbRnnucIPU",
+      "duration": 3300.0,
+      "view_count": 5873180,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/gxbRnnucIPU/hq720.jpg"
+    },
+    {
+      "id": "MGX400LDfVU",
+      "title": "BEAN BURGER! 🍔 | Mr Bean Cartoon Season 1 | Funny Clips | Mr Bean Cartoon World",
+      "url": "https://www.youtube.com/watch?v=MGX400LDfVU",
+      "duration": 2899.0,
+      "view_count": 18118929,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/MGX400LDfVU/hq720.jpg"
+    },
+    {
+      "id": "7cLsFAhML8Y",
+      "title": "SHARK ATTACK! | Mr Bean | WildBrain Kids",
+      "url": "https://www.youtube.com/watch?v=7cLsFAhML8Y",
+      "duration": 32646.0,
+      "view_count": 7364027,
+      "uploader": "WildBrain Kids",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/7cLsFAhML8Y/hq720.jpg"
+    },
+    {
+      "id": "Rwaaml11CCc",
+      "title": "Mr Bean Vs Obstacle Course | Mr Bean Animated Season 3 | Full Episodes | Mr Bean Official",
+      "url": "https://www.youtube.com/watch?v=Rwaaml11CCc",
+      "duration": 3302.0,
+      "view_count": 2797206,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/Rwaaml11CCc/hq720.jpg"
+    },
+    {
+      "id": "2ta7fj0AFrM",
+      "title": "Bean’s DIY Furniture Mission Gone Wrong | Mr Bean Animated Season 2  | Mr Bean World",
+      "url": "https://www.youtube.com/watch?v=2ta7fj0AFrM",
+      "duration": 2674.0,
+      "view_count": 34503,
+      "uploader": "Mr Bean World",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/2ta7fj0AFrM/hq720.jpg"
+    },
+    {
+      "id": "0YOgFYBF7uY",
+      "title": "DIY Bean | (Mr Bean Cartoon) | Mr Bean Full Episodes | Mr Bean Comedy",
+      "url": "https://www.youtube.com/watch?v=0YOgFYBF7uY",
+      "duration": 2641.0,
+      "view_count": 17386087,
+      "uploader": "Mr Bean",
+      "category": "cartoons/mr_bean",
+      "thumbnail": "https://i.ytimg.com/vi/0YOgFYBF7uY/hq720.jpg"
+    }
+  ]
 }

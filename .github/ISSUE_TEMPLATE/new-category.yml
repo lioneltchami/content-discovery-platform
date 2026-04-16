@@ -1,0 +1,54 @@
+name: New Category Request
+description: Suggest a new content category for the platform
+title: "[Category] "
+labels: ["enhancement", "new-category"]
+body:
+  - type: input
+    id: category_name
+    attributes:
+      label: Category Name
+      description: A short, lowercase, underscore-separated name (e.g., `korean_drama`)
+      placeholder: "korean_drama"
+    validations:
+      required: true
+
+  - type: input
+    id: youtube_search_query
+    attributes:
+      label: YouTube Search Query
+      description: The exact search query to use on YouTube
+      placeholder: "full korean drama hindi dubbed"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: content_type
+    attributes:
+      label: Content Type
+      description: What kind of content is this?
+      options:
+        - movie
+        - show
+        - music
+        - tutorial
+        - sermon
+    validations:
+      required: true
+
+  - type: input
+    id: min_duration
+    attributes:
+      label: Minimum Duration (seconds)
+      description: Minimum video length to filter out shorts/trailers (e.g., 2400 for 40min+)
+      placeholder: "2400"
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: Why should this category be added? Who is the audience?
+      placeholder: "There's a large audience for Korean dramas dubbed in Hindi on YouTube..."
+    validations:
+      required: true

@@ -1,0 +1,110 @@
+# ============================================================
+# GospelStream — Gospel Music & Sermons Platform
+# ============================================================
+# A gospel music and sermon discovery platform.
+# Fork the repo and replace config.yaml with this file to launch.
+# ============================================================
+
+# ── Site Identity ──
+site:
+  name: "GospelStream"
+  tagline: "Gospel music, worship & powerful sermons"
+  description: "Discover gospel music, worship sessions, and powerful sermons from top preachers on YouTube. Updated every 6 hours."
+  theme_color: "#eab308"
+  accent_color: "#facc15"
+  background_color: "#0a0a1a"
+  logo_emoji: "✝️"
+  footer_text: "A free, open-source gospel content platform powered by YouTube."
+  github_repo: "https://github.com/samyak2403/daily-movies-api"
+  content_label: "videos"
+  content_label_plural: "videos"
+
+# ── Scraper Settings ──
+scraper:
+  results_per_category: 15
+  schedule_cron: "0 */6 * * *"
+  output_dir: "movies"
+  default_sources: [youtube]
+  quality:
+    min_resolution: 480
+
+# ── Content Categories ──
+categories:
+  worship_music:
+    query: "worship music full session"
+    type: music
+    min_duration: 180
+    icon: "🙏"
+    sources: [youtube]
+
+  gospel_hymns:
+    query: "gospel hymns full album"
+    type: music
+    min_duration: 180
+    icon: "🎵"
+    sources: [youtube]
+
+  contemporary_gospel:
+    query: "contemporary gospel music"
+    type: music
+    min_duration: 180
+    icon: "🎤"
+    sources: [youtube]
+
+  choir_performances:
+    query: "gospel choir full performance"
+    type: music
+    min_duration: 180
+    icon: "🎶"
+    sources: [youtube]
+
+  kenneth_copeland:
+    query: "kenneth copeland full sermon"
+    type: sermon
+    min_duration: 1200
+    icon: "📖"
+    sources: [youtube, dailymotion]
+
+  joel_osteen:
+    query: "joel osteen full sermon"
+    type: sermon
+    min_duration: 1200
+    icon: "⛪"
+    sources: [youtube, dailymotion]
+
+  td_jakes:
+    query: "td jakes full sermon"
+    type: sermon
+    min_duration: 1200
+    icon: "🔥"
+    sources: [youtube, dailymotion]
+
+  joyce_meyer:
+    query: "joyce meyer full sermon"
+    type: sermon
+    min_duration: 1200
+    icon: "💡"
+    sources: [youtube, dailymotion]
+
+  joseph_prince:
+    query: "joseph prince full sermon"
+    type: sermon
+    min_duration: 1200
+    icon: "👑"
+    sources: [youtube, dailymotion]
+
+  billy_graham_classics:
+    query: "billy graham classic sermon full"
+    type: sermon
+    min_duration: 1200
+    icon: "📜"
+    sources: [youtube, dailymotion]
+
+# ── Sponsorship ──
+sponsorship:
+  enabled: true
+  github_sponsors: ""
+  buy_me_a_coffee: ""
+  ko_fi: ""
+  custom_url: ""
+  message: "If you find this useful, consider supporting the project!"

@@ -8,11 +8,18 @@
   <meta name="description"
     content="Learn how to integrate the Movies Hub API into your Android app. Step-by-step guide with Kotlin code examples." />
   <link rel="stylesheet" href="style.css" />
+  <script>
+    (function() {
+      var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
 </head>
 
 <body>
+  <a href="#docs" class="skip-link">Skip to content</a>
 
   <!-- ═══ Navbar ═══ -->
   <nav class="navbar" id="navbar">
@@ -26,10 +33,12 @@
         <li><a href="docs.html" class="active">Docs</a></li>
         <li><a href="https://github.com/samyak2403/daily-movies-api" target="_blank" rel="noopener">GitHub</a></li>
       </ul>
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark/light mode">☀️</button>
     </div>
   </nav>
 
   <!-- ═══ Docs Content ═══ -->
+  <main id="docs">
   <div class="docs-container">
 
     <h1>📱 API Documentation</h1>
@@ -42,6 +51,7 @@
       daily via GitHub Actions.</p>
 
     <table class="api-table">
+      <caption class="visually-hidden">API endpoint URLs by category</caption>
       <thead>
         <tr>
           <th>Category</th>
@@ -393,6 +403,7 @@
     </div>
 
   </div>
+  </main>
 
   <!-- ═══ Footer ═══ -->
   <footer class="footer">
@@ -400,7 +411,7 @@
       <div class="footer-brand">
         <h3>Movies<span>Hub</span></h3>
         <p>A free, open-source video discovery platform powered by YouTube. New videos are added daily through an
-          automated scraper across 10 categories.</p>
+          automated scraper across 11 categories.</p>
       </div>
 
       <div class="footer-col">
@@ -467,6 +478,13 @@
   </footer>
 
   <script src="script.js"></script>
+  <script>
+    (function() {
+      var theme = document.documentElement.getAttribute('data-theme') || 'dark';
+      var btn = document.getElementById('themeToggle');
+      if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    })();
+  </script>
 </body>
 
 </html>

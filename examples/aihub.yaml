@@ -1,0 +1,96 @@
+# ============================================================
+# AI Hub — AI Learning Platform
+# ============================================================
+# A curated AI education platform pulling tutorials, courses
+# and talks from YouTube. Fork and replace config.yaml to launch.
+# ============================================================
+
+# ── Site Identity ──
+site:
+  name: "AI Hub"
+  tagline: "Curated AI tutorials, courses & talks from YouTube"
+  description: "Discover the best AI and machine learning tutorials, courses, and conference talks on YouTube. Updated every 6 hours."
+  theme_color: "#3b82f6"
+  accent_color: "#60a5fa"
+  background_color: "#0a0a1a"
+  logo_emoji: "🤖"
+  footer_text: "A free, open-source AI learning platform powered by YouTube."
+  github_repo: "https://github.com/samyak2403/daily-movies-api"
+  content_label: "videos"
+  content_label_plural: "videos"
+
+# ── Scraper Settings ──
+scraper:
+  results_per_category: 15
+  schedule_cron: "0 */6 * * *"
+  output_dir: "movies"
+  default_sources: [youtube]
+  quality:
+    min_resolution: 480
+
+# ── Content Categories ──
+categories:
+  llm_tutorials:
+    query: "large language model tutorial"
+    type: tutorial
+    min_duration: 600
+    icon: "💬"
+    sources: [youtube]
+
+  machine_learning:
+    query: "machine learning full course"
+    type: tutorial
+    min_duration: 1800
+    icon: "📊"
+    sources: [youtube]
+
+  deep_learning:
+    query: "deep learning tutorial"
+    type: tutorial
+    min_duration: 600
+    icon: "🧠"
+    sources: [youtube]
+
+  computer_vision:
+    query: "computer vision tutorial"
+    type: tutorial
+    min_duration: 600
+    icon: "👁️"
+    sources: [youtube]
+
+  nlp:
+    query: "natural language processing tutorial"
+    type: tutorial
+    min_duration: 600
+    icon: "📝"
+    sources: [youtube]
+
+  ai_news:
+    query: "artificial intelligence news this week"
+    type: tutorial
+    min_duration: 300
+    icon: "📰"
+    sources: [youtube]
+
+  ai_papers:
+    query: "AI research paper explained"
+    type: tutorial
+    min_duration: 600
+    icon: "📄"
+    sources: [youtube]
+
+  python_for_ai:
+    query: "python for AI machine learning course"
+    type: tutorial
+    min_duration: 1800
+    icon: "🐍"
+    sources: [youtube]
+
+# ── Sponsorship ──
+sponsorship:
+  enabled: true
+  github_sponsors: ""
+  buy_me_a_coffee: ""
+  ko_fi: ""
+  custom_url: ""
+  message: "If you find this useful, consider supporting the project!"

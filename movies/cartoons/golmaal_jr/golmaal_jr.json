@@ -1,680 +1,679 @@
 {
-    "last_updated": "2026-04-16T03:01:11.967035Z",
-    "show_name": "Golmaal Jr",
-    "language": "Hindi",
-    "category": "cartoons",
-    "description": "Auto-generated category for Golmaal Jr.",
-    "total_episodes": 67,
-    "episodes": [
-        {
-            "id": "7X7M2-QWR_I",
-            "title": "Golmaal Jr Humshakals Ka Golmaal (2025) In Hindi Cartoon Movie",
-            "url": "https://www.youtube.com/watch?v=7X7M2-QWR_I",
-            "duration": 2612.0,
-            "view_count": 131594,
-            "uploader": "C4 Cartoon",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/7X7M2-QWR_I/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAkPHB1QiUSAHMVxEUB-yHiODPUeg"
-        },
-        {
-            "id": "U94-vgTALXQ",
-            "title": "Golmaal Junior | Full Episode | आप तो दया के सागर हो, सागर और इस कबाड़ के भी! 🌊😆🚮",
-            "url": "https://www.youtube.com/watch?v=U94-vgTALXQ",
-            "duration": 730.0,
-            "view_count": 538471,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/U94-vgTALXQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAPYRJlkZ6a-ML3USFMx5m1M3w0XQ"
-        },
-        {
-            "id": "eG2TvnmhTG0",
-            "title": "Golmaal Junior | Full Episode | Madhav का Pappi से बचने का चालाक plan! 🤔🕵️",
-            "url": "https://www.youtube.com/watch?v=eG2TvnmhTG0",
-            "duration": 725.0,
-            "view_count": 415018,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/eG2TvnmhTG0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDASUBkzu3j_sDGIdSSGXntEP9Ymg"
-        },
-        {
-            "id": "4crG7fRPyFI",
-            "title": "Golmaal Junior | Full Episode | भेड़िया बना साया | Gopal और Madhav की जंग! 🐺⚔️",
-            "url": "https://www.youtube.com/watch?v=4crG7fRPyFI",
-            "duration": 650.0,
-            "view_count": 319121,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/4crG7fRPyFI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_PYzcnBJIU-fAXMtGtpRdwc1X6g"
-        },
-        {
-            "id": "8lcSFijOtY4",
-            "title": "Golmaal Junior | Full Episode | Kaun कितना खा सकता है ?",
-            "url": "https://www.youtube.com/watch?v=8lcSFijOtY4",
-            "duration": 702.0,
-            "view_count": 1128298,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/8lcSFijOtY4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCikuASS0XjLg_ZJqCBSv9nAAGLGA"
-        },
-        {
-            "id": "5Mo476QVnVs",
-            "title": "Golmaal Junior | Full Episode | स्कूल में क्यों लगा CCTV",
-            "url": "https://www.youtube.com/watch?v=5Mo476QVnVs",
-            "duration": 705.0,
-            "view_count": 419034,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/5Mo476QVnVs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVey4EOmuibTHiwYDlfxAf_foZSA"
-        },
-        {
-            "id": "UIoBRvFjBHY",
-            "title": "Golmaal Junior | Full Episode | क्या Gopal का High Josh काम आएगा Trophy जीतने में?",
-            "url": "https://www.youtube.com/watch?v=UIoBRvFjBHY",
-            "duration": 723.0,
-            "view_count": 798980,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/UIoBRvFjBHY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtCKEfz_MeLGBiMrW9gERovjwnsA"
-        },
-        {
-            "id": "00EAVQdXxaw",
-            "title": "Golmaal Junior | Full Episode | भाई! आपके प्लान पर तो पानी फिर गया! 💦🤣",
-            "url": "https://www.youtube.com/watch?v=00EAVQdXxaw",
-            "duration": 672.0,
-            "view_count": 442286,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/00EAVQdXxaw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSOAkkH3QnYnu3jjkTXfOsLlaIIQ"
-        },
-        {
-            "id": "Jnpbx-408vs",
-            "title": "Golmaal Junior | Full Episode | Bhagwan ka bhatakti rooh! Gopal और Madhav के बीच क्या होगा? 😱🎭",
-            "url": "https://www.youtube.com/watch?v=Jnpbx-408vs",
-            "duration": 709.0,
-            "view_count": 402307,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/Jnpbx-408vs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCNZOz05hA8P2I8j4EftgIIBY1GCA"
-        },
-        {
-            "id": "ih7BQJlU_aA",
-            "title": "Golmaal Junior | Full Episode | Madhav और Gopal को सीखना है गरबा",
-            "url": "https://www.youtube.com/watch?v=ih7BQJlU_aA",
-            "duration": 682.0,
-            "view_count": 354244,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/ih7BQJlU_aA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLALbW5dZmN6DyUwd0HiLTqp1TGNvg"
-        },
-        {
-            "id": "06n4V95t-gI",
-            "title": "Golmaal Junior | Full Episode | Pappi Vs Time: Paper 📄 चोरी की जाँच शुरू! 🔍🤣",
-            "url": "https://www.youtube.com/watch?v=06n4V95t-gI",
-            "duration": 737.0,
-            "view_count": 297987,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/06n4V95t-gI/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBezKWpBvG3_50ycagMgzFQ7ey-qA"
-        },
-        {
-            "id": "59JaHfa6cRo",
-            "title": "গোপাল অর মাধব কা খাওয়ার প্রতিযোগিতা | Golmaal Junior | Full Episode 25",
-            "url": "https://www.youtube.com/watch?v=59JaHfa6cRo",
-            "duration": 701.0,
-            "view_count": 647647,
-            "uploader": "Sonic Gang Bangla",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/59JaHfa6cRo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpwFSy4xr4xCeC8I6G6-24_SFwVQ"
-        },
-        {
-            "id": "HBn4SSL6ZWo",
-            "title": "Golmaal Junior | Full Episode | ये Socks मेरी है !",
-            "url": "https://www.youtube.com/watch?v=HBn4SSL6ZWo",
-            "duration": 669.0,
-            "view_count": 443719,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/HBn4SSL6ZWo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuoVsKz80Cs23g3kdXMf9oX512ew"
-        },
-        {
-            "id": "7k8lpSgzyVg",
-            "title": "Golmaal Junior | Full Episode | Chunky ki pol",
-            "url": "https://www.youtube.com/watch?v=7k8lpSgzyVg",
-            "duration": 791.0,
-            "view_count": 1443978,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/7k8lpSgzyVg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBiCpoS31-qzLLZeLbSRMyWzIQ7TQ"
-        },
-        {
-            "id": "-mBEf-x_FhY",
-            "title": "ಗೋಪಾಲ್ ಮತ್ತು ಮಾಧವ್ ಅವರಲ್ಲಿ ಚಂದ್ರನಿಗೆ ಯಾರು ಹೋಗುತ್ತಾರೆ? | Golmaal Junior | Full Episode 47",
-            "url": "https://www.youtube.com/watch?v=-mBEf-x_FhY",
-            "duration": 730.0,
-            "view_count": 25887,
-            "uploader": "Sonic Gang Kannada",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/-mBEf-x_FhY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-pHLIQBsSPrCcq2AGy_Ib9HcrOg"
-        },
-        {
-            "id": "EOO5qVwjwdE",
-            "title": "Golmaal Junior | Full Episode | मैं इन्हे पनिश कर रहा हूँ और ये मुझे थैंक यू बोल रहे है! 🤔😂",
-            "url": "https://www.youtube.com/watch?v=EOO5qVwjwdE",
-            "duration": 725.0,
-            "view_count": 585156,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/EOO5qVwjwdE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSotXEkxblGyMVNRFqegXWMVv9DA"
-        },
-        {
-            "id": "wTS6MvPsPZ4",
-            "title": "Golmaal Junior | Full Episode | Pappi जा रहा है, Motor Boat पर Picnic मनाने! 🚤🍔🌊",
-            "url": "https://www.youtube.com/watch?v=wTS6MvPsPZ4",
-            "duration": 703.0,
-            "view_count": 346847,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/wTS6MvPsPZ4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAeyns6Z3Xrq1ssKvS1TSc8ls_uAg"
-        },
-        {
-            "id": "oSSfRzP-bAA",
-            "title": "Golmaal Junior | Full Episode | कौन ढूंढ के लाएगा Pappi को? 🐶🔍 रोमांच शुरू!",
-            "url": "https://www.youtube.com/watch?v=oSSfRzP-bAA",
-            "duration": 701.0,
-            "view_count": 178068,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/oSSfRzP-bAA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmxf8xUmDgUXwGmk2U-gJFzlF8FA"
-        },
-        {
-            "id": "-CFB8k-9oIg",
-            "title": "Golmaal Junior | Full Episode | Master Pappi का वार, Gopal-Madhav होशियार! ⚔️😳",
-            "url": "https://www.youtube.com/watch?v=-CFB8k-9oIg",
-            "duration": 743.0,
-            "view_count": 695280,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/-CFB8k-9oIg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATqQ3qZee54UaydXY6XB3iDz4ucg"
-        },
-        {
-            "id": "NnSanI8gsAQ",
-            "title": "Golmaal Junior | Full Episode | Ticket to London",
-            "url": "https://www.youtube.com/watch?v=NnSanI8gsAQ",
-            "duration": 708.0,
-            "view_count": 1083574,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/NnSanI8gsAQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBdLk9E_uHWI0sZttPZRGepY6Xe2w"
-        },
-        {
-            "id": "W9YHWVP55g0",
-            "title": "Golmaal Junior | Full Episode | Gopal का Science Project चोरी! अब क्या होगा? 🤯",
-            "url": "https://www.youtube.com/watch?v=W9YHWVP55g0",
-            "duration": 724.0,
-            "view_count": 389780,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/W9YHWVP55g0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0GSVBoZGDTM7Ww1M17NT5Sg2xiA"
-        },
-        {
-            "id": "dmrC12xsg4o",
-            "title": "Golmaal junior season 3 cartoon in Hindi the latest episode",
-            "url": "https://www.youtube.com/watch?v=dmrC12xsg4o",
-            "duration": 654.0,
-            "view_count": 31782,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/dmrC12xsg4o/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgSAAsACigIMCAAQARhAIFooZTAP&rs=AOn4CLAeO7xsEvi9symt0IhlX7iXChpKNA"
-        },
-        {
-            "id": "-1HJIhDOC4o",
-            "title": "Golmaal junior season 3 cartoon in hindi episodes",
-            "url": "https://www.youtube.com/watch?v=-1HJIhDOC4o",
-            "duration": 665.0,
-            "view_count": 8879,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/-1HJIhDOC4o/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgSAAsACigIMCAAQARgTICcofzAP&rs=AOn4CLBYCzbYe6BMjAdhEUpDux9uGx0yVw"
-        },
-        {
-            "id": "BabwwtUwjMo",
-            "title": "Golmaal Junior | Full Episode | Chalk चोर",
-            "url": "https://www.youtube.com/watch?v=BabwwtUwjMo",
-            "duration": 657.0,
-            "view_count": 1498735,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/BabwwtUwjMo/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCVkmvToq3FPHqMkosIdC0QbiNpCw"
-        },
-        {
-            "id": "w2RlzHgffMc",
-            "title": "Golmaal  j,r season 3 new episode in Hindi❤❤❤",
-            "url": "https://www.youtube.com/watch?v=w2RlzHgffMc",
-            "duration": 687.0,
-            "view_count": 21133,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/w2RlzHgffMc/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgSAAsgCigIMCAAQARhyIEEoOzAP&rs=AOn4CLDa7_KXmrozHo4p2YnPLiUXyVlN1A"
-        },
-        {
-            "id": "e2MD1z9i1Yk",
-            "title": "Golmaal Junior | Full Episode | Hadd kar di app ne",
-            "url": "https://www.youtube.com/watch?v=e2MD1z9i1Yk",
-            "duration": 680.0,
-            "view_count": 1201549,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/e2MD1z9i1Yk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAXw-z1AntmCfCeM8ZngekOPqZ6PA"
-        },
-        {
-            "id": "ucz9QnHIne0",
-            "title": "Golmaal Junior | Full Episode | Alone in school",
-            "url": "https://www.youtube.com/watch?v=ucz9QnHIne0",
-            "duration": 663.0,
-            "view_count": 1955746,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/ucz9QnHIne0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBsok8xgrlM-f-J_EApxoTs0DoZcg"
-        },
-        {
-            "id": "CTYML0dClT4",
-            "title": "Golmaal Junior | Full Episode | Milli की Dress हुई Flop, अब Gopal बचाएगा!",
-            "url": "https://www.youtube.com/watch?v=CTYML0dClT4",
-            "duration": 685.0,
-            "view_count": 370369,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/CTYML0dClT4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6ll-0Y8X5LVoozds2XE81BeY60g"
-        },
-        {
-            "id": "hTFZR8iUA5s",
-            "title": "Golmaal Junior | Full Episode | क्या Gopu अपना डर को control कर पाएगा ?",
-            "url": "https://www.youtube.com/watch?v=hTFZR8iUA5s",
-            "duration": 700.0,
-            "view_count": 455994,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/hTFZR8iUA5s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz_d0py4T1aVLV42gAVlW6JBBy6g"
-        },
-        {
-            "id": "5w3s1esXplw",
-            "title": "গোপাল অর মাধব নে বানায়া রকেট | Golmaal Junior | Full Episode 50",
-            "url": "https://www.youtube.com/watch?v=5w3s1esXplw",
-            "duration": 765.0,
-            "view_count": 285051,
-            "uploader": "Sonic Gang Bangla",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/5w3s1esXplw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBJX4JxLWET7h0MORD7FL5sGMZJjg"
-        },
-        {
-            "id": "6NEDDc1Ev4g",
-            "title": "Golmaal Junior | Full Episode | Gopal और Madhav ने Join की MMA Class! 🥊🔥",
-            "url": "https://www.youtube.com/watch?v=6NEDDc1Ev4g",
-            "duration": 664.0,
-            "view_count": 865024,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/6NEDDc1Ev4g/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCADknLvW2_TlNyghT1veZcf76xaw"
-        },
-        {
-            "id": "ssB8udvD9u8",
-            "title": "Golmaal j,r new episode,,season 3 in Hindi episode 26❤❤❤❤❤❤❤❤❤",
-            "url": "https://www.youtube.com/watch?v=ssB8udvD9u8",
-            "duration": 676.0,
-            "view_count": 94594,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/ssB8udvD9u8/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAroFigIMCAAQARhDIF0oZTAP&rs=AOn4CLDYZJX2WvjNSL7E5xhesQN65E3pgg"
-        },
-        {
-            "id": "1I7BNFcRt0Q",
-            "title": "Golmaal j,r new episode season 3 in hindi 2025,❤❤❤❤",
-            "url": "https://www.youtube.com/watch?v=1I7BNFcRt0Q",
-            "duration": 688.0,
-            "view_count": 0,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/1I7BNFcRt0Q/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB-AmAAtAFigIMCAAQARhyIEcoTjAP&rs=AOn4CLATSBzdnq9MMAUw5KZVTPLy53H4KA"
-        },
-        {
-            "id": "2QjCnzueCFk",
-            "title": "Golmaal j,r new episode,,season 3 in Hindi episode 27❤❤❤❤❤❤❤❤❤❤❤",
-            "url": "https://www.youtube.com/watch?v=2QjCnzueCFk",
-            "duration": 685.0,
-            "view_count": 14856,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/2QjCnzueCFk/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBxgSAAsQCigIMCAAQARhBIFwoZTAP&rs=AOn4CLCo6X238kYyUUmnu9khXeNq6L71bg"
-        },
-        {
-            "id": "Iojy8PQhRjc",
-            "title": "Golmaal j,r  new episode,season 3 in Hindi episode 24❤❤❤",
-            "url": "https://www.youtube.com/watch?v=Iojy8PQhRjc",
-            "duration": 646.0,
-            "view_count": 9873,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/Iojy8PQhRjc/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBzgWAApQDigIMCAAQARhCIFwoZTAP&rs=AOn4CLBmIYP0vweDKz5GP13muoof-smJ7g"
-        },
-        {
-            "id": "1cgTd2Y0fhk",
-            "title": "Golmaal Junior | Full Episode | Madhav ने चुराया अपने Sir का Invisible Gadget!",
-            "url": "https://www.youtube.com/watch?v=1cgTd2Y0fhk",
-            "duration": 645.0,
-            "view_count": 200524,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/1cgTd2Y0fhk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDrc_ztXshk-s6msaj2eGmBxweSig"
-        },
-        {
-            "id": "bxBNSmoqWL0",
-            "title": "Golmaal Junior | Full Episode | Patwardhan Sir ने Rock Show में किया Bharatnatyam 🤘💃",
-            "url": "https://www.youtube.com/watch?v=bxBNSmoqWL0",
-            "duration": 724.0,
-            "view_count": 211130,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/bxBNSmoqWL0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAb-hYWrWEN9ZthbHxkBVrErHsDCA"
-        },
-        {
-            "id": "j6CVs30xgmc",
-            "title": "Golmaal Junior | Full Episode | Madhav ने की Wedding Crash अपने दोस्तों के साथ",
-            "url": "https://www.youtube.com/watch?v=j6CVs30xgmc",
-            "duration": 737.0,
-            "view_count": 804038,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/j6CVs30xgmc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC3zBO_jdSjNmBSPcHlx67SaJphYQ"
-        },
-        {
-            "id": "7_tiFukNF_I",
-            "title": "Golmaal junior season 3 in hindi cartoon",
-            "url": "https://www.youtube.com/watch?v=7_tiFukNF_I",
-            "duration": 697.0,
-            "view_count": 11097,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/7_tiFukNF_I/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gSAAugCigIMCAAQARhKIE8oZTAP&rs=AOn4CLC5u6GwSvfiS5rNBSgvUu4snedOiQ"
-        },
-        {
-            "id": "CRu9uVTAeZs",
-            "title": "Golmaal Junior | Full Episode | Laxman ने बदला अपना Gang, गया Madhav के पास",
-            "url": "https://www.youtube.com/watch?v=CRu9uVTAeZs",
-            "duration": 762.0,
-            "view_count": 530212,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/CRu9uVTAeZs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBp4taWyRQsVsen10vGhDh_dq3GFA"
-        },
-        {
-            "id": "1eC2r7WXJ7E",
-            "title": "Golmaal Junior | Full Episode | Madhav को मिली Suggestion नकली Papa बनाने की",
-            "url": "https://www.youtube.com/watch?v=1eC2r7WXJ7E",
-            "duration": 738.0,
-            "view_count": 250779,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/1eC2r7WXJ7E/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaXrbzTo9_mL0NY5YlfDIjhqQOEg"
-        },
-        {
-            "id": "MSIwbtf_FSw",
-            "title": "Golmaal Junior | Full Episode | Madhav का रंगीन Plan पड़ा Principal पर भारी! 🎨😅",
-            "url": "https://www.youtube.com/watch?v=MSIwbtf_FSw",
-            "duration": 627.0,
-            "view_count": 551746,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/MSIwbtf_FSw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDoDRPiepPkQzpuomPCKDa1NMP9XA"
-        },
-        {
-            "id": "COXNNVv0E60",
-            "title": "Golmaal Junior | Full Episode | Pappi aur Principal Ki गाड़ी, Wasuli Ki छिपने Ki जंग! 🚗🤫",
-            "url": "https://www.youtube.com/watch?v=COXNNVv0E60",
-            "duration": 708.0,
-            "view_count": 330847,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/COXNNVv0E60/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrsoJquoWO5Zow1xlnco5yFgzaRg"
-        },
-        {
-            "id": "_kms_CHDjBY",
-            "title": "Golmaal Junior | Full Episode | सीटी मत बजाओ 😲🎶 वरना फ़िश 🐟 भाग जाएगी! 😆💨",
-            "url": "https://www.youtube.com/watch?v=_kms_CHDjBY",
-            "duration": 669.0,
-            "view_count": 661531,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/_kms_CHDjBY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD8UzIXo7vv8IRUHCHhNy4OoKaFdg"
-        },
-        {
-            "id": "ZsmpEi-2bvM",
-            "title": "Golmaal Junior | Full Episode | सर, निकल गयी ना ज़मीन पैरो के नीचे से! 😲🌍💨",
-            "url": "https://www.youtube.com/watch?v=ZsmpEi-2bvM",
-            "duration": 743.0,
-            "view_count": 668782,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/ZsmpEi-2bvM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAxi-26OqW6wEw87QDZpdjtwbywfQ"
-        },
-        {
-            "id": "K3f8NxvEhF8",
-            "title": "Golmaal Junior | Full Ep| Madhav, ये तो Principal Sir का Whitewash किया हुआ जुड़वाँ भाई लग रहा है!🤯🤣",
-            "url": "https://www.youtube.com/watch?v=K3f8NxvEhF8",
-            "duration": 645.0,
-            "view_count": 311390,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/K3f8NxvEhF8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAndPplLDGvZnTQ-jGX_qqZS2-KA"
-        },
-        {
-            "id": "X8S5j3PinFs",
-            "title": "Golmaal junior season 3 episode in Hindi cartoon",
-            "url": "https://www.youtube.com/watch?v=X8S5j3PinFs",
-            "duration": 697.0,
-            "view_count": 11673,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/X8S5j3PinFs/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgSAAsACigIMCAAQARgpIGUoQTAP&rs=AOn4CLBmuDMXDv0UJLgXgwWxw2ppvpr1jg"
-        },
-        {
-            "id": "l8xI99RVSf4",
-            "title": "Golmaal Junior | Full Episode | Gopal बनाना चाहता है नया World Record! 🌍🏆",
-            "url": "https://www.youtube.com/watch?v=l8xI99RVSf4",
-            "duration": 631.0,
-            "view_count": 258986,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/l8xI99RVSf4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC7aPr6AcbUuB4VA-UtlsqotI1QIA"
-        },
-        {
-            "id": "Y7nBtnAT-ew",
-            "title": "Golmaal junior cartoon season 3 in Hindi dubbed only my channel latest episode",
-            "url": "https://www.youtube.com/watch?v=Y7nBtnAT-ew",
-            "duration": 697.0,
-            "view_count": 7528,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/Y7nBtnAT-ew/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgSAAr4CigIMCAAQARhlIE8oRjAP&rs=AOn4CLAt5-lz6PGaVMMWIN7t6DW5tEDYEA"
-        },
-        {
-            "id": "V1tQnh43_Mc",
-            "title": "Golmaal Junior | Full Episode | चींटी कब तक शक्कर से दूर रह सकती है? 🍚😋",
-            "url": "https://www.youtube.com/watch?v=V1tQnh43_Mc",
-            "duration": 787.0,
-            "view_count": 420812,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/V1tQnh43_Mc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBPBzf4YT_6cbC3DUlFYL1ZPCcfWg"
-        },
-        {
-            "id": "5wXz2Nn6NXw",
-            "title": "Golmaal junior season 3 cartoon in Hindi episode",
-            "url": "https://www.youtube.com/watch?v=5wXz2Nn6NXw",
-            "duration": 710.0,
-            "view_count": 1939,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/5wXz2Nn6NXw/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgSAAsACigIMCAAQARhyIEgoSTAP&rs=AOn4CLAyRLMxz2CiAlH2kO4myGHCI_32Sg"
-        },
-        {
-            "id": "lpYYBjWdY98",
-            "title": "Golmaal Junior | Full Episode | Patang Baazi में हंगामा! Gopal Vs Pappi 🪁🔥",
-            "url": "https://www.youtube.com/watch?v=lpYYBjWdY98",
-            "duration": 682.0,
-            "view_count": 327849,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/lpYYBjWdY98/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDVqGAJ_WWy7GkTeJrnLV70o3U0ww"
-        },
-        {
-            "id": "X7zxL29gLUc",
-            "title": "Gopal ko रंगने चला Madhav, Principal फंस गए | Holi Special | Golmaal Junior",
-            "url": "https://www.youtube.com/watch?v=X7zxL29gLUc",
-            "duration": 628.0,
-            "view_count": 18842,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/X7zxL29gLUc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_E23x-_p8D-220VtU4xXWLffepw"
-        },
-        {
-            "id": "Lg6W49LXVzc",
-            "title": "Golmaal Junior | Full Episode | बट हाउ? प्रिंसिपल से डरने वाला, खुद प्रिंसिपल कैसे बन गया? 😵📚🏫",
-            "url": "https://www.youtube.com/watch?v=Lg6W49LXVzc",
-            "duration": 754.0,
-            "view_count": 586885,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/Lg6W49LXVzc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9wlJfeDVerxR6L3qcxIo5Ht1eRQ"
-        },
-        {
-            "id": "fCab9yl4tnw",
-            "title": "Golmaal Junior | Full Episode | Principals Memory loss",
-            "url": "https://www.youtube.com/watch?v=fCab9yl4tnw",
-            "duration": 704.0,
-            "view_count": 0,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/fCab9yl4tnw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAwHHKY5dIMfTv2ZuS1GTwmv3sSfg"
-        },
-        {
-            "id": "J1uwiZsWzhQ",
-            "title": "Golmaal Junior | Full Episode | PRINCIPAL क OFFICE को किसने करब किया ?",
-            "url": "https://www.youtube.com/watch?v=J1uwiZsWzhQ",
-            "duration": 762.0,
-            "view_count": 67612,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/J1uwiZsWzhQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHETDvA7kDMYP8np1KaiYeIFdDyw"
-        },
-        {
-            "id": "vJpc_YxefB0",
-            "title": "Golmaal Junior | Full Episode | हार कर जीतने वाले को बाज़ीगर कहते हैं… और जीत कर हारने वाले को? 🤔🎭🔥",
-            "url": "https://www.youtube.com/watch?v=vJpc_YxefB0",
-            "duration": 728.0,
-            "view_count": 471971,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/vJpc_YxefB0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1stIgAfZuhltKM4bUNPt-wvnFFQ"
-        },
-        {
-            "id": "fqEiBvoq2EQ",
-            "title": "Golmaal Junior | Full Episode | School में Film Shoot, कौन बनेगा Hero? 🎬✨",
-            "url": "https://www.youtube.com/watch?v=fqEiBvoq2EQ",
-            "duration": 645.0,
-            "view_count": 279653,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/fqEiBvoq2EQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAc0Kq1LX6Wi5M-oP_Oiz5UKhH0XA"
-        },
-        {
-            "id": "0TtsvpzSIgQ",
-            "title": "Golmaal junior cartoon in Hindi season 3 latest episode only my channel",
-            "url": "https://www.youtube.com/watch?v=0TtsvpzSIgQ",
-            "duration": 665.0,
-            "view_count": 8825,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/0TtsvpzSIgQ/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBvgSAAsACigIMCAAQARgiIF0ocjAP&rs=AOn4CLAJOyuSjg0y_3J4w4ohW6FqogJqQQ"
-        },
-        {
-            "id": "hymGV70LlAk",
-            "title": "Golmaal junior season 3 in Hindi episode cartoon",
-            "url": "https://www.youtube.com/watch?v=hymGV70LlAk",
-            "duration": 656.0,
-            "view_count": 13296,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/hymGV70LlAk/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgSAAr4CigIMCAAQARhlIE4oSjAP&rs=AOn4CLDBxDmNQNNdm1a-gt4a6fTqRTnWPw"
-        },
-        {
-            "id": "UOsam4gz3VM",
-            "title": "Golmaal Junior | Full Episode | Madhav ने Gopal को किया Blackmail 😈💥🎭",
-            "url": "https://www.youtube.com/watch?v=UOsam4gz3VM",
-            "duration": 718.0,
-            "view_count": 270390,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/UOsam4gz3VM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD2sQ-PnPOSgQlahnt06l3ucAXuBA"
-        },
-        {
-            "id": "_dvWq0zMlE8",
-            "title": "গোলমাল জুনিয়র - তেরে মেরে স্পিচ মে  | Golmaal Junior - Tere Mere Speech Mein Full Episode 06",
-            "url": "https://www.youtube.com/watch?v=_dvWq0zMlE8",
-            "duration": 667.0,
-            "view_count": 98684,
-            "uploader": "Sonic Gang Bangla",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/_dvWq0zMlE8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCMjU3MNK9G3U916yf_wF3qyBMcnw"
-        },
-        {
-            "id": "c5hPh_t35fU",
-            "title": "கோல்மால் ஜூனியர் - உணவுப் போட்டி முழு எபிசோட் 24 | Golmaal Junior - Eating Competition Full Ep 24",
-            "url": "https://www.youtube.com/watch?v=c5hPh_t35fU",
-            "duration": 701.0,
-            "view_count": 37333,
-            "uploader": "Sonic Gang Tamil",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/c5hPh_t35fU/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA2PnKaAnJnKfNcUuUdg_HloVOaHg"
-        },
-        {
-            "id": "1e3Vn1vmhRQ",
-            "title": "ഗോപാൽ ഔർ മാധവ് മേ കോൻ ജായേഗാ മൂൺ പേ | Golmaal Junior | Full Episode 47",
-            "url": "https://www.youtube.com/watch?v=1e3Vn1vmhRQ",
-            "duration": 730.0,
-            "view_count": 14226,
-            "uploader": "Sonic Gang Malayalam",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/1e3Vn1vmhRQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoMLEgtPi95AGcIZZsWt9LVKYImw"
-        },
-        {
-            "id": "QE7xpsS_NpA",
-            "title": "Golmaal junior cartoon new episode in Hindi season 3",
-            "url": "https://www.youtube.com/watch?v=QE7xpsS_NpA",
-            "duration": 691.0,
-            "view_count": 9160,
-            "uploader": "Aarif Khan",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/QE7xpsS_NpA/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBtgSAAr4CigIMCAAQARhlIEgoQDAP&rs=AOn4CLBWLPdITvwtZxnD_od4yOXYKNupbg"
-        },
-        {
-            "id": "zGfTL0SX7uI",
-            "title": "Golmaal JR | Episode-1||Season-1||Full Episode In HD",
-            "url": "https://www.youtube.com/watch?v=zGfTL0SX7uI",
-            "duration": 676.0,
-            "view_count": 4933,
-            "uploader": "ToonVerse Kids",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/zGfTL0SX7uI/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDjF7IdcZ6oG4MS3EZYOV8_B7S_BA"
-        },
-        {
-            "id": "0d5Q2sRfkvk",
-            "title": "Golmaal Junior | Full Episode | मैं गधा भी लेकर आऊंगा और पप्पी को उसकी लात भी खिलाऊंगा! 🐶💥",
-            "url": "https://www.youtube.com/watch?v=0d5Q2sRfkvk",
-            "duration": 694.0,
-            "view_count": 469798,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/golmaal_jr",
-            "thumbnail": "https://i.ytimg.com/vi/0d5Q2sRfkvk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCiSFYMSm2hXYP06ZuQv5Q-N74Urw"
-        }
-    ]
+  "last_updated": "2026-04-16T05:12:36.793955Z",
+  "show_name": "Golmaal Jr",
+  "language": "Hindi",
+  "category": "cartoons",
+  "total_episodes": 67,
+  "episodes": [
+    {
+      "id": "7X7M2-QWR_I",
+      "title": "Golmaal Jr Humshakals Ka Golmaal (2025) In Hindi Cartoon Movie",
+      "url": "https://www.youtube.com/watch?v=7X7M2-QWR_I",
+      "duration": 2612.0,
+      "view_count": 131594,
+      "uploader": "C4 Cartoon",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/7X7M2-QWR_I/hqdefault.jpg"
+    },
+    {
+      "id": "U94-vgTALXQ",
+      "title": "Golmaal Junior | Full Episode | आप तो दया के सागर हो, सागर और इस कबाड़ के भी! 🌊😆🚮",
+      "url": "https://www.youtube.com/watch?v=U94-vgTALXQ",
+      "duration": 730.0,
+      "view_count": 538471,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/U94-vgTALXQ/hq720.jpg"
+    },
+    {
+      "id": "eG2TvnmhTG0",
+      "title": "Golmaal Junior | Full Episode | Madhav का Pappi से बचने का चालाक plan! 🤔🕵️",
+      "url": "https://www.youtube.com/watch?v=eG2TvnmhTG0",
+      "duration": 725.0,
+      "view_count": 415018,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/eG2TvnmhTG0/hq720.jpg"
+    },
+    {
+      "id": "4crG7fRPyFI",
+      "title": "Golmaal Junior | Full Episode | भेड़िया बना साया | Gopal और Madhav की जंग! 🐺⚔️",
+      "url": "https://www.youtube.com/watch?v=4crG7fRPyFI",
+      "duration": 650.0,
+      "view_count": 319121,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/4crG7fRPyFI/hq720.jpg"
+    },
+    {
+      "id": "8lcSFijOtY4",
+      "title": "Golmaal Junior | Full Episode | Kaun कितना खा सकता है ?",
+      "url": "https://www.youtube.com/watch?v=8lcSFijOtY4",
+      "duration": 702.0,
+      "view_count": 1128298,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/8lcSFijOtY4/hq720.jpg"
+    },
+    {
+      "id": "5Mo476QVnVs",
+      "title": "Golmaal Junior | Full Episode | स्कूल में क्यों लगा CCTV",
+      "url": "https://www.youtube.com/watch?v=5Mo476QVnVs",
+      "duration": 705.0,
+      "view_count": 419034,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/5Mo476QVnVs/hq720.jpg"
+    },
+    {
+      "id": "UIoBRvFjBHY",
+      "title": "Golmaal Junior | Full Episode | क्या Gopal का High Josh काम आएगा Trophy जीतने में?",
+      "url": "https://www.youtube.com/watch?v=UIoBRvFjBHY",
+      "duration": 723.0,
+      "view_count": 798980,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/UIoBRvFjBHY/hq720.jpg"
+    },
+    {
+      "id": "00EAVQdXxaw",
+      "title": "Golmaal Junior | Full Episode | भाई! आपके प्लान पर तो पानी फिर गया! 💦🤣",
+      "url": "https://www.youtube.com/watch?v=00EAVQdXxaw",
+      "duration": 672.0,
+      "view_count": 442286,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/00EAVQdXxaw/hq720.jpg"
+    },
+    {
+      "id": "Jnpbx-408vs",
+      "title": "Golmaal Junior | Full Episode | Bhagwan ka bhatakti rooh! Gopal और Madhav के बीच क्या होगा? 😱🎭",
+      "url": "https://www.youtube.com/watch?v=Jnpbx-408vs",
+      "duration": 709.0,
+      "view_count": 402307,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/Jnpbx-408vs/hq720.jpg"
+    },
+    {
+      "id": "ih7BQJlU_aA",
+      "title": "Golmaal Junior | Full Episode | Madhav और Gopal को सीखना है गरबा",
+      "url": "https://www.youtube.com/watch?v=ih7BQJlU_aA",
+      "duration": 682.0,
+      "view_count": 354244,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/ih7BQJlU_aA/hq720.jpg"
+    },
+    {
+      "id": "06n4V95t-gI",
+      "title": "Golmaal Junior | Full Episode | Pappi Vs Time: Paper 📄 चोरी की जाँच शुरू! 🔍🤣",
+      "url": "https://www.youtube.com/watch?v=06n4V95t-gI",
+      "duration": 737.0,
+      "view_count": 297987,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/06n4V95t-gI/hq720.jpg"
+    },
+    {
+      "id": "59JaHfa6cRo",
+      "title": "গোপাল অর মাধব কা খাওয়ার প্রতিযোগিতা | Golmaal Junior | Full Episode 25",
+      "url": "https://www.youtube.com/watch?v=59JaHfa6cRo",
+      "duration": 701.0,
+      "view_count": 647647,
+      "uploader": "Sonic Gang Bangla",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/59JaHfa6cRo/hq720.jpg"
+    },
+    {
+      "id": "HBn4SSL6ZWo",
+      "title": "Golmaal Junior | Full Episode | ये Socks मेरी है !",
+      "url": "https://www.youtube.com/watch?v=HBn4SSL6ZWo",
+      "duration": 669.0,
+      "view_count": 443719,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/HBn4SSL6ZWo/hq720.jpg"
+    },
+    {
+      "id": "7k8lpSgzyVg",
+      "title": "Golmaal Junior | Full Episode | Chunky ki pol",
+      "url": "https://www.youtube.com/watch?v=7k8lpSgzyVg",
+      "duration": 791.0,
+      "view_count": 1443978,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/7k8lpSgzyVg/hq720.jpg"
+    },
+    {
+      "id": "-mBEf-x_FhY",
+      "title": "ಗೋಪಾಲ್ ಮತ್ತು ಮಾಧವ್ ಅವರಲ್ಲಿ ಚಂದ್ರನಿಗೆ ಯಾರು ಹೋಗುತ್ತಾರೆ? | Golmaal Junior | Full Episode 47",
+      "url": "https://www.youtube.com/watch?v=-mBEf-x_FhY",
+      "duration": 730.0,
+      "view_count": 25887,
+      "uploader": "Sonic Gang Kannada",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/-mBEf-x_FhY/hq720.jpg"
+    },
+    {
+      "id": "EOO5qVwjwdE",
+      "title": "Golmaal Junior | Full Episode | मैं इन्हे पनिश कर रहा हूँ और ये मुझे थैंक यू बोल रहे है! 🤔😂",
+      "url": "https://www.youtube.com/watch?v=EOO5qVwjwdE",
+      "duration": 725.0,
+      "view_count": 585156,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/EOO5qVwjwdE/hq720.jpg"
+    },
+    {
+      "id": "wTS6MvPsPZ4",
+      "title": "Golmaal Junior | Full Episode | Pappi जा रहा है, Motor Boat पर Picnic मनाने! 🚤🍔🌊",
+      "url": "https://www.youtube.com/watch?v=wTS6MvPsPZ4",
+      "duration": 703.0,
+      "view_count": 346847,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/wTS6MvPsPZ4/hq720.jpg"
+    },
+    {
+      "id": "oSSfRzP-bAA",
+      "title": "Golmaal Junior | Full Episode | कौन ढूंढ के लाएगा Pappi को? 🐶🔍 रोमांच शुरू!",
+      "url": "https://www.youtube.com/watch?v=oSSfRzP-bAA",
+      "duration": 701.0,
+      "view_count": 178068,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/oSSfRzP-bAA/hq720.jpg"
+    },
+    {
+      "id": "-CFB8k-9oIg",
+      "title": "Golmaal Junior | Full Episode | Master Pappi का वार, Gopal-Madhav होशियार! ⚔️😳",
+      "url": "https://www.youtube.com/watch?v=-CFB8k-9oIg",
+      "duration": 743.0,
+      "view_count": 695280,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/-CFB8k-9oIg/hq720.jpg"
+    },
+    {
+      "id": "NnSanI8gsAQ",
+      "title": "Golmaal Junior | Full Episode | Ticket to London",
+      "url": "https://www.youtube.com/watch?v=NnSanI8gsAQ",
+      "duration": 708.0,
+      "view_count": 1083574,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/NnSanI8gsAQ/hq720.jpg"
+    },
+    {
+      "id": "W9YHWVP55g0",
+      "title": "Golmaal Junior | Full Episode | Gopal का Science Project चोरी! अब क्या होगा? 🤯",
+      "url": "https://www.youtube.com/watch?v=W9YHWVP55g0",
+      "duration": 724.0,
+      "view_count": 389780,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/W9YHWVP55g0/hq720.jpg"
+    },
+    {
+      "id": "dmrC12xsg4o",
+      "title": "Golmaal junior season 3 cartoon in Hindi the latest episode",
+      "url": "https://www.youtube.com/watch?v=dmrC12xsg4o",
+      "duration": 654.0,
+      "view_count": 31782,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/dmrC12xsg4o/hqdefault.jpg"
+    },
+    {
+      "id": "-1HJIhDOC4o",
+      "title": "Golmaal junior season 3 cartoon in hindi episodes",
+      "url": "https://www.youtube.com/watch?v=-1HJIhDOC4o",
+      "duration": 665.0,
+      "view_count": 8879,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/-1HJIhDOC4o/hqdefault.jpg"
+    },
+    {
+      "id": "BabwwtUwjMo",
+      "title": "Golmaal Junior | Full Episode | Chalk चोर",
+      "url": "https://www.youtube.com/watch?v=BabwwtUwjMo",
+      "duration": 657.0,
+      "view_count": 1498735,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/BabwwtUwjMo/hq720.jpg"
+    },
+    {
+      "id": "w2RlzHgffMc",
+      "title": "Golmaal  j,r season 3 new episode in Hindi❤❤❤",
+      "url": "https://www.youtube.com/watch?v=w2RlzHgffMc",
+      "duration": 687.0,
+      "view_count": 21133,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/w2RlzHgffMc/hqdefault.jpg"
+    },
+    {
+      "id": "e2MD1z9i1Yk",
+      "title": "Golmaal Junior | Full Episode | Hadd kar di app ne",
+      "url": "https://www.youtube.com/watch?v=e2MD1z9i1Yk",
+      "duration": 680.0,
+      "view_count": 1201549,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/e2MD1z9i1Yk/hq720.jpg"
+    },
+    {
+      "id": "ucz9QnHIne0",
+      "title": "Golmaal Junior | Full Episode | Alone in school",
+      "url": "https://www.youtube.com/watch?v=ucz9QnHIne0",
+      "duration": 663.0,
+      "view_count": 1955746,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/ucz9QnHIne0/hq720.jpg"
+    },
+    {
+      "id": "CTYML0dClT4",
+      "title": "Golmaal Junior | Full Episode | Milli की Dress हुई Flop, अब Gopal बचाएगा!",
+      "url": "https://www.youtube.com/watch?v=CTYML0dClT4",
+      "duration": 685.0,
+      "view_count": 370369,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/CTYML0dClT4/hq720.jpg"
+    },
+    {
+      "id": "hTFZR8iUA5s",
+      "title": "Golmaal Junior | Full Episode | क्या Gopu अपना डर को control कर पाएगा ?",
+      "url": "https://www.youtube.com/watch?v=hTFZR8iUA5s",
+      "duration": 700.0,
+      "view_count": 455994,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/hTFZR8iUA5s/hq720.jpg"
+    },
+    {
+      "id": "5w3s1esXplw",
+      "title": "গোপাল অর মাধব নে বানায়া রকেট | Golmaal Junior | Full Episode 50",
+      "url": "https://www.youtube.com/watch?v=5w3s1esXplw",
+      "duration": 765.0,
+      "view_count": 285051,
+      "uploader": "Sonic Gang Bangla",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/5w3s1esXplw/hq720.jpg"
+    },
+    {
+      "id": "6NEDDc1Ev4g",
+      "title": "Golmaal Junior | Full Episode | Gopal और Madhav ने Join की MMA Class! 🥊🔥",
+      "url": "https://www.youtube.com/watch?v=6NEDDc1Ev4g",
+      "duration": 664.0,
+      "view_count": 865024,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/6NEDDc1Ev4g/hq720.jpg"
+    },
+    {
+      "id": "ssB8udvD9u8",
+      "title": "Golmaal j,r new episode,,season 3 in Hindi episode 26❤❤❤❤❤❤❤❤❤",
+      "url": "https://www.youtube.com/watch?v=ssB8udvD9u8",
+      "duration": 676.0,
+      "view_count": 94594,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/ssB8udvD9u8/hq720.jpg"
+    },
+    {
+      "id": "1I7BNFcRt0Q",
+      "title": "Golmaal j,r new episode season 3 in hindi 2025,❤❤❤❤",
+      "url": "https://www.youtube.com/watch?v=1I7BNFcRt0Q",
+      "duration": 688.0,
+      "view_count": 0,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/1I7BNFcRt0Q/hq720.jpg"
+    },
+    {
+      "id": "2QjCnzueCFk",
+      "title": "Golmaal j,r new episode,,season 3 in Hindi episode 27❤❤❤❤❤❤❤❤❤❤❤",
+      "url": "https://www.youtube.com/watch?v=2QjCnzueCFk",
+      "duration": 685.0,
+      "view_count": 14856,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/2QjCnzueCFk/hqdefault.jpg"
+    },
+    {
+      "id": "Iojy8PQhRjc",
+      "title": "Golmaal j,r  new episode,season 3 in Hindi episode 24❤❤❤",
+      "url": "https://www.youtube.com/watch?v=Iojy8PQhRjc",
+      "duration": 646.0,
+      "view_count": 9873,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/Iojy8PQhRjc/hqdefault.jpg"
+    },
+    {
+      "id": "1cgTd2Y0fhk",
+      "title": "Golmaal Junior | Full Episode | Madhav ने चुराया अपने Sir का Invisible Gadget!",
+      "url": "https://www.youtube.com/watch?v=1cgTd2Y0fhk",
+      "duration": 645.0,
+      "view_count": 200524,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/1cgTd2Y0fhk/hq720.jpg"
+    },
+    {
+      "id": "bxBNSmoqWL0",
+      "title": "Golmaal Junior | Full Episode | Patwardhan Sir ने Rock Show में किया Bharatnatyam 🤘💃",
+      "url": "https://www.youtube.com/watch?v=bxBNSmoqWL0",
+      "duration": 724.0,
+      "view_count": 211130,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/bxBNSmoqWL0/hq720.jpg"
+    },
+    {
+      "id": "j6CVs30xgmc",
+      "title": "Golmaal Junior | Full Episode | Madhav ने की Wedding Crash अपने दोस्तों के साथ",
+      "url": "https://www.youtube.com/watch?v=j6CVs30xgmc",
+      "duration": 737.0,
+      "view_count": 804038,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/j6CVs30xgmc/hq720.jpg"
+    },
+    {
+      "id": "7_tiFukNF_I",
+      "title": "Golmaal junior season 3 in hindi cartoon",
+      "url": "https://www.youtube.com/watch?v=7_tiFukNF_I",
+      "duration": 697.0,
+      "view_count": 11097,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/7_tiFukNF_I/hqdefault.jpg"
+    },
+    {
+      "id": "CRu9uVTAeZs",
+      "title": "Golmaal Junior | Full Episode | Laxman ने बदला अपना Gang, गया Madhav के पास",
+      "url": "https://www.youtube.com/watch?v=CRu9uVTAeZs",
+      "duration": 762.0,
+      "view_count": 530212,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/CRu9uVTAeZs/hq720.jpg"
+    },
+    {
+      "id": "1eC2r7WXJ7E",
+      "title": "Golmaal Junior | Full Episode | Madhav को मिली Suggestion नकली Papa बनाने की",
+      "url": "https://www.youtube.com/watch?v=1eC2r7WXJ7E",
+      "duration": 738.0,
+      "view_count": 250779,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/1eC2r7WXJ7E/hq720.jpg"
+    },
+    {
+      "id": "MSIwbtf_FSw",
+      "title": "Golmaal Junior | Full Episode | Madhav का रंगीन Plan पड़ा Principal पर भारी! 🎨😅",
+      "url": "https://www.youtube.com/watch?v=MSIwbtf_FSw",
+      "duration": 627.0,
+      "view_count": 551746,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/MSIwbtf_FSw/hq720.jpg"
+    },
+    {
+      "id": "COXNNVv0E60",
+      "title": "Golmaal Junior | Full Episode | Pappi aur Principal Ki गाड़ी, Wasuli Ki छिपने Ki जंग! 🚗🤫",
+      "url": "https://www.youtube.com/watch?v=COXNNVv0E60",
+      "duration": 708.0,
+      "view_count": 330847,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/COXNNVv0E60/hq720.jpg"
+    },
+    {
+      "id": "_kms_CHDjBY",
+      "title": "Golmaal Junior | Full Episode | सीटी मत बजाओ 😲🎶 वरना फ़िश 🐟 भाग जाएगी! 😆💨",
+      "url": "https://www.youtube.com/watch?v=_kms_CHDjBY",
+      "duration": 669.0,
+      "view_count": 661531,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/_kms_CHDjBY/hq720.jpg"
+    },
+    {
+      "id": "ZsmpEi-2bvM",
+      "title": "Golmaal Junior | Full Episode | सर, निकल गयी ना ज़मीन पैरो के नीचे से! 😲🌍💨",
+      "url": "https://www.youtube.com/watch?v=ZsmpEi-2bvM",
+      "duration": 743.0,
+      "view_count": 668782,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/ZsmpEi-2bvM/hq720.jpg"
+    },
+    {
+      "id": "K3f8NxvEhF8",
+      "title": "Golmaal Junior | Full Ep| Madhav, ये तो Principal Sir का Whitewash किया हुआ जुड़वाँ भाई लग रहा है!🤯🤣",
+      "url": "https://www.youtube.com/watch?v=K3f8NxvEhF8",
+      "duration": 645.0,
+      "view_count": 311390,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/K3f8NxvEhF8/hq720.jpg"
+    },
+    {
+      "id": "X8S5j3PinFs",
+      "title": "Golmaal junior season 3 episode in Hindi cartoon",
+      "url": "https://www.youtube.com/watch?v=X8S5j3PinFs",
+      "duration": 697.0,
+      "view_count": 11673,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/X8S5j3PinFs/hqdefault.jpg"
+    },
+    {
+      "id": "l8xI99RVSf4",
+      "title": "Golmaal Junior | Full Episode | Gopal बनाना चाहता है नया World Record! 🌍🏆",
+      "url": "https://www.youtube.com/watch?v=l8xI99RVSf4",
+      "duration": 631.0,
+      "view_count": 258986,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/l8xI99RVSf4/hq720.jpg"
+    },
+    {
+      "id": "Y7nBtnAT-ew",
+      "title": "Golmaal junior cartoon season 3 in Hindi dubbed only my channel latest episode",
+      "url": "https://www.youtube.com/watch?v=Y7nBtnAT-ew",
+      "duration": 697.0,
+      "view_count": 7528,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/Y7nBtnAT-ew/hqdefault.jpg"
+    },
+    {
+      "id": "V1tQnh43_Mc",
+      "title": "Golmaal Junior | Full Episode | चींटी कब तक शक्कर से दूर रह सकती है? 🍚😋",
+      "url": "https://www.youtube.com/watch?v=V1tQnh43_Mc",
+      "duration": 787.0,
+      "view_count": 420812,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/V1tQnh43_Mc/hq720.jpg"
+    },
+    {
+      "id": "5wXz2Nn6NXw",
+      "title": "Golmaal junior season 3 cartoon in Hindi episode",
+      "url": "https://www.youtube.com/watch?v=5wXz2Nn6NXw",
+      "duration": 710.0,
+      "view_count": 1939,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/5wXz2Nn6NXw/hqdefault.jpg"
+    },
+    {
+      "id": "lpYYBjWdY98",
+      "title": "Golmaal Junior | Full Episode | Patang Baazi में हंगामा! Gopal Vs Pappi 🪁🔥",
+      "url": "https://www.youtube.com/watch?v=lpYYBjWdY98",
+      "duration": 682.0,
+      "view_count": 327849,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/lpYYBjWdY98/hq720.jpg"
+    },
+    {
+      "id": "X7zxL29gLUc",
+      "title": "Gopal ko रंगने चला Madhav, Principal फंस गए | Holi Special | Golmaal Junior",
+      "url": "https://www.youtube.com/watch?v=X7zxL29gLUc",
+      "duration": 628.0,
+      "view_count": 18842,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/X7zxL29gLUc/hq720.jpg"
+    },
+    {
+      "id": "Lg6W49LXVzc",
+      "title": "Golmaal Junior | Full Episode | बट हाउ? प्रिंसिपल से डरने वाला, खुद प्रिंसिपल कैसे बन गया? 😵📚🏫",
+      "url": "https://www.youtube.com/watch?v=Lg6W49LXVzc",
+      "duration": 754.0,
+      "view_count": 586885,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/Lg6W49LXVzc/hq720.jpg"
+    },
+    {
+      "id": "fCab9yl4tnw",
+      "title": "Golmaal Junior | Full Episode | Principals Memory loss",
+      "url": "https://www.youtube.com/watch?v=fCab9yl4tnw",
+      "duration": 704.0,
+      "view_count": 0,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/fCab9yl4tnw/hq720.jpg"
+    },
+    {
+      "id": "J1uwiZsWzhQ",
+      "title": "Golmaal Junior | Full Episode | PRINCIPAL क OFFICE को किसने करब किया ?",
+      "url": "https://www.youtube.com/watch?v=J1uwiZsWzhQ",
+      "duration": 762.0,
+      "view_count": 67612,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/J1uwiZsWzhQ/hq720.jpg"
+    },
+    {
+      "id": "vJpc_YxefB0",
+      "title": "Golmaal Junior | Full Episode | हार कर जीतने वाले को बाज़ीगर कहते हैं… और जीत कर हारने वाले को? 🤔🎭🔥",
+      "url": "https://www.youtube.com/watch?v=vJpc_YxefB0",
+      "duration": 728.0,
+      "view_count": 471971,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/vJpc_YxefB0/hq720.jpg"
+    },
+    {
+      "id": "fqEiBvoq2EQ",
+      "title": "Golmaal Junior | Full Episode | School में Film Shoot, कौन बनेगा Hero? 🎬✨",
+      "url": "https://www.youtube.com/watch?v=fqEiBvoq2EQ",
+      "duration": 645.0,
+      "view_count": 279653,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/fqEiBvoq2EQ/hq720.jpg"
+    },
+    {
+      "id": "0TtsvpzSIgQ",
+      "title": "Golmaal junior cartoon in Hindi season 3 latest episode only my channel",
+      "url": "https://www.youtube.com/watch?v=0TtsvpzSIgQ",
+      "duration": 665.0,
+      "view_count": 8825,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/0TtsvpzSIgQ/hqdefault.jpg"
+    },
+    {
+      "id": "hymGV70LlAk",
+      "title": "Golmaal junior season 3 in Hindi episode cartoon",
+      "url": "https://www.youtube.com/watch?v=hymGV70LlAk",
+      "duration": 656.0,
+      "view_count": 13296,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/hymGV70LlAk/hqdefault.jpg"
+    },
+    {
+      "id": "UOsam4gz3VM",
+      "title": "Golmaal Junior | Full Episode | Madhav ने Gopal को किया Blackmail 😈💥🎭",
+      "url": "https://www.youtube.com/watch?v=UOsam4gz3VM",
+      "duration": 718.0,
+      "view_count": 270390,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/UOsam4gz3VM/hq720.jpg"
+    },
+    {
+      "id": "_dvWq0zMlE8",
+      "title": "গোলমাল জুনিয়র - তেরে মেরে স্পিচ মে  | Golmaal Junior - Tere Mere Speech Mein Full Episode 06",
+      "url": "https://www.youtube.com/watch?v=_dvWq0zMlE8",
+      "duration": 667.0,
+      "view_count": 98684,
+      "uploader": "Sonic Gang Bangla",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/_dvWq0zMlE8/hq720.jpg"
+    },
+    {
+      "id": "c5hPh_t35fU",
+      "title": "கோல்மால் ஜூனியர் - உணவுப் போட்டி முழு எபிசோட் 24 | Golmaal Junior - Eating Competition Full Ep 24",
+      "url": "https://www.youtube.com/watch?v=c5hPh_t35fU",
+      "duration": 701.0,
+      "view_count": 37333,
+      "uploader": "Sonic Gang Tamil",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/c5hPh_t35fU/hq720.jpg"
+    },
+    {
+      "id": "1e3Vn1vmhRQ",
+      "title": "ഗോപാൽ ഔർ മാധവ് മേ കോൻ ജായേഗാ മൂൺ പേ | Golmaal Junior | Full Episode 47",
+      "url": "https://www.youtube.com/watch?v=1e3Vn1vmhRQ",
+      "duration": 730.0,
+      "view_count": 14226,
+      "uploader": "Sonic Gang Malayalam",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/1e3Vn1vmhRQ/hq720.jpg"
+    },
+    {
+      "id": "QE7xpsS_NpA",
+      "title": "Golmaal junior cartoon new episode in Hindi season 3",
+      "url": "https://www.youtube.com/watch?v=QE7xpsS_NpA",
+      "duration": 691.0,
+      "view_count": 9160,
+      "uploader": "Aarif Khan",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/QE7xpsS_NpA/hqdefault.jpg"
+    },
+    {
+      "id": "zGfTL0SX7uI",
+      "title": "Golmaal JR | Episode-1||Season-1||Full Episode In HD",
+      "url": "https://www.youtube.com/watch?v=zGfTL0SX7uI",
+      "duration": 676.0,
+      "view_count": 4933,
+      "uploader": "ToonVerse Kids",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/zGfTL0SX7uI/hqdefault.jpg"
+    },
+    {
+      "id": "0d5Q2sRfkvk",
+      "title": "Golmaal Junior | Full Episode | मैं गधा भी लेकर आऊंगा और पप्पी को उसकी लात भी खिलाऊंगा! 🐶💥",
+      "url": "https://www.youtube.com/watch?v=0d5Q2sRfkvk",
+      "duration": 694.0,
+      "view_count": 469798,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/golmaal_jr",
+      "thumbnail": "https://i.ytimg.com/vi/0d5Q2sRfkvk/hq720.jpg"
+    }
+  ]
 }

@@ -1,0 +1,76 @@
+{
+  "site": {
+    "name": "ContentHub",
+    "tagline": "Discover free videos on YouTube, curated for you",
+    "description": "A config-driven content discovery platform. Define your categories, and the pipeline handles the rest.",
+    "theme_color": "#7c3aed",
+    "accent_color": "#ec4899",
+    "background_color": "#0a0a1a",
+    "logo_emoji": "🎬",
+    "footer_text": "A free, open-source content discovery platform powered by YouTube.",
+    "github_repo": "https://github.com/samyak2403/daily-movies-api",
+    "content_label": "video",
+    "content_label_plural": "videos"
+  },
+  "categories": [
+    {
+      "key": "action_movies",
+      "display_name": "Action Movies",
+      "icon": "💥",
+      "type": "movie"
+    },
+    {
+      "key": "comedy_movies",
+      "display_name": "Comedy Movies",
+      "icon": "😂",
+      "type": "movie"
+    },
+    {
+      "key": "drama_movies",
+      "display_name": "Drama Movies",
+      "icon": "🎭",
+      "type": "movie"
+    },
+    {
+      "key": "documentaries",
+      "display_name": "Documentaries",
+      "icon": "🌍",
+      "type": "movie"
+    },
+    {
+      "key": "thriller_movies",
+      "display_name": "Thriller Movies",
+      "icon": "🔪",
+      "type": "movie"
+    },
+    {
+      "key": "scifi_movies",
+      "display_name": "Scifi Movies",
+      "icon": "🚀",
+      "type": "movie"
+    },
+    {
+      "key": "classic_movies",
+      "display_name": "Classic Movies",
+      "icon": "🎞️",
+      "type": "movie"
+    },
+    {
+      "key": "animated_movies",
+      "display_name": "Animated Movies",
+      "icon": "🧸",
+      "type": "movie"
+    }
+  ],
+  "cartoon_shows": [],
+  "sponsorship": {
+    "enabled": true,
+    "github_sponsors": "",
+    "buy_me_a_coffee": "",
+    "ko_fi": "",
+    "custom_url": "",
+    "message": "If you find this useful, consider supporting the project!"
+  },
+  "api_base_url": "movies",
+  "generated_at": "2026-04-16T05:46:15.936932Z"
+}

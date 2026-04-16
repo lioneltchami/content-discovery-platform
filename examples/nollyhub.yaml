@@ -1,0 +1,96 @@
+# ============================================================
+# NollyHub — Nigerian/African Movies Platform
+# ============================================================
+# A Nollywood & African cinema discovery platform.
+# Fork the repo and replace config.yaml with this file to launch.
+# ============================================================
+
+# ── Site Identity ──
+site:
+  name: "NollyHub"
+  tagline: "Free Nollywood & African movies on YouTube"
+  description: "Discover free full-length Nollywood and African movies on YouTube across multiple regions and genres. Updated every 6 hours."
+  theme_color: "#16a34a"
+  accent_color: "#22c55e"
+  background_color: "#0a0a1a"
+  logo_emoji: "🎭"
+  footer_text: "A free, open-source African movie discovery platform powered by YouTube."
+  github_repo: "https://github.com/samyak2403/daily-movies-api"
+  content_label: "movies"
+  content_label_plural: "movies"
+
+# ── Scraper Settings ──
+scraper:
+  results_per_category: 15
+  schedule_cron: "0 */6 * * *"
+  output_dir: "movies"
+  default_sources: [youtube, dailymotion]
+  quality:
+    min_resolution: 480
+
+# ── Content Categories ──
+categories:
+  nollywood:
+    query: "nollywood full movie"
+    type: movie
+    min_duration: 2400
+    icon: "🇳🇬"
+    sources: [youtube, dailymotion]
+
+  yoruba_movies:
+    query: "yoruba full movie"
+    type: movie
+    min_duration: 2400
+    icon: "🎬"
+    sources: [youtube, dailymotion]
+
+  igbo_movies:
+    query: "igbo full movie nollywood"
+    type: movie
+    min_duration: 2400
+    icon: "🎥"
+    sources: [youtube, dailymotion]
+
+  ghanaian_movies:
+    query: "ghanaian full movie ghallywood"
+    type: movie
+    min_duration: 2400
+    icon: "🇬🇭"
+    sources: [youtube, dailymotion]
+
+  east_african:
+    query: "east african full movie swahili"
+    type: movie
+    min_duration: 2400
+    icon: "🌍"
+    sources: [youtube, dailymotion]
+
+  south_african:
+    query: "south african full movie"
+    type: movie
+    min_duration: 2400
+    icon: "🇿🇦"
+    sources: [youtube, dailymotion]
+
+  african_comedy:
+    query: "african comedy full movie"
+    type: movie
+    min_duration: 2400
+    icon: "😂"
+    sources: [youtube, dailymotion]
+
+  african_drama:
+    query: "african drama full movie"
+    type: movie
+    min_duration: 2400
+    icon: "🎭"
+    sources: [youtube, dailymotion]
+
+# ── Sponsorship ──
+sponsorship:
+  enabled: true
+  github_sponsors: ""
+  buy_me_a_coffee: ""
+  ko_fi: ""
+  custom_url: ""
+  message: "If you find this useful, consider supporting the project!"

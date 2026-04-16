@@ -4,13 +4,26 @@ on:
   push:
     branches:
       - main
+    paths:
+      # Only trigger on push when scraper code or config changes, NOT when movie JSON is updated
+      - 'scripts/**'
+      - 'requirements.txt'
+      - '.github/workflows/daily_scraper.yml'
+      - 'config.yaml'
   schedule:
-    # Runs automatically every 10 minutes
-    - cron: '*/10 * * * *'
+    # Runs automatically every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+# Prevent multiple scraper runs from overlapping
+concurrency:
+  group: scraper
+  cancel-in-progress: false
+
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
-    
+
     # Required permissions to allow github-actions[bot] to push commits
     permissions:
       contents: write
@@ -18,6 +31,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # Fetch full history so pull --rebase works correctly
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -30,21 +46,51 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
       - name: Run Python scraper
         run: python scripts/scraper.py
 
+      - name: Generate search index
+        run: python scripts/generate_search_index.py
+
+      - name: Generate RSS feeds
+        run: python scripts/generate_feeds.py
+
       - name: Commit and Push changes
         run: |
-          # Set up git config for the bot
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          
-          # Stage all movie JSON files (category folders + combined)
-          git add movies/
-          
-          # Check if there are any changes to commit
-          git commit -m "Automated update: fetched latest YouTube movies" || echo "No changes to commit"
-          
-          # Push the changes
-          git push origin HEAD:main
 
+          git add movies/ movies/feeds/ website/site-config.json
+
+          # Only commit if there are actual changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Automated update: fetched latest YouTube movies [skip ci]"
+
+          # Pull any remote changes first, then push (handles concurrent updates)
+          MAX_RETRIES=3
+          for i in $(seq 1 $MAX_RETRIES); do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push attempt $i failed, retrying in 10s..."
+            sleep 10
+          done
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "::error::Daily Movie Scraper failed! Check the logs above for details."
+          echo "## ❌ Scraper Failed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "The daily movie scraper workflow failed at $(date -u)." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Run:** [${{ github.run_id }}](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the step logs above to diagnose the issue." >> $GITHUB_STEP_SUMMARY

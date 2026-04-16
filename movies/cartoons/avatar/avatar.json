@@ -1,32 +1,29 @@
 {
-    "last_updated": "2026-04-15T14:12:50.412059Z",
-    "show_name": "Avatar",
-    "language": "Hindi",
-    "category": "cartoons",
-    "description": "Auto-generated category for Avatar.",
-    "total_episodes": 2,
-    "episodes": [
-        {
-            "id": "hzl_9eRNeYY",
-            "title": "Avatar: The Last Airbender S1 | All Episodes | Back to Back",
-            "url": "https://www.youtube.com/watch?v=hzl_9eRNeYY",
-            "duration": 27196.0,
-            "view_count": 5703382,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/avatar",
-            "thumbnail": "https://i.ytimg.com/vi/hzl_9eRNeYY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnUVjgxpNi5vXtZdzr7Nv1yrkD0A",
-            "show_name": "Avatar"
-        },
-        {
-            "id": "-pSqebZsBzs",
-            "title": "Avatar: The Last Airbender S2 | 🔴 Live Stream | All Episodes | Back to Back",
-            "url": "https://www.youtube.com/watch?v=-pSqebZsBzs",
-            "duration": 34732.0,
-            "view_count": 3721606,
-            "uploader": "Sonic Gang",
-            "category": "cartoons/avatar",
-            "thumbnail": "https://i.ytimg.com/vi/-pSqebZsBzs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD38ApEGMPIi2dX9Jlj7ZDxPPslHg",
-            "show_name": "Avatar"
-        }
-    ]
+  "last_updated": "2026-04-16T05:12:36.787945Z",
+  "show_name": "Avatar",
+  "language": "Hindi",
+  "category": "cartoons",
+  "total_episodes": 2,
+  "episodes": [
+    {
+      "id": "hzl_9eRNeYY",
+      "title": "Avatar: The Last Airbender S1 | All Episodes | Back to Back",
+      "url": "https://www.youtube.com/watch?v=hzl_9eRNeYY",
+      "duration": 27196.0,
+      "view_count": 5703382,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/avatar",
+      "thumbnail": "https://i.ytimg.com/vi/hzl_9eRNeYY/hq720.jpg"
+    },
+    {
+      "id": "-pSqebZsBzs",
+      "title": "Avatar: The Last Airbender S2 | 🔴 Live Stream | All Episodes | Back to Back",
+      "url": "https://www.youtube.com/watch?v=-pSqebZsBzs",
+      "duration": 34732.0,
+      "view_count": 3721606,
+      "uploader": "Sonic Gang",
+      "category": "cartoons/avatar",
+      "thumbnail": "https://i.ytimg.com/vi/-pSqebZsBzs/hq720.jpg"
+    }
+  ]
 }

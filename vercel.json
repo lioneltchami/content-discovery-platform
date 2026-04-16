@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/website/$1" }
+  ],
+  "functions": {
+    "api/*.js": {
+      "memory": 128
+    }
+  }
+}

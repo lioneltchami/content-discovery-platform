@@ -4,9 +4,21 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Now Playing – Movies Hub</title>
-    <meta name="description" content="Watch free full-length movies on Movies Hub powered by YouTube." />
+    <title>Now Playing</title>
+    <meta name="description" content="Watch free content powered by YouTube." />
+    <meta property="og:title" content="Now Playing" />
+    <meta property="og:description" content="Watch free content powered by YouTube." />
+    <meta property="og:type" content="video.movie" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#7c3aed" />
     <link rel="stylesheet" href="style.css" />
+    <script>
+      (function() {
+        var t = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
     <link rel="icon"
         href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>" />
     <style>
@@ -274,6 +286,37 @@
             margin-bottom: 1.5rem;
         }
 
+        /* QR Code Modal */
+        .qr-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        .qr-modal-content {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            text-align: center;
+            max-width: 320px;
+        }
+        .qr-modal-content img {
+            border-radius: var(--radius-md);
+            margin: 1rem 0;
+        }
+        .qr-modal-content h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        .qr-modal-content p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
         @media (max-width: 768px) {
             .player-wrapper {
                 padding: 1rem 1rem 2rem;
@@ -310,14 +353,14 @@
         <div class="navbar-inner">
             <a href="index.html" class="logo">
                 <div class="logo-icon">🎬</div>
-                <div class="logo-text">Movies<span>Hub</span></div>
+                <div class="logo-text" id="playerLogoText">Loading...</div>
             </a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="docs.html">Docs</a></li>
-                <li><a href="https://github.com/samyak2403/daily-movies-api" target="_blank" rel="noopener">GitHub</a>
-                </li>
+                <li><a href="#" id="playerGithubLink" target="_blank" rel="noopener">GitHub</a></li>
             </ul>
+            <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark/light mode">☀️</button>
         </div>
     </nav>
 
@@ -437,12 +480,24 @@
                     </svg>
                     Copy Link
                 </button>
+                <button class="action-btn" onclick="showQRCode()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="2" y="2" width="8" height="8" rx="1"/>
+                        <rect x="14" y="2" width="8" height="8" rx="1"/>
+                        <rect x="2" y="14" width="8" height="8" rx="1"/>
+                        <rect x="14" y="14" width="4" height="4"/>
+                        <rect x="20" y="14" width="2" height="2"/>
+                        <rect x="14" y="20" width="2" height="2"/>
+                        <rect x="20" y="20" width="2" height="2"/>
+                    </svg>
+                    QR Code
+                </button>
             </div>
         </div>
 
         <!-- Related Movies -->
         <div class="related-section" id="relatedSection">
-            <h2>🎬 More Movies</h2>
+            <h2 id="relatedHeading">🎬 More Videos</h2>
             <div class="related-grid" id="relatedGrid">
                 <!-- Populated by JS -->
             </div>
@@ -454,80 +509,138 @@
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-brand">
-                <h3>Movies<span>Hub</span></h3>
-                <p>A free, open-source video discovery platform powered by YouTube. New videos are added daily through
-                    an automated scraper across 10 categories.</p>
+                <h3 id="playerFooterBrand">Loading...</h3>
+                <p id="playerFooterDesc">A free, open-source content discovery platform powered by YouTube.</p>
             </div>
             <div class="footer-col">
                 <h4>Categories</h4>
-                <ul>
-                    <li><a href="index.html">Hindi</a></li>
-                    <li><a href="index.html">Marathi</a></li>
-                    <li><a href="index.html">English</a></li>
-                    <li><a href="index.html">Tamil</a></li>
-                    <li><a href="index.html">Telugu</a></li>
-                    <li><a href="index.html">Kannada</a></li>
-                    <li><a href="index.html">Cartoons</a></li>
-                    <li><a href="index.html">Comedy</a></li>
-                    <li><a href="index.html">Taarak Mehta</a></li>
-                    <li><a href="index.html">Yam Hain Hum</a></li>
-                </ul>
+                <ul id="playerFooterCategories"></ul>
             </div>
             <div class="footer-col">
                 <h4>Resources</h4>
                 <ul>
                     <li><a href="docs.html">API Documentation</a></li>
-                    <li><a href="https://github.com/samyak2403/daily-movies-api" target="_blank" rel="noopener">GitHub
-                            Repo</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/movies.json"
-                            target="_blank" rel="noopener">JSON API</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>API Endpoints</h4>
-                <ul>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/hindi/hindi.json"
-                            target="_blank">Hindi API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/marathi/marathi.json"
-                            target="_blank">Marathi API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/english/english.json"
-                            target="_blank">English API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/tamil/tamil.json"
-                            target="_blank">Tamil API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/telugu/telugu.json"
-                            target="_blank">Telugu API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/kannada/kannada.json"
-                            target="_blank">Kannada API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/cartoons/cartoons.json"
-                            target="_blank">Cartoons API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/comedy/comedy.json"
-                            target="_blank">Comedy API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/taarak_mehta/taarak_mehta.json"
-                            target="_blank">Taarak Mehta API</a></li>
-                    <li><a href="https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/yam_hain_hum/yam_hain_hum.json"
-                            target="_blank">Yam Hain Hum API</a></li>
+                    <li><a href="#" id="playerFooterGithub" target="_blank" rel="noopener">GitHub Repo</a></li>
                 </ul>
             </div>
         </div>
         <div class="footer-bottom">
-            <span>© 2026 Movies Hub. Powered by <a href="https://github.com/samyak2403/daily-movies-api" target="_blank"
-                    rel="noopener">daily-movies-api</a></span>
+            <span>© <span id="playerFooterYear">2026</span> <span id="playerFooterName">Content Hub</span>.</span>
             <span>Updated daily via GitHub Actions</span>
         </div>
     </footer>
 
     <script>
         // ── Player State ──
-        const API_URL = 'https://raw.githubusercontent.com/samyak2403/daily-movies-api/main/movies/movies.json';
+        let siteConfig = null;
+
+        function toggleTheme() {
+            const current = document.documentElement.getAttribute('data-theme') || 'dark';
+            const next = current === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+            const btn = document.getElementById('themeToggle');
+            if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
+        }
+        let API_URL = '';
         let currentMovie = null;
         let allMovies = [];
         let isLoop = false;
         let isTheater = false;
 
-        // ── Get video ID from URL params ──
+        async function loadSiteConfig() {
+            const res = await fetch('site-config.json');
+            if (!res.ok) throw new Error('Failed to load site-config.json');
+            siteConfig = await res.json();
+            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+                || window.location.protocol === 'file:';
+            if (isLocal) {
+                API_URL = '../' + siteConfig.api_base_url + '/movies.json';
+            } else if (siteConfig.site.github_repo) {
+                API_URL = siteConfig.site.github_repo.replace('github.com', 'raw.githubusercontent.com') + '/main/' + siteConfig.api_base_url + '/movies.json';
+            } else {
+                API_URL = siteConfig.api_base_url + '/movies.json';
+            }
+        }
+
+        function escapeHtml(text) {
+            if (!text) return '';
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function applyPlayerConfig() {
+            if (!siteConfig) return;
+            const s = siteConfig.site;
+
+            // Logo
+            const logoIcon = document.querySelector('.logo-icon');
+            if (logoIcon) logoIcon.textContent = s.logo_emoji;
+
+            const logoText = document.getElementById('playerLogoText');
+            if (logoText) {
+                const parts = s.name.split(' ');
+                if (parts.length > 1) {
+                    logoText.innerHTML = escapeHtml(parts[0]) + '<span>' + escapeHtml(parts.slice(1).join(' ')) + '</span>';
+                } else {
+                    logoText.textContent = s.name;
+                }
+            }
+
+            // GitHub link
+            const ghLink = document.getElementById('playerGithubLink');
+            if (ghLink && s.github_repo) ghLink.href = s.github_repo;
+
+            // Theme
+            const root = document.documentElement.style;
+            if (s.theme_color) root.setProperty('--accent-1', s.theme_color);
+            if (s.accent_color) root.setProperty('--accent-2', s.accent_color);
+            if (s.background_color) root.setProperty('--bg-primary', s.background_color);
+            const meta = document.querySelector('meta[name="theme-color"]');
+            if (meta && s.theme_color) meta.setAttribute('content', s.theme_color);
+
+            // Footer
+            const footerBrand = document.getElementById('playerFooterBrand');
+            if (footerBrand && logoText) footerBrand.innerHTML = logoText.innerHTML;
+
+            const footerDesc = document.getElementById('playerFooterDesc');
+            if (footerDesc) footerDesc.textContent = s.footer_text;
+
+            const footerGithub = document.getElementById('playerFooterGithub');
+            if (footerGithub && s.github_repo) footerGithub.href = s.github_repo;
+
+            const footerName = document.getElementById('playerFooterName');
+            if (footerName) footerName.textContent = s.name;
+
+            const footerYear = document.getElementById('playerFooterYear');
+            if (footerYear) footerYear.textContent = new Date().getFullYear();
+
+            // Footer categories
+            const footerCats = document.getElementById('playerFooterCategories');
+            if (footerCats && siteConfig.categories) {
+                footerCats.innerHTML = '';
+                for (const [key, cat] of Object.entries(siteConfig.categories)) {
+                    const li = document.createElement('li');
+                    const a = document.createElement('a');
+                    a.href = 'index.html';
+                    a.textContent = cat.display_name;
+                    li.appendChild(a);
+                    footerCats.appendChild(li);
+                }
+            }
+        }
+
+        // ── Get video ID and source from URL params ──
         function getVideoId() {
             const params = new URLSearchParams(window.location.search);
-            return params.get('v');
+            const id = params.get('v');
+            const source = params.get('source') || 'youtube';
+            if (!id) return null;
+            // Validate video ID format to prevent XSS via iframe src injection
+            if (source === 'dailymotion' && !/^[a-zA-Z0-9]+$/.test(id)) return null;
+            if (source !== 'dailymotion' && !/^[a-zA-Z0-9_-]{11}$/.test(id)) return null;
+            return { id, source };
         }
 
         // ── Format helpers ──
@@ -547,24 +660,21 @@
             return `${count} views`;
         }
 
-        function escapeHtml(text) {
-            if (!text) return '';
-            const div = document.createElement('div');
-            div.textContent = text;
-            return div.innerHTML;
-        }
-
-        // ── Load and embed YouTube player ──
-        function loadPlayer(videoId) {
+        // ── Load and embed video player ──
+        function loadPlayer(videoId, source) {
             const container = document.getElementById('videoContainer');
             const loading = document.getElementById('videoLoading');
 
             const iframe = document.createElement('iframe');
             iframe.id = 'ytPlayer';
-            iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1`;
+            if (source === 'dailymotion') {
+                iframe.src = `https://www.dailymotion.com/embed/video/${videoId}?autoplay=1&quality=1080&sharing-enable=false`;
+            } else {
+                iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0&modestbranding=1&iv_load_policy=3&enablejsapi=1`;
+            }
             iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
             iframe.allowFullscreen = true;
-            iframe.title = 'Movie Player';
+            iframe.title = 'Video Player';
 
             iframe.onload = () => {
                 loading.classList.add('hidden');
@@ -574,14 +684,35 @@
         }
 
         // ── Populate movie info ──
-        function setMovieInfo(movie) {
+        function setMovieInfo(movie, source) {
             document.getElementById('videoTitle').textContent = movie.title;
             document.getElementById('videoCategory').textContent = movie.category || 'Unknown';
             document.getElementById('videoViews').textContent = formatViews(movie.view_count);
             document.getElementById('videoDuration').textContent = formatDuration(movie.duration);
             document.getElementById('videoUploader').textContent = movie.uploader || 'Unknown';
-            document.getElementById('youtubeLink').href = movie.url;
-            document.title = `${movie.title} – Movies Hub`;
+            document.title = `${movie.title} – ${siteConfig ? siteConfig.site.name : 'Player'}`;
+
+            const ytLink = document.getElementById('youtubeLink');
+            if (source === 'dailymotion') {
+                ytLink.href = `https://www.dailymotion.com/video/${movie.id}`;
+                ytLink.innerHTML = `
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polygon points="5,3 19,12 5,21"></polygon>
+                    </svg>
+                    Watch on Dailymotion`;
+            } else {
+                ytLink.href = movie.url || `https://www.youtube.com/watch?v=${movie.id}`;
+                ytLink.innerHTML = `
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814z"/>
+                        <path fill="#fff" d="M9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                    Watch on YouTube`;
+            }
+
+            // Update iframe title with actual movie title for accessibility
+            const iframe = document.getElementById('ytPlayer');
+            if (iframe) iframe.title = `${movie.title} - ${source === 'dailymotion' ? 'Dailymotion' : 'YouTube'} Player`;
         }
 
         // ── Player Controls ──
@@ -589,13 +720,8 @@
             isLoop = !isLoop;
             const btn = document.getElementById('loopBtn');
             btn.classList.toggle('active', isLoop);
-            const iframe = document.getElementById('ytPlayer');
-            if (iframe) {
-                const src = new URL(iframe.src);
-                src.searchParams.set('loop', isLoop ? '1' : '0');
-                if (isLoop) src.searchParams.set('playlist', getVideoId());
-                iframe.src = src.toString();
-            }
+            // TODO: Loop requires YouTube IFrame API (postMessage) for proper implementation.
+            // Toggling iframe.src restarts the video, so we only toggle the visual state here.
         }
 
         function toggleTheater() {
@@ -618,6 +744,7 @@
         }
 
         function toggleAutoplay(btn) {
+            // UI-only toggle — autoplay-next requires tracking video end events via YouTube IFrame API
             btn.classList.toggle('active');
         }
 
@@ -630,10 +757,21 @@
             }
         }
 
+        function showToast(message) {
+            const existing = document.querySelector('.toast-msg');
+            if (existing) existing.remove();
+            const toast = document.createElement('div');
+            toast.className = 'toast-msg';
+            toast.textContent = message;
+            toast.style.cssText = 'position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:var(--bg-card);color:var(--text-primary);padding:0.75rem 1.5rem;border-radius:var(--radius-sm);border:1px solid var(--border-color);font-size:0.9rem;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,0.3);';
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
         function openPiP() {
             // PiP works on video elements, not iframes directly
             // Show a hint to the user
-            alert('Tip: Right-click the video twice while it\'s playing and select "Picture in Picture" from the YouTube player menu.');
+            showToast('Tip: Right-click the video twice while playing and select "Picture in Picture" from the YouTube player menu.');
         }
 
         function shareVideo() {
@@ -641,21 +779,38 @@
             if (navigator.share) {
                 navigator.share({ title: currentMovie?.title || 'Movie', url });
             } else {
-                navigator.clipboard.writeText(url).then(() => alert('Link copied to clipboard!'));
+                navigator.clipboard.writeText(url).then(() => showToast('Link copied to clipboard!'));
             }
         }
 
         function copyLink() {
             navigator.clipboard.writeText(window.location.href).then(() => {
-                alert('Player link copied!');
+                showToast('Player link copied!');
             });
+        }
+
+        function showQRCode() {
+            const url = window.location.href;
+            const title = currentMovie?.title || 'Video';
+            const modal = document.createElement('div');
+            modal.className = 'qr-modal';
+            modal.innerHTML = `<div class="qr-modal-content">
+                <h3>${escapeHtml(title)}</h3>
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&amp;data=${encodeURIComponent(url)}" alt="QR Code" width="250" height="250" />
+                <p>Scan to watch</p>
+            </div>`;
+            modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+            document.addEventListener('keydown', function handler(e) {
+                if (e.key === 'Escape') { modal.remove(); document.removeEventListener('keydown', handler); }
+            });
+            document.body.appendChild(modal);
         }
 
         // ── Create related movie card ──
         function createRelatedCard(movie) {
             const card = document.createElement('a');
             card.className = 'movie-card';
-            card.href = `player.html?v=${movie.id}`;
+            card.href = `player.html?v=${movie.id}&source=${movie.source || 'youtube'}`;
             card.dataset.category = (movie.category || '').toLowerCase();
 
             const thumb = movie.thumbnail || `https://i.ytimg.com/vi/${movie.id}/hqdefault.jpg`;
@@ -698,6 +853,11 @@
         // ── Show related movies ──
         function showRelated(movies, currentId) {
             const grid = document.getElementById('relatedGrid');
+            const heading = document.getElementById('relatedHeading');
+            if (heading && siteConfig) {
+                const label = siteConfig.site.content_label_plural || 'Videos';
+                heading.textContent = `${siteConfig.site.logo_emoji || '🎬'} More ${label.charAt(0).toUpperCase() + label.slice(1)}`;
+            }
             const currentCat = currentMovie ? currentMovie.category : '';
 
             // Prioritize same category, then random
@@ -725,25 +885,43 @@
             <line x1="9" y1="9" x2="15" y2="15"/>
           </svg>
           <h2>Video Not Found</h2>
-          <p>${msg}</p>
+          <p id="errorMsg"></p>
           <a href="index.html" class="action-btn primary" style="display: inline-flex; text-decoration: none;">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9"/><path d="M9 21V12h6v9"/></svg>
             Back to Home
           </a>
         </div>
       `;
+            // Set message via textContent to prevent XSS
+            document.getElementById('errorMsg').textContent = msg;
         }
 
         // ── Initialize ──
         async function init() {
-            const videoId = getVideoId();
-            if (!videoId) {
+            // Set theme icon
+            const themeBtn = document.getElementById('themeToggle');
+            if (themeBtn) {
+                const theme = document.documentElement.getAttribute('data-theme') || 'dark';
+                themeBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+            }
+
+            try {
+                await loadSiteConfig();
+                applyPlayerConfig();
+            } catch (e) {
+                console.warn('Could not load site config:', e);
+            }
+
+            const video = getVideoId();
+            if (!video) {
                 showError('No video ID provided. Please select a movie from the home page.');
                 return;
             }
 
+            const { id: videoId, source } = video;
+
             // Load player immediately
-            loadPlayer(videoId);
+            loadPlayer(videoId, source);
 
             // Fetch movie data
             try {
@@ -754,11 +932,21 @@
                 currentMovie = allMovies.find(m => m.id === videoId);
 
                 if (currentMovie) {
-                    setMovieInfo(currentMovie);
+                    setMovieInfo(currentMovie, source);
                 } else {
                     // Still play the video even if not in our DB
-                    document.getElementById('videoTitle').textContent = 'YouTube Video';
-                    document.getElementById('youtubeLink').href = `https://www.youtube.com/watch?v=${videoId}`;
+                    document.getElementById('videoTitle').textContent = source === 'dailymotion' ? 'Dailymotion Video' : 'YouTube Video';
+                    const ytLink = document.getElementById('youtubeLink');
+                    if (source === 'dailymotion') {
+                        ytLink.href = `https://www.dailymotion.com/video/${videoId}`;
+                        ytLink.innerHTML = `
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="5,3 19,12 5,21"></polygon>
+                            </svg>
+                            Watch on Dailymotion`;
+                    } else {
+                        ytLink.href = `https://www.youtube.com/watch?v=${videoId}`;
+                    }
                 }
 
                 showRelated(allMovies, videoId);

@@ -1,0 +1,12 @@
+{
+  "name": "Movies Hub",
+  "short_name": "MoviesHub",
+  "description": "Discover free full-length movies and shows on YouTube",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {"src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎬</text></svg>", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}
