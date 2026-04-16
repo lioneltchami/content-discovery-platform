@@ -119,6 +119,17 @@ function createMovieCard(movie) {
   });
   card.appendChild(bookmarkBtn);
 
+  // Hover detail
+  const hoverDetail = document.createElement('div');
+  hoverDetail.className = 'card-hover-detail';
+  hoverDetail.innerHTML = `
+    <span>${escapeHtml(movie.uploader || 'Unknown uploader')}</span>
+    <span>${formatDuration(movie.duration)}</span>
+    <span>${formatViews(movie.view_count)}</span>
+    ${movie.source === 'dailymotion' ? '<span>Dailymotion</span>' : ''}
+  `;
+  card.querySelector('.card-body').appendChild(hoverDetail);
+
   // Recently watched tracking
   card.addEventListener('click', () => addToRecentlyWatched(movie.id));
 
@@ -446,14 +457,34 @@ function renderFilterButtons() {
     bar.appendChild(btn);
   }
 
-  // Cartoon show buttons
-  for (const [key, show] of Object.entries(siteConfig.cartoon_shows)) {
-    const btn = document.createElement('button');
-    btn.className = 'filter-btn';
-    btn.dataset.category = `cartoons/${key}`;
-    btn.textContent = `${show.icon} ${show.display_name}`;
-    btn.addEventListener('click', () => filterMovies(`cartoons/${key}`));
-    bar.appendChild(btn);
+  // Cartoon shows dropdown
+  if (siteConfig.cartoon_shows && Object.keys(siteConfig.cartoon_shows).length > 0) {
+    const dropdownWrapper = document.createElement('div');
+    dropdownWrapper.className = 'filter-dropdown';
+
+    const dropdownBtn = document.createElement('button');
+    dropdownBtn.className = 'filter-btn filter-dropdown-toggle';
+    dropdownBtn.innerHTML = '📺 Shows ▾';
+    dropdownBtn.addEventListener('click', () => {
+      dropdownWrapper.classList.toggle('open');
+      dropdownBtn.innerHTML = dropdownWrapper.classList.contains('open') ? '📺 Shows ▴' : '📺 Shows ▾';
+    });
+    dropdownWrapper.appendChild(dropdownBtn);
+
+    const dropdownContent = document.createElement('div');
+    dropdownContent.className = 'filter-dropdown-content';
+
+    for (const [key, show] of Object.entries(siteConfig.cartoon_shows)) {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn';
+      btn.dataset.category = `cartoons/${key}`;
+      btn.textContent = `${show.icon} ${show.display_name}`;
+      btn.addEventListener('click', () => filterMovies(`cartoons/${key}`));
+      dropdownContent.appendChild(btn);
+    }
+
+    dropdownWrapper.appendChild(dropdownContent);
+    bar.appendChild(dropdownWrapper);
   }
 
   // Surprise Me button
@@ -617,6 +648,31 @@ function getRecentlyWatched() {
   return JSON.parse(localStorage.getItem('recentlyWatched') || '[]');
 }
 
+// ── Featured Video ──
+function renderFeatured() {
+  if (!allMovies.length) return;
+  const top = allMovies.reduce((a, b) => (b.view_count || 0) > (a.view_count || 0) ? b : a);
+  const card = document.getElementById('featuredCard');
+  const section = document.getElementById('featuredSection');
+  if (!card || !section) return;
+  const thumb = top.thumbnail || `https://i.ytimg.com/vi/${top.id}/hqdefault.jpg`;
+  card.innerHTML = `
+    <img src="${thumb}" alt="${escapeHtml(top.title)}" />
+    <div class="featured-overlay">
+      <div class="featured-title">${escapeHtml(top.title)}</div>
+      <div class="featured-meta">
+        <span class="featured-badge">${escapeHtml(top.category || 'Unknown')}</span>
+        <span>${formatViews(top.view_count)}</span>
+        <span>${escapeHtml(top.uploader || '')}</span>
+      </div>
+    </div>
+  `;
+  card.addEventListener('click', () => {
+    window.location.href = `player.html?v=${top.id}&source=${top.source || 'youtube'}`;
+  });
+  section.style.display = '';
+}
+
 // ── Initialize ──
 async function init() {
   initTheme();
@@ -646,6 +702,7 @@ async function init() {
     } catch (e) { /* placeholders are optional */ }
 
     updateStats(allMovies);
+    renderFeatured();
     renderMovies(allMovies);
   } catch (error) {
     console.error('Error loading content:', error);
