@@ -1,5 +1,78 @@
 {
-    "last_updated": "2026-04-16T16:27:32.825745Z",
-    "total_movies": 0,
-    "movies": []
+    "last_updated": "2026-04-16T16:53:04.600430Z",
+    "total_movies": 4,
+    "movies": [
+        {
+            "id": "gE8jWh-FJ94",
+            "title": "All Quiet on the Western Front (1930) OSCAR WINNER🍕 LEWIS MILESTONE",
+            "url": "https://www.youtube.com/watch?v=gE8jWh-FJ94",
+            "duration": 8094.0,
+            "view_count": 6673,
+            "uploader": "PizzaFlix",
+            "category": "western",
+            "channel_tags": [
+                "classic",
+                "noir",
+                "western"
+            ],
+            "channel_name": "PizzaFlix",
+            "thumbnail": "https://i.ytimg.com/vi/gE8jWh-FJ94/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-a8JNzMgaueL6Y7MYl1gAYJOMZg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:04.060826Z"
+        },
+        {
+            "id": "Bc7rvKHUWa0",
+            "title": "The Texan (1930) GARY COOPER🍕 FAY WRAY 🍕 FULL MOVIE WESTERN",
+            "url": "https://www.youtube.com/watch?v=Bc7rvKHUWa0",
+            "duration": 4829.0,
+            "view_count": 51440,
+            "uploader": "PizzaFlix",
+            "category": "western",
+            "channel_tags": [
+                "classic",
+                "noir",
+                "western"
+            ],
+            "channel_name": "PizzaFlix",
+            "thumbnail": "https://i.ytimg.com/vi/Bc7rvKHUWa0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWfG4pZh8nl56mt1vfr1PnBq2rFQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:05.689920Z"
+        },
+        {
+            "id": "___1aNS5EvY",
+            "title": "The Deadly Companions | FULL MOVIE | Sam Peckinpah, Maureen O'Hara | Western Action Adventure",
+            "url": "https://www.youtube.com/watch?v=___1aNS5EvY",
+            "duration": 5588.0,
+            "view_count": 3591,
+            "uploader": "Shout Studios",
+            "category": "western",
+            "channel_tags": [
+                "action",
+                "classic",
+                "comedy"
+            ],
+            "channel_name": "Shout Studios",
+            "thumbnail": "https://i.ytimg.com/vi/___1aNS5EvY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBtPuNQvSvk2UGe2AbksP78sQWgIA",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:09.964574Z"
+        },
+        {
+            "id": "a3U8mcnI4Mw",
+            "title": "Bullets For The Dead FULL MOVIE | Western Movies | Christopher Sommers | The Midnight Screening",
+            "url": "https://www.youtube.com/watch?v=a3U8mcnI4Mw",
+            "duration": 5691.0,
+            "view_count": 3062,
+            "uploader": "The Midnight Screening",
+            "category": "western",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "scifi"
+            ],
+            "channel_name": "The Midnight Screening",
+            "thumbnail": "https://i.ytimg.com/vi/a3U8mcnI4Mw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9sThwRkv43DatwXvcW8veIoU0cA",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:53:01.983803Z"
+        }
+    ]
 }

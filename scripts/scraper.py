@@ -75,6 +75,35 @@ def detect_language_tags(title):
     return tags
 
 
+def classify_genre(title, channel_tags):
+    """Classify a video's genre from its title keywords, falling back to channel tags."""
+    t = title.lower()
+    # Check title for genre keywords (order matters — first match wins)
+    genre_keywords = {
+        'horror': ['horror', 'zombie', 'undead', 'haunted', 'slasher', 'exorcis', 'demonic', 'nightmare'],
+        'documentary': ['documentary', 'doc ', 'true story', 'investigation', 'frontline', 'nature'],
+        'scifi': ['sci-fi', 'sci fi', 'alien', 'space', 'martian', 'robot', 'futuris', 'dystop'],
+        'thriller': ['thriller', 'suspense', 'kidnap', 'hostage', 'conspiracy', 'psycholog'],
+        'comedy': ['comedy', 'romcom', 'rom-com', 'hilarious', 'funny', 'laugh'],
+        'drama': ['drama', 'romance', 'love story', 'heartbreak', 'family', 'emotional'],
+        'western': ['western', 'cowboy', 'frontier', 'gunslinger', 'outlaw'],
+        'classic': ['classic', 'noir', 'remaster', '1940', '1950', '1960', 'golden age'],
+        'asian': ['korean', 'japanese', 'chinese', 'kung fu', 'martial art', 'samurai', 'anime'],
+        'action': ['action', 'explosion', 'combat', 'fight', 'battle', 'war ', 'sniper', 'assassin'],
+    }
+    for genre, keywords in genre_keywords.items():
+        if genre in (config.get('categories', {}).keys()):
+            for kw in keywords:
+                if kw in t:
+                    return genre
+    # Fall back to first channel tag that matches a configured category
+    cat_keys = set(config.get('categories', {}).keys())
+    for tag in channel_tags:
+        if tag in cat_keys:
+            return tag
+    return channel_tags[0] if channel_tags else 'uncategorized'
+
+
 def scrape_from_channels():
     """Scrape movies from trusted YouTube channels."""
     all_movies = []
@@ -116,6 +145,9 @@ def scrape_from_channels():
                     if not video_id or not title:
                         continue
 
+                    # Classify genre from title keywords + channel tags
+                    category = classify_genre(title, tags)
+
                     movie_data = {
                         'id': video_id,
                         'title': title,
@@ -123,7 +155,7 @@ def scrape_from_channels():
                         'duration': duration,
                         'view_count': video.get('view_count') or 0,
                         'uploader': video.get('uploader') or name,
-                        'category': primary_tag,
+                        'category': category,
                         'channel_tags': tags,
                         'channel_name': name,
                         'thumbnail': video.get('thumbnails', [{}])[-1].get('url', '') if video.get('thumbnails') else f'https://i.ytimg.com/vi/{video_id}/hqdefault.jpg',

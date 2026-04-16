@@ -1,29 +1,250 @@
 {
-    "last_updated": "2026-04-16T16:27:32.822504Z",
-    "total_movies": 5,
+    "last_updated": "2026-04-16T16:53:04.602778Z",
+    "total_movies": 19,
     "movies": [
+        {
+            "id": "-4zN_ceKWH0",
+            "title": "He Was Abducted by Aliens & Made To Fight | Star Warrior: The Legend Of Aciris | Action Sci-Fi Movie",
+            "url": "https://www.youtube.com/watch?v=-4zN_ceKWH0",
+            "duration": 4701.0,
+            "view_count": 10756,
+            "uploader": "Movie Central",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/-4zN_ceKWH0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCL2gPPQhJCRJgpnZVkzoORIUVOkQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:35.511318Z"
+        },
+        {
+            "id": "wbo2nyt2kBc",
+            "title": "This Vampire Will Stop A War | Perfect Creature | 2025 Action Vampire Sci-Fi Movie",
+            "url": "https://www.youtube.com/watch?v=wbo2nyt2kBc",
+            "duration": 5232.0,
+            "view_count": 1942783,
+            "uploader": "Movie Central",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/wbo2nyt2kBc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPotE0SsvNykrRrCk2ccDp0enFfg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:36.519674Z"
+        },
+        {
+            "id": "8CmbJJIvEkk",
+            "title": "The Government Has Implanted AI In Everyones Head | The Tangle | 2025 Sci-Fi Movie",
+            "url": "https://www.youtube.com/watch?v=8CmbJJIvEkk",
+            "duration": 5975.0,
+            "view_count": 13801,
+            "uploader": "Movie Central",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/8CmbJJIvEkk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBWc86H7r43EVEQAYsefR8c8cWZJQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:37.334680Z"
+        },
+        {
+            "id": "7YkoXDuYxgA",
+            "title": "The Mermaid Who Changed The World | Mermaids' Lament | Full 2025 Drama Sci-Fi Movie",
+            "url": "https://www.youtube.com/watch?v=7YkoXDuYxgA",
+            "duration": 5365.0,
+            "view_count": 53093,
+            "uploader": "Movie Central",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/7YkoXDuYxgA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC4aMF4GeZjnnW62iQDB2xxNnHTbQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:37.741865Z"
+        },
+        {
+            "id": "tX6zRKoD60s",
+            "title": "Martians Return to a War-Torn Earth | Red Earth | Full 2026 Sci-Fi Movie",
+            "url": "https://www.youtube.com/watch?v=tX6zRKoD60s",
+            "duration": 3793.0,
+            "view_count": 10655,
+            "uploader": "Movie Central",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/tX6zRKoD60s/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBN1TacrIQWqVmAWJNQ_Hn1jDusoQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:38.355299Z"
+        },
+        {
+            "id": "QgxlWRcydRk",
+            "title": "Alien Autopsy: Fact or Fiction? Uncut | Unexplained UFOs",
+            "url": "https://www.youtube.com/watch?v=QgxlWRcydRk",
+            "duration": 2722.0,
+            "view_count": 4472,
+            "uploader": "FilmRise Movies",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "drama"
+            ],
+            "channel_name": "FilmRise Movies",
+            "thumbnail": "https://i.ytimg.com/vi/QgxlWRcydRk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCb3XYsKavSLTRYEEFW3SqGl3GTcQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:47.117177Z"
+        },
+        {
+            "id": "wgBnLO4Pnb0",
+            "title": "FARRAH BATTLES ROBOT! Saturn 3 | FULL MOVIE | Sci Fi Cult Classic | Farrah Fawcett, Kirk Douglas",
+            "url": "https://www.youtube.com/watch?v=wgBnLO4Pnb0",
+            "duration": 5231.0,
+            "view_count": 271507,
+            "uploader": "PopcornFlix",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "PopcornFlix",
+            "thumbnail": "https://i.ytimg.com/vi/wgBnLO4Pnb0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCD_VfF3sutKWtRBxQ5q1Fpt0nyxQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:50.721152Z"
+        },
+        {
+            "id": "eXPFCTYqCag",
+            "title": "Halo 4: Forward Unto Dawn | FULL MOVIE | Action, Sci Fi | Master Cheif",
+            "url": "https://www.youtube.com/watch?v=eXPFCTYqCag",
+            "duration": 5483.0,
+            "view_count": 292178,
+            "uploader": "PopcornFlix",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "PopcornFlix",
+            "thumbnail": "https://i.ytimg.com/vi/eXPFCTYqCag/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBH-liC9dHEsDyaxb6It0pQKmdumA",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:51.534530Z"
+        },
+        {
+            "id": "RNhrBGZZ_Tc",
+            "title": "Fallout | FULL MOVIE | Action, Thriller, Space Wars | Daniel Baldwin, Frank Zagarino",
+            "url": "https://www.youtube.com/watch?v=RNhrBGZZ_Tc",
+            "duration": 5695.0,
+            "view_count": 138891,
+            "uploader": "PopcornFlix",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "PopcornFlix",
+            "thumbnail": "https://i.ytimg.com/vi/RNhrBGZZ_Tc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYsGpGprkz8IelcozEzoIK9DIPWg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:51.735022Z"
+        },
+        {
+            "id": "eyihLtR4BH0",
+            "title": "Static (2008) | FULL MOVIE | Sci-Fi, Action, Thriller | Kathleen Robertson",
+            "url": "https://www.youtube.com/watch?v=eyihLtR4BH0",
+            "duration": 5459.0,
+            "view_count": 76570,
+            "uploader": "PopcornFlix",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "PopcornFlix",
+            "thumbnail": "https://i.ytimg.com/vi/eyihLtR4BH0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA60xJVspTK3AOJQH5FOq2WMpLnkg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:51:55.599891Z"
+        },
+        {
+            "id": "epRyUAXWo9k",
+            "title": "NEW HD RESTORATION🍕 Target Earth (1954) COLD WAR SCI-FI🍕 FULL MOVIE",
+            "url": "https://www.youtube.com/watch?v=epRyUAXWo9k",
+            "duration": 4523.0,
+            "view_count": 173211,
+            "uploader": "PizzaFlix",
+            "category": "scifi",
+            "channel_tags": [
+                "classic",
+                "noir",
+                "western"
+            ],
+            "channel_name": "PizzaFlix",
+            "thumbnail": "https://i.ytimg.com/vi/epRyUAXWo9k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-ZhGUqKZtnpljkuK4ZI5ueKIWmg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:04.665034Z"
+        },
         {
             "id": "gulzQIkwbJg",
             "title": "Sci-Fi Short Film \"The Greatest Lie\" | DUST",
             "url": "https://www.youtube.com/watch?v=gulzQIkwbJg",
             "duration": 1278.0,
-            "view_count": 55022,
+            "view_count": 55112,
             "uploader": "DUST",
             "category": "scifi",
             "channel_tags": [
                 "scifi"
             ],
             "channel_name": "DUST",
-            "thumbnail": "https://i.ytimg.com/vi/gulzQIkwbJg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCt5Gc1Q5QL7l6Wgv9_65C_ec_G_Q",
+            "thumbnail": "https://i.ytimg.com/vi/gulzQIkwbJg/hqdefault_custom_2.jpg?sqp=CLimhM8G-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCnOk5U-Bc7dcmWqDJnsN9kQbqtYg",
             "source": "youtube",
-            "added_date": "2026-04-16T16:27:02.860571Z"
+            "added_date": "2026-04-16T16:52:34.556107Z"
         },
         {
             "id": "TBzepYD1b64",
             "title": "Sci-Fi Short Film \"The Lord of All Future Space & Time\" | DUST",
             "url": "https://www.youtube.com/watch?v=TBzepYD1b64",
             "duration": 1390.0,
-            "view_count": 237339,
+            "view_count": 237358,
             "uploader": "DUST and ELECTRIC BLANKET",
             "category": "scifi",
             "channel_tags": [
@@ -32,14 +253,14 @@
             "channel_name": "DUST",
             "thumbnail": "https://i.ytimg.com/vi/TBzepYD1b64/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvRIkR4a5WMLFjFf436K4IzRp2rg",
             "source": "youtube",
-            "added_date": "2026-04-16T16:27:03.062908Z"
+            "added_date": "2026-04-16T16:52:34.761192Z"
         },
         {
             "id": "jsgubGPj8d4",
             "title": "Sci-Fi Short Film \"The Machine\" | DUST",
             "url": "https://www.youtube.com/watch?v=jsgubGPj8d4",
             "duration": 1487.0,
-            "view_count": 394954,
+            "view_count": 394979,
             "uploader": "DUST",
             "category": "scifi",
             "channel_tags": [
@@ -48,7 +269,7 @@
             "channel_name": "DUST",
             "thumbnail": "https://i.ytimg.com/vi/jsgubGPj8d4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABVeb28PtCFGX62NX4AJgkXo5TZg",
             "source": "youtube",
-            "added_date": "2026-04-16T16:27:03.264980Z"
+            "added_date": "2026-04-16T16:52:34.964023Z"
         },
         {
             "id": "Kn0EsPRaMIA",
@@ -64,7 +285,7 @@
             "channel_name": "DUST",
             "thumbnail": "https://i.ytimg.com/vi/Kn0EsPRaMIA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ4Bl24EVjxlaF8aFc-V2DKKUf3w",
             "source": "youtube",
-            "added_date": "2026-04-16T16:27:03.468672Z"
+            "added_date": "2026-04-16T16:52:35.169144Z"
         },
         {
             "id": "L94wmFssQbs",
@@ -80,7 +301,61 @@
             "channel_name": "DUST",
             "thumbnail": "https://i.ytimg.com/vi/L94wmFssQbs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaLmm7VQerIsRLGP7BzXMHzeIK8w",
             "source": "youtube",
-            "added_date": "2026-04-16T16:27:03.670969Z"
+            "added_date": "2026-04-16T16:52:35.372856Z"
+        },
+        {
+            "id": "1CpitDfxe-8",
+            "title": "The Shadow Men FULL MOVIE | Eric Roberts | Sci-Fi Movies | The Midnight Screening",
+            "url": "https://www.youtube.com/watch?v=1CpitDfxe-8",
+            "duration": 5427.0,
+            "view_count": 123552,
+            "uploader": "The Midnight Screening",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "scifi"
+            ],
+            "channel_name": "The Midnight Screening",
+            "thumbnail": "https://i.ytimg.com/vi/1CpitDfxe-8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBofzdDf9Y6CbZygnlEt5sdXWXpdg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:58.524551Z"
+        },
+        {
+            "id": "LD5ybWHwN3A",
+            "title": "Being FULL MOVIE | Sci-Fi Thriller Movies | Robert John Burke | The Midnight Screening",
+            "url": "https://www.youtube.com/watch?v=LD5ybWHwN3A",
+            "duration": 5101.0,
+            "view_count": 115351,
+            "uploader": "The Midnight Screening",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "scifi"
+            ],
+            "channel_name": "The Midnight Screening",
+            "thumbnail": "https://i.ytimg.com/vi/LD5ybWHwN3A/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD6kB-_RxlQ_5SVft6BL0iLgdKuNw",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:59.947423Z"
+        },
+        {
+            "id": "R4NbFLqApAQ",
+            "title": "Robot World FULL MOVIE | Ian Rowe | Sci-Fi Movies | The Midnight Screening",
+            "url": "https://www.youtube.com/watch?v=R4NbFLqApAQ",
+            "duration": 4774.0,
+            "view_count": 9074,
+            "uploader": "The Midnight Screening",
+            "category": "scifi",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "scifi"
+            ],
+            "channel_name": "The Midnight Screening",
+            "thumbnail": "https://i.ytimg.com/vi/R4NbFLqApAQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBGBEP7Q4v1YLEG5Lz0wnQMoaY0tw",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:53:00.357498Z"
         }
     ]
 }

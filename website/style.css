@@ -413,12 +413,9 @@ a {
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
-  gap: 0.6rem;
-  overflow-x: auto;
-  scrollbar-width: thin;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   padding-bottom: 4px;
-  padding-right: 2rem;
-  -webkit-overflow-scrolling: touch;
 }
 
 /* scrollbar visible for discoverability */
