@@ -18,7 +18,7 @@ site:
   background_color: "#0a0a1a"
   logo_emoji: "🎬"
   footer_text: "A free, open-source content discovery platform powered by YouTube."
-  github_repo: "https://github.com/samyak2403/daily-movies-api"
+  github_repo: "https://github.com/lioneltchami/content-discovery-platform"
   content_label: "video"
   content_label_plural: "videos"
 
