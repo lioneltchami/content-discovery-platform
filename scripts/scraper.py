@@ -101,7 +101,11 @@ def classify_genre(title, channel_tags):
     for tag in channel_tags:
         if tag in cat_keys:
             return tag
-    return channel_tags[0] if channel_tags else 'uncategorized'
+    # Fall back to first channel tag (even if not in categories), or first configured category
+    if channel_tags:
+        return channel_tags[0]
+    cat_keys = list(config.get('categories', {}).keys())
+    return cat_keys[0] if cat_keys else 'other'
 
 
 def scrape_from_channels():

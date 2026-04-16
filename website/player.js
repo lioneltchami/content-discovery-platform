@@ -1,14 +1,6 @@
 // ── Player State ──
 let siteConfig = null;
 
-function toggleTheme() {
-    const current = document.documentElement.getAttribute('data-theme') || 'dark';
-    const next = current === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
-    const btn = document.getElementById('themeToggle');
-    if (btn) btn.textContent = next === 'dark' ? '☀️' : '🌙';
-}
 let API_URL = '';
 let currentMovie = null;
 let allMovies = [];
@@ -84,19 +76,7 @@ function applyPlayerConfig() {
     const footerYear = document.getElementById('playerFooterYear');
     if (footerYear) footerYear.textContent = new Date().getFullYear();
 
-    // Footer categories
-    const footerCats = document.getElementById('playerFooterCategories');
-    if (footerCats && siteConfig.categories) {
-        footerCats.innerHTML = '';
-        for (const [key, cat] of Object.entries(siteConfig.categories)) {
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            a.href = '/';
-            a.textContent = cat.display_name;
-            li.appendChild(a);
-            footerCats.appendChild(li);
-        }
-    }
+
 }
 
 // ── Get video ID and source from URL params ──
@@ -407,12 +387,12 @@ async function init() {
     try {
         await loadSiteConfig();
         applyPlayerConfig();
-        renderNavbar('player');
-        renderFooter();
+        if (typeof renderNavbar === 'function') renderNavbar('player');
+        if (typeof renderFooter === 'function') renderFooter();
     } catch (e) {
         console.warn('Could not load site config:', e);
-        renderNavbar('player');
-        renderFooter();
+        if (typeof renderNavbar === 'function') renderNavbar('player');
+        if (typeof renderFooter === 'function') renderFooter();
     }
 
     const video = getVideoId();

@@ -2,28 +2,6 @@
 // Config-Driven Content Hub – Main Script
 // ==============================
 
-// ── Theme Toggle ──
-function initTheme() {
-  const saved = localStorage.getItem('theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  const theme = saved || (prefersDark ? 'dark' : 'light');
-  document.documentElement.setAttribute('data-theme', theme);
-  updateThemeIcon(theme);
-}
-
-function toggleTheme() {
-  const current = document.documentElement.getAttribute('data-theme') || 'dark';
-  const next = current === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('theme', next);
-  updateThemeIcon(next);
-}
-
-function updateThemeIcon(theme) {
-  const btn = document.getElementById('themeToggle');
-  if (btn) btn.textContent = theme === 'dark' ? '☀️' : '🌙';
-}
-
 let siteConfig = null;
 
 async function loadSiteConfig() {
@@ -548,25 +526,6 @@ function applySiteIdentity() {
 
   const footerDesc = document.querySelector('.footer-brand p');
   if (footerDesc) footerDesc.textContent = s.footer_text;
-
-  // Footer categories
-  const footerCats = document.getElementById('footerCategories');
-  if (footerCats) {
-    footerCats.innerHTML = '';
-    for (const [key, cat] of Object.entries(siteConfig.categories)) {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = '#';
-      a.textContent = cat.display_name;
-      a.addEventListener('click', (e) => {
-        e.preventDefault();
-        filterMovies(key);
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-      li.appendChild(a);
-      footerCats.appendChild(li);
-    }
-  }
 
   // GitHub links
   const navGithub = document.getElementById('navGithubLink');
