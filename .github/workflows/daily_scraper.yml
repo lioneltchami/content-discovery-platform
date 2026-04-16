@@ -60,6 +60,9 @@ jobs:
       - name: Generate placeholder colors
         run: python scripts/generate_placeholders.py
 
+      - name: Generate recommendations
+        run: python scripts/generate_recommendations.py
+
       - name: Generate RSS feeds
         run: python scripts/generate_feeds.py
 

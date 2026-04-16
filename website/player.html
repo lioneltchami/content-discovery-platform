@@ -10,6 +10,10 @@
     <meta property="og:description" content="Watch free content powered by YouTube." />
     <meta property="og:type" content="video.movie" />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:image" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
     <link rel="manifest" href="manifest.json" />
     <meta name="theme-color" content="#7c3aed" />
     <link rel="stylesheet" href="style.css" />
@@ -545,6 +549,7 @@
         let API_URL = '';
         let currentMovie = null;
         let allMovies = [];
+        let recommendations = {};
         let isLoop = false;
         let isTheater = false;
 
@@ -858,17 +863,27 @@
                 const label = siteConfig.site.content_label_plural || 'Videos';
                 heading.textContent = `${siteConfig.site.logo_emoji || '🎬'} More ${label.charAt(0).toUpperCase() + label.slice(1)}`;
             }
-            const currentCat = currentMovie ? currentMovie.category : '';
 
-            // Prioritize same category, then random
-            let related = movies
-                .filter(m => m.id !== currentId)
-                .sort((a, b) => {
-                    if (a.category === currentCat && b.category !== currentCat) return -1;
-                    if (a.category !== currentCat && b.category === currentCat) return 1;
-                    return (b.view_count || 0) - (a.view_count || 0);
-                })
-                .slice(0, 8);
+            let related = [];
+
+            // Use pre-computed recommendations if available
+            const recIds = recommendations[currentId];
+            if (recIds && recIds.length > 0) {
+                related = recIds.map(id => movies.find(m => m.id === id)).filter(Boolean).slice(0, 8);
+            }
+
+            // Fallback: category-based + view count sorting
+            if (related.length < 4) {
+                const currentCat = currentMovie ? currentMovie.category : '';
+                const fallback = movies
+                    .filter(m => m.id !== currentId && !related.find(r => r.id === m.id))
+                    .sort((a, b) => {
+                        if (a.category === currentCat && b.category !== currentCat) return -1;
+                        if (a.category !== currentCat && b.category === currentCat) return 1;
+                        return (b.view_count || 0) - (a.view_count || 0);
+                    });
+                related = [...related, ...fallback].slice(0, 8);
+            }
 
             grid.innerHTML = '';
             related.forEach(m => grid.appendChild(createRelatedCard(m)));
@@ -894,6 +909,27 @@
       `;
             // Set message via textContent to prevent XSS
             document.getElementById('errorMsg').textContent = msg;
+        }
+
+        function updateOGTags(movie, source) {
+            const title = movie.title || 'Video';
+            const desc = `Watch ${title} - ${movie.category || ''} | ${(movie.uploader || 'Unknown')}`;
+            const thumb = movie.thumbnail || `https://i.ytimg.com/vi/${movie.id}/hqdefault.jpg`;
+            const name = (siteConfig && siteConfig.site && siteConfig.site.name) || 'ContentHub';
+            const ogImageUrl = `/api/og-image?title=${encodeURIComponent(title)}&thumbnail=${encodeURIComponent(thumb)}&category=${encodeURIComponent(movie.category || '')}&source=${source}&siteName=${encodeURIComponent(name)}`;
+
+            const tags = {
+                'meta[property="og:title"]': title,
+                'meta[property="og:description"]': desc,
+                'meta[property="og:image"]': ogImageUrl,
+                'meta[name="twitter:title"]': title,
+                'meta[name="twitter:description"]': desc,
+                'meta[name="twitter:image"]': ogImageUrl
+            };
+            for (const [sel, val] of Object.entries(tags)) {
+                const el = document.querySelector(sel);
+                if (el) el.content = val;
+            }
         }
 
         // ── Initialize ──
@@ -929,10 +965,21 @@
                 const data = await res.json();
                 allMovies = data.movies || [];
 
+                // Fetch recommendations
+                try {
+                    const apiBase = API_URL.replace(/\/movies\.json$/, '');
+                    const recRes = await fetch(apiBase + '/recommendations.json');
+                    if (recRes.ok) {
+                        const recData = await recRes.json();
+                        recommendations = recData.recommendations || {};
+                    }
+                } catch(e) { /* graceful fallback */ }
+
                 currentMovie = allMovies.find(m => m.id === videoId);
 
                 if (currentMovie) {
                     setMovieInfo(currentMovie, source);
+                    updateOGTags(currentMovie, source);
                 } else {
                     // Still play the video even if not in our DB
                     document.getElementById('videoTitle').textContent = source === 'dailymotion' ? 'Dailymotion Video' : 'YouTube Video';
