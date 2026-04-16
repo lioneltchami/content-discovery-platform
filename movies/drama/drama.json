@@ -1,13 +1,13 @@
 {
-    "last_updated": "2026-04-16T16:53:04.603200Z",
-    "total_movies": 15,
+    "last_updated": "2026-04-16T19:53:05.757103Z",
+    "total_movies": 22,
     "movies": [
         {
             "id": "h2IVAXWgk5E",
             "title": "They Fall In Love Making Music Together | Everything I Ever Wanted | Full Drama Romance Movie",
             "url": "https://www.youtube.com/watch?v=h2IVAXWgk5E",
             "duration": 6202.0,
-            "view_count": 23466,
+            "view_count": 23765,
             "uploader": "Movie Central",
             "category": "drama",
             "channel_tags": [
@@ -28,7 +28,7 @@
             "title": "High School Sweethearts Reunite In Eternity | Endless | Full 2025 Romance Movie",
             "url": "https://www.youtube.com/watch?v=m7qMdFNaepQ",
             "duration": 5655.0,
-            "view_count": 15681,
+            "view_count": 15701,
             "uploader": "Movie Central",
             "category": "drama",
             "channel_tags": [
@@ -49,7 +49,7 @@
             "title": "Friendship Shattered by Tragedy | Middletown | Full 2025 Drama Movie",
             "url": "https://www.youtube.com/watch?v=BsVfvmS4z8s",
             "duration": 6796.0,
-            "view_count": 10182,
+            "view_count": 10187,
             "uploader": "Movie Central",
             "category": "drama",
             "channel_tags": [
@@ -91,7 +91,7 @@
             "title": "Lover’s Prayer | Love, Obsession, and Heartbreak | Full Movie",
             "url": "https://www.youtube.com/watch?v=DGJfl0E_084",
             "duration": 6361.0,
-            "view_count": 57388,
+            "view_count": 57395,
             "uploader": "FilmRise Movies",
             "category": "drama",
             "channel_tags": [
@@ -109,7 +109,7 @@
             "title": "Vengeance: A Love Story | Full Movie",
             "url": "https://www.youtube.com/watch?v=Qqu2NASymfM",
             "duration": 5930.0,
-            "view_count": 430393,
+            "view_count": 430766,
             "uploader": "FilmRise Movies",
             "category": "drama",
             "channel_tags": [
@@ -127,7 +127,7 @@
             "title": "The Family Holiday | Free Full Movie | FilmRise",
             "url": "https://www.youtube.com/watch?v=tdPYVVpFIHs",
             "duration": 5290.0,
-            "view_count": 105587,
+            "view_count": 105590,
             "uploader": "FilmRise Movies",
             "category": "drama",
             "channel_tags": [
@@ -163,7 +163,7 @@
             "title": "Romance (MGM, 1930) GRETA GARBO🍕 OSCAR NOMINEE🍕 FULL MOVIE",
             "url": "https://www.youtube.com/watch?v=r-rnJpiySj8",
             "duration": 4648.0,
-            "view_count": 12425,
+            "view_count": 12433,
             "uploader": "PizzaFlix",
             "category": "drama",
             "channel_tags": [
@@ -181,7 +181,7 @@
             "title": "A Piece Of Cake | FULL MOVIE | Family Fantasy Animation Adventure",
             "url": "https://www.youtube.com/watch?v=XaaUyj8QlgA",
             "duration": 4684.0,
-            "view_count": 10448,
+            "view_count": 10482,
             "uploader": "Shout Studios",
             "category": "drama",
             "channel_tags": [
@@ -271,7 +271,7 @@
             "title": "The Trail FULL MOVIE | Western Drama Movies | Jet Jandreau & Shannon Brown | The Midnight Screening",
             "url": "https://www.youtube.com/watch?v=ZSsJ-LfmBuk",
             "duration": 5427.0,
-            "view_count": 524854,
+            "view_count": 525032,
             "uploader": "The Midnight Screening",
             "category": "drama",
             "channel_tags": [
@@ -283,6 +283,135 @@
             "thumbnail": "https://i.ytimg.com/vi/ZSsJ-LfmBuk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmTmlAzpj6WR3CPlGlWbWsvK9IzQ",
             "source": "youtube",
             "added_date": "2026-04-16T16:53:01.581542Z"
+        },
+        {
+            "id": "iDWxMfa4H9E",
+            "title": "A Secret Pregnancy Changes Her Life | An Irish Angel | Full Free 2025 Drama Movie",
+            "url": "https://www.youtube.com/watch?v=iDWxMfa4H9E",
+            "duration": 6437.0,
+            "view_count": 3089,
+            "uploader": "Movie Central",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/iDWxMfa4H9E/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC2E7ju81dzQkn_W_rOlubakVIUUw",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:51:40.967163Z"
+        },
+        {
+            "id": "QeoFgWwGD1Q",
+            "title": "Shadow of Fear | Thrilling Crime Drama | Full Movie",
+            "url": "https://www.youtube.com/watch?v=QeoFgWwGD1Q",
+            "duration": 5319.0,
+            "view_count": 26798,
+            "uploader": "FilmRise Movies",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "drama"
+            ],
+            "channel_name": "FilmRise Movies",
+            "thumbnail": "https://i.ytimg.com/vi/QeoFgWwGD1Q/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD4WpYdDZ-W4OC741gMd2HFaBzm4g",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:51:46.050075Z"
+        },
+        {
+            "id": "xm1wgDsrgUk",
+            "title": "Love, Bubbles, And Crystal Cove | Sweet Second Chance Romance | Full Movie",
+            "url": "https://www.youtube.com/watch?v=xm1wgDsrgUk",
+            "duration": 5224.0,
+            "view_count": 93624,
+            "uploader": "FilmRise Movies",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "drama"
+            ],
+            "channel_name": "FilmRise Movies",
+            "thumbnail": "https://i.ytimg.com/vi/xm1wgDsrgUk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDN_ICtZ4TAZxO0PIoSF-2FzX3icQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:51:47.452810Z"
+        },
+        {
+            "id": "jxA9d4WmseE",
+            "title": "Love’s Second Chance | A Heartwarming Romance | Full Movie",
+            "url": "https://www.youtube.com/watch?v=jxA9d4WmseE",
+            "duration": 5494.0,
+            "view_count": 69165,
+            "uploader": "FilmRise Movies",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "drama"
+            ],
+            "channel_name": "FilmRise Movies",
+            "thumbnail": "https://i.ytimg.com/vi/jxA9d4WmseE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdv0etnf6EJ5IlWSbN9ZR1j4uWHQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:51:48.254310Z"
+        },
+        {
+            "id": "bAu322XAcXA",
+            "title": "Sea Wolf | PART 2 of 2 | FULL MOVIE | Tim Roth, Neve Campbell | Adventure Romance Drama",
+            "url": "https://www.youtube.com/watch?v=bAu322XAcXA",
+            "duration": 5545.0,
+            "view_count": 11971,
+            "uploader": "Shout Studios",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "classic",
+                "comedy"
+            ],
+            "channel_name": "Shout Studios",
+            "thumbnail": "https://i.ytimg.com/vi/bAu322XAcXA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDuQ416kuCT7tJrRmgv4Jn8N98gqQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:52:14.117445Z"
+        },
+        {
+            "id": "SdRLISgbJEc",
+            "title": "Sea Wolf | PART 1 of 2 | FULL MOVIE | Tim Roth, Neve Campbell | Adventure Romance Drama",
+            "url": "https://www.youtube.com/watch?v=SdRLISgbJEc",
+            "duration": 5534.0,
+            "view_count": 34907,
+            "uploader": "Shout Studios",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "classic",
+                "comedy"
+            ],
+            "channel_name": "Shout Studios",
+            "thumbnail": "https://i.ytimg.com/vi/SdRLISgbJEc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrl54_SAgulKPx7evJ2B6Xsh5X4Q",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:52:14.317848Z"
+        },
+        {
+            "id": "jWELB2NaePk",
+            "title": "Racetime | FULL MOVIE | Family Animation Winter Adventure",
+            "url": "https://www.youtube.com/watch?v=jWELB2NaePk",
+            "duration": 5394.0,
+            "view_count": 8349,
+            "uploader": "Shout Studios",
+            "category": "drama",
+            "channel_tags": [
+                "action",
+                "classic",
+                "comedy"
+            ],
+            "channel_name": "Shout Studios",
+            "thumbnail": "https://i.ytimg.com/vi/jWELB2NaePk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCtzRNrdTm1SHosWme3NMV3_gHisQ",
+            "source": "youtube",
+            "added_date": "2026-04-16T19:52:15.520041Z"
         }
     ]
 }
