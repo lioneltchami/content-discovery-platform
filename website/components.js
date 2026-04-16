@@ -1,81 +1,51 @@
 // ── Shared Components ──
-// Renders navbar and footer from siteConfig (or sensible defaults).
-
-function renderNavbar(activePage) {
-  const nav = document.getElementById('navbar');
-  if (!nav) return;
-  const s = (window.siteConfig && window.siteConfig.site) || {};
-  const name = s.name || 'ContentHub';
-  const emoji = s.logo_emoji || '🎬';
-  const ghRepo = s.github_repo || '#';
-  const parts = name.split(' ');
-  const logoHtml = parts.length > 1
-    ? _esc(parts[0]) + '<span>' + _esc(parts.slice(1).join(' ')) + '</span>'
-    : _esc(name);
-  const isHome = activePage === 'home';
-  const isDocs = activePage === 'docs';
-  const showSync = isHome && typeof showSyncModal === 'function';
-  const theme = document.documentElement.getAttribute('data-theme') || 'dark';
-
-  nav.innerHTML = `<div class="navbar-inner">
-    <a href="/" class="logo">
-      <div class="logo-icon">${emoji}</div>
-      <div class="logo-text">${logoHtml}</div>
-    </a>
-    <ul class="nav-links">
-      <li><a href="/"${isHome ? ' class="active"' : ''}>Home</a></li>
-      <li><a href="/docs"${isDocs ? ' class="active"' : ''}>Docs</a></li>
-      <li><a href="${_esc(ghRepo)}" target="_blank" rel="noopener">GitHub</a></li>
-    </ul>
-    ${showSync ? '<button class="sync-btn" onclick="showSyncModal()" aria-label="Sync data" title="Save or restore your watchlist">🔄</button>' : ''}
-    <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle dark/light mode">${theme === 'dark' ? '☀️' : '🌙'}</button>
-  </div>`;
-}
-
-function renderFooter() {
-  const el = document.getElementById('footer');
-  if (!el) return;
-  const s = (window.siteConfig && window.siteConfig.site) || {};
-  const cats = (window.siteConfig && window.siteConfig.categories) || {};
-  const name = s.name || 'ContentHub';
-  const emoji = s.logo_emoji || '🎬';
-  const ghRepo = s.github_repo || '#';
-  const footerText = s.footer_text || 'A free, open-source content discovery platform powered by YouTube.';
-  const parts = name.split(' ');
-  const brandHtml = parts.length > 1
-    ? _esc(parts[0]) + '<span>' + _esc(parts.slice(1).join(' ')) + '</span>'
-    : _esc(name);
-
-  const catItems = Object.entries(cats).map(([, c]) =>
-    `<li><a href="/">${_esc(c.display_name || '')}</a></li>`
-  ).join('');
-
-  el.innerHTML = `<div class="footer-inner">
-    <div class="footer-brand">
-      <h3>${brandHtml}</h3>
-      <p>${_esc(footerText)}</p>
-    </div>
-    <div class="footer-col">
-      <h4>Categories</h4>
-      <ul>${catItems}</ul>
-    </div>
-    <div class="footer-col">
-      <h4>Resources</h4>
-      <ul>
-        <li><a href="/docs">API Documentation</a></li>
-        <li><a href="${_esc(ghRepo)}" target="_blank" rel="noopener">GitHub Repo</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>&copy; ${new Date().getFullYear()} ${_esc(name)}.</span>
-    <span>Updated daily via GitHub Actions</span>
-  </div>`;
-}
+// Renders navbar and footer from siteConfig. Same on every page.
 
 function _esc(t) {
   if (!t) return '';
   var d = document.createElement('div');
   d.textContent = t;
   return d.innerHTML;
+}
+
+function renderNavbar(activePage) {
+  var nav = document.getElementById('navbar');
+  if (!nav) return;
+  var s = (window.siteConfig && window.siteConfig.site) || {};
+  var name = s.name || 'ContentHub';
+  var emoji = s.logo_emoji || '🎬';
+  var ghRepo = s.github_repo || '';
+  var theme = document.documentElement.getAttribute('data-theme') || 'dark';
+
+  nav.innerHTML =
+    '<div class="navbar-inner">' +
+      '<a href="/" class="logo">' +
+        '<div class="logo-icon">' + emoji + '</div>' +
+        '<div class="logo-text">' + _esc(name) + '</div>' +
+      '</a>' +
+      '<div class="nav-right">' +
+        '<ul class="nav-links">' +
+          '<li><a href="/"' + (activePage === 'home' ? ' class="active"' : '') + '>Home</a></li>' +
+          '<li><a href="/docs"' + (activePage === 'docs' ? ' class="active"' : '') + '>Docs</a></li>' +
+        '</ul>' +
+        (typeof showSyncModal === 'function' ? '<button class="sync-btn" onclick="showSyncModal()" aria-label="Sync data" title="Save or restore your data">🔄</button>' : '') +
+        '<button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme">' + (theme === 'dark' ? '☀️' : '🌙') + '</button>' +
+        (ghRepo ? '<a href="' + _esc(ghRepo) + '" target="_blank" rel="noopener" class="nav-github" aria-label="GitHub" title="View on GitHub"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg></a>' : '') +
+      '</div>' +
+    '</div>';
+}
+
+function renderFooter() {
+  var el = document.getElementById('footer');
+  if (!el) return;
+  var s = (window.siteConfig && window.siteConfig.site) || {};
+  var name = s.name || 'ContentHub';
+  var footerText = s.footer_text || '';
+  var year = new Date().getFullYear();
+
+  el.innerHTML =
+    '<div class="footer-bottom">' +
+      '<span>' + _esc(footerText || '© ' + year + ' ' + name) + '</span>' +
+      '<span>© ' + year + ' ' + _esc(name) + '</span>' +
+    '</div>';
 }
