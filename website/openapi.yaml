@@ -1,0 +1,195 @@
+openapi: 3.0.3
+info:
+  title: Content Discovery Platform API
+  description: |
+    A config-driven content discovery platform that curates YouTube and Dailymotion
+    videos into structured JSON feeds. All endpoints return static JSON files —
+    no authentication required.
+  version: "1.0.0"
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+
+servers:
+  - url: https://raw.githubusercontent.com/{owner}/{repo}/main/movies
+    description: GitHub Raw Content
+    variables:
+      owner:
+        default: samyak2403
+      repo:
+        default: daily-movies-api
+
+paths:
+  /movies.json:
+    get:
+      summary: Get all content
+      description: Returns all movies/videos across all categories
+      responses:
+        '200':
+          description: Combined content feed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MovieResponse'
+
+  /trending.json:
+    get:
+      summary: Get trending content
+      description: Top 50 videos sorted by view count
+      responses:
+        '200':
+          description: Trending content feed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MovieResponse'
+
+  /{category}/{category}.json:
+    get:
+      summary: Get content by category
+      parameters:
+        - name: category
+          in: path
+          required: true
+          schema:
+            type: string
+            enum: [hindi, marathi, english, tamil, telugu, kannada, comedy, cartoons]
+      responses:
+        '200':
+          description: Category content feed
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MovieResponse'
+
+  /search_index.json:
+    get:
+      summary: Get search index
+      description: Pre-built inverted index for client-side full-text search
+      responses:
+        '200':
+          description: Search index
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchIndex'
+
+  /changelog.json:
+    get:
+      summary: Get changelog
+      description: History of content additions per scrape run
+      responses:
+        '200':
+          description: Changelog
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Changelog'
+
+  /feeds/all.xml:
+    get:
+      summary: RSS feed (all content)
+      responses:
+        '200':
+          description: RSS 2.0 feed
+          content:
+            application/rss+xml: {}
+
+  /feeds/trending.xml:
+    get:
+      summary: RSS feed (trending)
+      responses:
+        '200':
+          description: RSS 2.0 feed
+          content:
+            application/rss+xml: {}
+
+components:
+  schemas:
+    MovieResponse:
+      type: object
+      properties:
+        last_updated:
+          type: string
+          format: date-time
+        total_movies:
+          type: integer
+        movies:
+          type: array
+          items:
+            $ref: '#/components/schemas/Movie'
+
+    Movie:
+      type: object
+      required: [id, title, url, category]
+      properties:
+        id:
+          type: string
+          description: YouTube or Dailymotion video ID
+        title:
+          type: string
+        url:
+          type: string
+          format: uri
+        duration:
+          type: integer
+          description: Duration in seconds
+        view_count:
+          type: integer
+        uploader:
+          type: string
+        category:
+          type: string
+        thumbnail:
+          type: string
+          format: uri
+        source:
+          type: string
+          enum: [youtube, dailymotion]
+        added_date:
+          type: string
+          format: date-time
+        dubbed:
+          type: string
+          description: Dubbed language if detected
+        subtitles:
+          type: string
+          description: Subtitle language if detected
+
+    SearchIndex:
+      type: object
+      properties:
+        version:
+          type: integer
+        total_entries:
+          type: integer
+        generated_at:
+          type: string
+          format: date-time
+        index:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string
+
+    Changelog:
+      type: object
+      properties:
+        last_updated:
+          type: string
+          format: date-time
+        history:
+          type: array
+          items:
+            type: object
+            properties:
+              timestamp:
+                type: string
+                format: date-time
+              added:
+                type: array
+                items:
+                  type: string
+              added_count:
+                type: integer

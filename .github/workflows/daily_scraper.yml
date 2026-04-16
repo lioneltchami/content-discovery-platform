@@ -57,6 +57,9 @@ jobs:
       - name: Generate search index
         run: python scripts/generate_search_index.py
 
+      - name: Generate placeholder colors
+        run: python scripts/generate_placeholders.py
+
       - name: Generate RSS feeds
         run: python scripts/generate_feeds.py
 
@@ -65,7 +68,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-          git add movies/ movies/feeds/ website/site-config.json
+          git add movies/ movies/feeds/ movies/v1/ website/site-config.json
 
           # Only commit if there are actual changes
           if git diff --cached --quiet; then

@@ -49,6 +49,7 @@ const PAGE_SIZE = 48;
 let currentPage = 1;
 let allMovies = [];
 let currentFilter = 'all';
+let placeholderColors = {};
 
 // ── Format duration (seconds → h:mm:ss) ──
 function formatDuration(seconds) {
@@ -77,9 +78,10 @@ function createMovieCard(movie) {
 
   const thumbnailUrl = movie.thumbnail || `https://i.ytimg.com/vi/${movie.id}/hqdefault.jpg`;
   const sourceBadge = movie.source === 'dailymotion' ? 'DM' : 'YT';
+  const placeholderColor = placeholderColors[movie.id] || '#1a1a2e';
 
   card.innerHTML = `
-    <div class="card-thumbnail">
+    <div class="card-thumbnail" style="background:${placeholderColor}">
       <img src="${thumbnailUrl}" alt="${escapeHtml(movie.title)}" loading="lazy" />
       <span class="card-duration">${formatDuration(movie.duration)}</span>
       <span class="card-category-badge">${escapeHtml(movie.category || 'Unknown')}</span>
@@ -634,6 +636,13 @@ async function init() {
     if (!res.ok) throw new Error('Failed to fetch content');
     const data = await res.json();
     allMovies = data.movies || [];
+
+    // Load placeholder colors (non-blocking)
+    try {
+      const pUrl = getApiUrl().replace('movies.json', 'placeholders.json');
+      const pRes = await fetch(pUrl);
+      if (pRes.ok) placeholderColors = await pRes.json();
+    } catch (e) { /* placeholders are optional */ }
 
     updateStats(allMovies);
     renderMovies(allMovies);

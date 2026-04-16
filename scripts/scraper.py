@@ -439,6 +439,16 @@ def save_all(new_movies):
     trending = sorted(unique_all, key=lambda m: m.get('view_count', 0), reverse=True)[:50]
     save_json(trending, os.path.join(OUTPUT_DIR, "trending.json"))
 
+    # ── Save versioned API copy ──
+    v1_dir = os.path.join(OUTPUT_DIR, 'v1')
+    os.makedirs(v1_dir, exist_ok=True)
+    import shutil
+    shutil.copy2(combined_file, os.path.join(v1_dir, 'movies.json'))
+    trending_src = os.path.join(OUTPUT_DIR, 'trending.json')
+    if os.path.exists(trending_src):
+        shutil.copy2(trending_src, os.path.join(v1_dir, 'trending.json'))
+    print(f'  Saved versioned API at {v1_dir}/')
+
 
 if __name__ == "__main__":
     print(f"Starting YouTube movie discovery at {datetime.now()}...")
