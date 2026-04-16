@@ -14,64 +14,52 @@
   },
   "categories": [
     {
-      "key": "hindi",
-      "display_name": "Hindi",
-      "icon": "🎬",
-      "type": "movie"
-    },
-    {
-      "key": "english",
-      "display_name": "English",
-      "icon": "🌍",
-      "type": "movie"
-    },
-    {
-      "key": "tamil",
-      "display_name": "Tamil",
-      "icon": "⭐",
-      "type": "movie"
-    },
-    {
-      "key": "telugu",
-      "display_name": "Telugu",
-      "icon": "🎭",
-      "type": "movie"
-    },
-    {
-      "key": "kannada",
-      "display_name": "Kannada",
-      "icon": "🎥",
-      "type": "movie"
-    },
-    {
-      "key": "marathi",
-      "display_name": "Marathi",
-      "icon": "📜",
+      "key": "action",
+      "display_name": "Action",
+      "icon": "💥",
       "type": "movie"
     },
     {
       "key": "comedy",
       "display_name": "Comedy",
       "icon": "😂",
-      "type": "show"
+      "type": "movie"
     },
     {
-      "key": "taarak_mehta",
-      "display_name": "Taarak Mehta",
-      "icon": "📺",
-      "type": "show"
+      "key": "drama",
+      "display_name": "Drama",
+      "icon": "🎭",
+      "type": "movie"
     },
     {
-      "key": "yam_hain_hum",
-      "display_name": "Yam Hain Hum",
-      "icon": "👨‍👩‍👧",
-      "type": "show"
+      "key": "documentary",
+      "display_name": "Documentary",
+      "icon": "🌍",
+      "type": "movie"
     },
     {
-      "key": "cartoons",
-      "display_name": "Cartoons",
+      "key": "thriller",
+      "display_name": "Thriller",
+      "icon": "🔪",
+      "type": "movie"
+    },
+    {
+      "key": "scifi",
+      "display_name": "Scifi",
+      "icon": "🚀",
+      "type": "movie"
+    },
+    {
+      "key": "classic",
+      "display_name": "Classic",
+      "icon": "🎞️",
+      "type": "movie"
+    },
+    {
+      "key": "animated",
+      "display_name": "Animated",
       "icon": "🧸",
-      "type": "cartoon"
+      "type": "movie"
     }
   ],
   "cartoon_shows": [],

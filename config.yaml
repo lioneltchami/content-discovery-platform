@@ -30,78 +30,62 @@ scraper:
     min_resolution: 480
 
 # ── Content Categories ──
-# These match the existing scraped data.
-# Replace with your own categories when you run the scraper.
 categories:
-  hindi:
-    query: "full movie hindi"
+  action:
+    query: "full action movie free"
     type: movie
     min_duration: 2400
-    icon: "🎬"
+    icon: "💥"
     sources: [youtube, dailymotion]
 
-  english:
-    query: "full movie english"
+  comedy:
+    query: "full comedy movie free"
     type: movie
     min_duration: 2400
-    icon: "🌍"
+    icon: "😂"
     sources: [youtube, dailymotion]
 
-  tamil:
-    query: "full movie tamil"
-    type: movie
-    min_duration: 2400
-    icon: "⭐"
-    sources: [youtube, dailymotion]
-
-  telugu:
-    query: "full movie telugu"
+  drama:
+    query: "full drama movie free"
     type: movie
     min_duration: 2400
     icon: "🎭"
     sources: [youtube, dailymotion]
 
-  kannada:
-    query: "full movie kannada"
+  documentary:
+    query: "full documentary free"
     type: movie
-    min_duration: 2400
-    icon: "🎥"
+    min_duration: 1800
+    icon: "🌍"
     sources: [youtube, dailymotion]
 
-  marathi:
-    query: "full movie marathi"
+  thriller:
+    query: "full thriller movie free"
     type: movie
     min_duration: 2400
-    icon: "📜"
+    icon: "🔪"
     sources: [youtube, dailymotion]
 
-  comedy:
-    query: "comedy videos"
-    type: show
-    min_duration: 600
-    icon: "😂"
-    sources: [youtube]
+  scifi:
+    query: "full sci-fi movie free"
+    type: movie
+    min_duration: 2400
+    icon: "🚀"
+    sources: [youtube, dailymotion]
 
-  taarak_mehta:
-    query: "taarak mehta ka ooltah chashmah"
-    type: show
-    min_duration: 600
-    icon: "📺"
-    sources: [youtube]
+  classic:
+    query: "classic movie full free"
+    type: movie
+    min_duration: 2400
+    icon: "🎞️"
+    sources: [youtube, dailymotion]
 
-  yam_hain_hum:
-    query: "yam hain hum"
-    type: show
-    min_duration: 600
-    icon: "👨‍👩‍👧"
-    sources: [youtube]
-
-  cartoons:
-    query: "cartoon full movie for kids"
-    type: cartoon
-    min_duration: 600
+  animated:
+    query: "full animated movie free"
+    type: movie
+    min_duration: 2400
     icon: "🧸"
-    sources: [youtube]
+    sources: [youtube, dailymotion]
 
 # ── Sponsorship ──
 sponsorship:
