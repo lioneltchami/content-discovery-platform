@@ -1,10 +1,7 @@
 # ============================================================
 # Content Discovery Platform — Configuration
 # ============================================================
-# This file defines everything about your content platform:
-# what to scrape, how to categorize it, and how the site looks.
-#
-# To create your own platform, fork this repo and edit this file.
+# Edit this file to define your platform's content and branding.
 # See examples/ for ready-made configs (NollyHub, AI Hub, GospelStream).
 # ============================================================
 
@@ -17,7 +14,7 @@ site:
   accent_color: "#ec4899"
   background_color: "#0a0a1a"
   logo_emoji: "🎬"
-  footer_text: "A free, open-source content discovery platform powered by YouTube."
+  footer_text: ""
   github_repo: "https://github.com/lioneltchami/content-discovery-platform"
   content_label: "video"
   content_label_plural: "videos"
@@ -30,102 +27,81 @@ scraper:
   default_sources:
     - youtube
   quality:
-    min_resolution: 480    # Minimum video height in pixels (filters low-quality uploads)
+    min_resolution: 480
 
 # ── Content Categories ──
-# Define your categories below. Each one becomes a YouTube search
-# and a filter button on the website.
-#
-# Fields:
-#   query:        YouTube search string
-#   type:         movie | show | cartoon | music | tutorial | sermon | news
-#   min_duration: Minimum video duration in seconds
-#   icon:         Emoji for the filter button
-#
-# ── EXAMPLE: General entertainment (replace with your niche!) ──
+# These match the existing scraped data.
+# Replace with your own categories when you run the scraper.
 categories:
-  action_movies:
-    query: "full action movie free"
+  hindi:
+    query: "full movie hindi"
     type: movie
     min_duration: 2400
-    icon: "💥"
-    sources:
-      - youtube
-      - dailymotion
+    icon: "🎬"
+    sources: [youtube, dailymotion]
 
-  comedy_movies:
-    query: "full comedy movie free"
+  english:
+    query: "full movie english"
     type: movie
     min_duration: 2400
-    icon: "😂"
-    sources:
-      - youtube
-      - dailymotion
+    icon: "🌍"
+    sources: [youtube, dailymotion]
 
-  drama_movies:
-    query: "full drama movie free"
+  tamil:
+    query: "full movie tamil"
+    type: movie
+    min_duration: 2400
+    icon: "⭐"
+    sources: [youtube, dailymotion]
+
+  telugu:
+    query: "full movie telugu"
     type: movie
     min_duration: 2400
     icon: "🎭"
-    sources:
-      - youtube
-      - dailymotion
+    sources: [youtube, dailymotion]
 
-  documentaries:
-    query: "full documentary free"
-    type: movie
-    min_duration: 1800
-    icon: "🌍"
-    sources:
-      - youtube
-      - dailymotion
-
-  thriller_movies:
-    query: "full thriller movie free"
+  kannada:
+    query: "full movie kannada"
     type: movie
     min_duration: 2400
-    icon: "🔪"
-    sources:
-      - youtube
-      - dailymotion
+    icon: "🎥"
+    sources: [youtube, dailymotion]
 
-  scifi_movies:
-    query: "full sci-fi movie free"
+  marathi:
+    query: "full movie marathi"
     type: movie
     min_duration: 2400
-    icon: "🚀"
-    sources:
-      - youtube
-      - dailymotion
+    icon: "📜"
+    sources: [youtube, dailymotion]
 
-  classic_movies:
-    query: "classic movie full free"
-    type: movie
-    min_duration: 2400
-    icon: "🎞️"
-    sources:
-      - youtube
-      - dailymotion
+  comedy:
+    query: "comedy videos"
+    type: show
+    min_duration: 600
+    icon: "😂"
+    sources: [youtube]
 
-  animated_movies:
-    query: "full animated movie free"
-    type: movie
-    min_duration: 2400
+  taarak_mehta:
+    query: "taarak mehta ka ooltah chashmah"
+    type: show
+    min_duration: 600
+    icon: "📺"
+    sources: [youtube]
+
+  yam_hain_hum:
+    query: "yam hain hum"
+    type: show
+    min_duration: 600
+    icon: "👨‍👩‍👧"
+    sources: [youtube]
+
+  cartoons:
+    query: "cartoon full movie for kids"
+    type: cartoon
+    min_duration: 600
     icon: "🧸"
-    sources:
-      - youtube
-      - dailymotion
-
-# ── Subcategories (optional) ──
-# Use this for nested content like TV show episodes, podcast series, etc.
-# Each entry gets its own subfolder: {output_dir}/cartoons/{name}/{name}.json
-# Remove this section entirely if you don't need subcategories.
-#
-# cartoon_shows:
-#   show_name:
-#     query: "show name full episodes"
-#     icon: "🎬"
-#     display_name: "Show Name"
+    sources: [youtube]
 
 # ── Sponsorship ──
 sponsorship:

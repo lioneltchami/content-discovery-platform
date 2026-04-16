@@ -40,12 +40,10 @@ function renderFooter() {
   if (!el) return;
   var s = (window.siteConfig && window.siteConfig.site) || {};
   var name = s.name || 'ContentHub';
-  var footerText = s.footer_text || '';
   var year = new Date().getFullYear();
 
   el.innerHTML =
     '<div class="footer-bottom">' +
-      '<span>' + _esc(footerText || '© ' + year + ' ' + name) + '</span>' +
-      '<span>© ' + year + ' ' + _esc(name) + '</span>' +
+      '<span>&copy; ' + year + ' ' + _esc(name) + '. All rights reserved.</span>' +
     '</div>';
 }

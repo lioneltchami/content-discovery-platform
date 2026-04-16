@@ -7,59 +7,71 @@
     "accent_color": "#ec4899",
     "background_color": "#0a0a1a",
     "logo_emoji": "🎬",
-    "footer_text": "A free, open-source content discovery platform powered by YouTube.",
+    "footer_text": "",
     "github_repo": "https://github.com/lioneltchami/content-discovery-platform",
     "content_label": "video",
     "content_label_plural": "videos"
   },
   "categories": [
     {
-      "key": "action_movies",
-      "display_name": "Action Movies",
-      "icon": "💥",
+      "key": "hindi",
+      "display_name": "Hindi",
+      "icon": "🎬",
       "type": "movie"
     },
     {
-      "key": "comedy_movies",
-      "display_name": "Comedy Movies",
-      "icon": "😂",
-      "type": "movie"
-    },
-    {
-      "key": "drama_movies",
-      "display_name": "Drama Movies",
-      "icon": "🎭",
-      "type": "movie"
-    },
-    {
-      "key": "documentaries",
-      "display_name": "Documentaries",
+      "key": "english",
+      "display_name": "English",
       "icon": "🌍",
       "type": "movie"
     },
     {
-      "key": "thriller_movies",
-      "display_name": "Thriller Movies",
-      "icon": "🔪",
+      "key": "tamil",
+      "display_name": "Tamil",
+      "icon": "⭐",
       "type": "movie"
     },
     {
-      "key": "scifi_movies",
-      "display_name": "Scifi Movies",
-      "icon": "🚀",
+      "key": "telugu",
+      "display_name": "Telugu",
+      "icon": "🎭",
       "type": "movie"
     },
     {
-      "key": "classic_movies",
-      "display_name": "Classic Movies",
-      "icon": "🎞️",
+      "key": "kannada",
+      "display_name": "Kannada",
+      "icon": "🎥",
       "type": "movie"
     },
     {
-      "key": "animated_movies",
-      "display_name": "Animated Movies",
+      "key": "marathi",
+      "display_name": "Marathi",
+      "icon": "📜",
+      "type": "movie"
+    },
+    {
+      "key": "comedy",
+      "display_name": "Comedy",
+      "icon": "😂",
+      "type": "show"
+    },
+    {
+      "key": "taarak_mehta",
+      "display_name": "Taarak Mehta",
+      "icon": "📺",
+      "type": "show"
+    },
+    {
+      "key": "yam_hain_hum",
+      "display_name": "Yam Hain Hum",
+      "icon": "👨‍👩‍👧",
+      "type": "show"
+    },
+    {
+      "key": "cartoons",
+      "display_name": "Cartoons",
       "icon": "🧸",
-      "type": "movie"
+      "type": "cartoon"
     }
   ],
   "cartoon_shows": [],
@@ -72,5 +84,5 @@
     "message": "If you find this useful, consider supporting the project!"
   },
   "api_base_url": "movies",
-  "generated_at": "2026-04-16T07:09:55.745520Z"
+  "generated_at": "2026-04-16T07:30:25.227030Z"
 }

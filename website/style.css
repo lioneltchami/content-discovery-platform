@@ -415,13 +415,13 @@ a {
   display: flex;
   gap: 0.6rem;
   overflow-x: auto;
-  scrollbar-width: none;
+  scrollbar-width: thin;
   padding-bottom: 4px;
+  padding-right: 2rem;
+  -webkit-overflow-scrolling: touch;
 }
 
-.filter-bar::-webkit-scrollbar {
-  display: none;
-}
+/* scrollbar visible for discoverability */
 
 .filter-btn {
   flex-shrink: 0;
