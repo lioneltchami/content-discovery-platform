@@ -1,7 +1,7 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/website/$1" }
-  ],
+  "buildCommand": "",
+  "outputDirectory": "website",
+  "framework": null,
   "functions": {
     "api/*.js": {
       "memory": 128
