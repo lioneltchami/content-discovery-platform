@@ -1,17 +1,17 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
     <title>ContentHub — Trending</title>
     <description>A config-driven content discovery platform. Define your categories, and the pipeline handles the rest.</description>
     <link>https://github.com/lioneltchami/content-discovery-platform</link>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Apr 2026 07:19:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 07:32:54 +0000</lastBuildDate>
     <item>
       <title>Tom &amp; Jerry | Tom &amp; Jerry in Full Screen | Classic Cartoon Compilation | WB Kids</title>
       <link>https://www.youtube.com/watch?v=t0Q2otsqC4I</link>
       <description>Category: cartoons/tom_and_jerry | Duration: 21m | Views: 952.4M | Source: YouTube</description>
       <guid isPermaLink="false">t0Q2otsqC4I</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/t0Q2otsqC4I/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -19,7 +19,7 @@
       <link>https://www.youtube.com/watch?v=AGBjI0x9VbM</link>
       <description>Category: cartoons/tom_and_jerry | Duration: 25m | Views: 763.5M | Source: YouTube</description>
       <guid isPermaLink="false">AGBjI0x9VbM</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/AGBjI0x9VbM/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -27,7 +27,7 @@
       <link>https://www.youtube.com/watch?v=XOnHtStmbCI</link>
       <description>Category: cartoons | Duration: 30m | Views: 684.4M | Source: YouTube</description>
       <guid isPermaLink="false">XOnHtStmbCI</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/XOnHtStmbCI/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -35,7 +35,7 @@
       <link>https://www.youtube.com/watch?v=zzhfvt5vZHI</link>
       <description>Category: hindi | Duration: 2h 30m | Views: 447.9M | Source: YouTube</description>
       <guid isPermaLink="false">zzhfvt5vZHI</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/zzhfvt5vZHI/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -43,7 +43,7 @@
       <link>https://www.youtube.com/watch?v=TF4x-xyzUJg</link>
       <description>Category: cartoons/vir_the_robot_boy | Duration: 11m | Views: 435.4M | Source: YouTube</description>
       <guid isPermaLink="false">TF4x-xyzUJg</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/TF4x-xyzUJg/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -51,7 +51,7 @@
       <link>https://www.youtube.com/watch?v=jCvSEuHms5M</link>
       <description>Category: cartoons/masha_and_the_bear | Duration: 29m | Views: 424.6M | Source: YouTube</description>
       <guid isPermaLink="false">jCvSEuHms5M</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/jCvSEuHms5M/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -59,7 +59,7 @@
       <link>https://www.youtube.com/watch?v=6ydn-_RTs3g</link>
       <description>Category: cartoons/super_bheem | Duration: 22m | Views: 312.2M | Source: YouTube</description>
       <guid isPermaLink="false">6ydn-_RTs3g</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/6ydn-_RTs3g/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -67,7 +67,7 @@
       <link>https://www.youtube.com/watch?v=jzYxbnHHhY4</link>
       <description>Category: hindi | Duration: 2h 28m | Views: 307.2M | Source: YouTube</description>
       <guid isPermaLink="false">jzYxbnHHhY4</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/jzYxbnHHhY4/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -75,15 +75,15 @@
       <link>https://www.youtube.com/watch?v=HfEVEGf1A8Q</link>
       <description>Category: cartoons | Duration: 1h 21m | Views: 299.3M | Source: YouTube</description>
       <guid isPermaLink="false">HfEVEGf1A8Q</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
-      <enclosure url="https://i.ytimg.com/vi/HfEVEGf1A8Q/hq720.jpg" type="image/jpeg" length="0" />
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
+      <enclosure url="https://i.ytimg.com/vi/HfEVEGf1A8Q/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLCihvB_eVtdu4cYEyxS6q232-AElg" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>माशा एंड द बेयर 💥जैम बनाने का दन🍓🍒संग्रह 3⏱ 30 मिनट</title>
       <link>https://www.youtube.com/watch?v=OixM_1vwP3E</link>
       <description>Category: cartoons/masha_and_the_bear | Duration: 31m | Views: 279.2M | Source: YouTube</description>
       <guid isPermaLink="false">OixM_1vwP3E</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/OixM_1vwP3E/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -91,7 +91,7 @@
       <link>https://www.youtube.com/watch?v=rilFfbm7j8k</link>
       <description>Category: cartoons/tom_and_jerry | Duration: 19m | Views: 276.3M | Source: YouTube</description>
       <guid isPermaLink="false">rilFfbm7j8k</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/rilFfbm7j8k/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -99,7 +99,7 @@
       <link>https://www.youtube.com/watch?v=eguEydMIbNY</link>
       <description>Category: cartoons/masha_and_the_bear | Duration: 31m | Views: 269.2M | Source: YouTube</description>
       <guid isPermaLink="false">eguEydMIbNY</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/eguEydMIbNY/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -107,7 +107,7 @@
       <link>https://www.youtube.com/watch?v=e0jrQnmUY5U</link>
       <description>Category: cartoons/vir_the_robot_boy | Duration: 10m | Views: 266.9M | Source: YouTube</description>
       <guid isPermaLink="false">e0jrQnmUY5U</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/e0jrQnmUY5U/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -115,15 +115,15 @@
       <link>https://www.youtube.com/watch?v=LS6XiINMc2s</link>
       <description>Category: telugu | Duration: 2h 41m | Views: 238.9M | Source: YouTube</description>
       <guid isPermaLink="false">LS6XiINMc2s</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
-      <enclosure url="https://i.ytimg.com/vi/LS6XiINMc2s/hq720.jpg" type="image/jpeg" length="0" />
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
+      <enclosure url="https://i.ytimg.com/vi/LS6XiINMc2s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&amp;rs=AOn4CLC0hp5VZTXMF31VCaeKd0gaCnOo2A" type="image/jpeg" length="0" />
     </item>
     <item>
       <title>Baarish Lallantap - Bandbudh Aur Budbak New Episode - Funny Hindi Cartoon For Kids</title>
       <link>https://www.youtube.com/watch?v=uJXNupHFKwQ</link>
       <description>Category: cartoons/bandbudh_aur_budbak | Duration: 10m | Views: 232.6M | Source: YouTube</description>
       <guid isPermaLink="false">uJXNupHFKwQ</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/uJXNupHFKwQ/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -131,7 +131,7 @@
       <link>https://www.youtube.com/watch?v=pckuS--UlV4</link>
       <description>Category: cartoons | Duration: 12m | Views: 231.4M | Source: YouTube</description>
       <guid isPermaLink="false">pckuS--UlV4</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/pckuS--UlV4/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -139,7 +139,7 @@
       <link>https://www.youtube.com/watch?v=j0mkLJ0KeI8</link>
       <description>Category: cartoons/vir_the_robot_boy | Duration: 22m | Views: 220.7M | Source: YouTube</description>
       <guid isPermaLink="false">j0mkLJ0KeI8</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/j0mkLJ0KeI8/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -147,7 +147,7 @@
       <link>https://www.youtube.com/watch?v=gEbbHlMXE9Y</link>
       <description>Category: cartoons | Duration: 1h 6m | Views: 214.2M | Source: YouTube</description>
       <guid isPermaLink="false">gEbbHlMXE9Y</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/gEbbHlMXE9Y/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -155,7 +155,7 @@
       <link>https://www.youtube.com/watch?v=j8w7DzNgShg</link>
       <description>Category: hindi | Duration: 2h 53m | Views: 189.2M | Source: YouTube</description>
       <guid isPermaLink="false">j8w7DzNgShg</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/j8w7DzNgShg/hq720.jpg" type="image/jpeg" length="0" />
     </item>
     <item>
@@ -163,7 +163,7 @@
       <link>https://www.youtube.com/watch?v=d72vXhJDE6M</link>
       <description>Category: comedy | Duration: 13m | Views: 184.7M | Source: YouTube</description>
       <guid isPermaLink="false">d72vXhJDE6M</guid>
-      <pubDate>Thu, 16 Apr 2026 05:12:36 +0000</pubDate>
+      <pubDate>Thu, 16 Apr 2026 07:31:57 +0000</pubDate>
       <enclosure url="https://i.ytimg.com/vi/d72vXhJDE6M/hq720.jpg" type="image/jpeg" length="0" />
     </item>
   </channel>
