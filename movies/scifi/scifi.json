@@ -1,186 +1,86 @@
 {
-    "last_updated": "2026-04-16T15:21:52.987522Z",
-    "total_movies": 15,
+    "last_updated": "2026-04-16T16:27:32.822504Z",
+    "total_movies": 5,
     "movies": [
         {
-            "id": "inF5vSTBRo0",
-            "title": "INVASION - Wrath of GOD  | Full Movie 2026  | English | Sci-Fi | Disaster |  Horror Thriller | 4K",
-            "url": "https://www.youtube.com/watch?v=inF5vSTBRo0",
-            "duration": 3688.0,
-            "view_count": 113487,
-            "uploader": "Epic AI Films",
+            "id": "gulzQIkwbJg",
+            "title": "Sci-Fi Short Film \"The Greatest Lie\" | DUST",
+            "url": "https://www.youtube.com/watch?v=gulzQIkwbJg",
+            "duration": 1278.0,
+            "view_count": 55022,
+            "uploader": "DUST",
             "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/inF5vSTBRo0/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIfKAQcrgJ_ekcVTZE3WLUHBMQAA",
-            "added_date": "2026-04-16T15:21:36.012825Z",
-            "source": "youtube"
+            "channel_tags": [
+                "scifi"
+            ],
+            "channel_name": "DUST",
+            "thumbnail": "https://i.ytimg.com/vi/gulzQIkwbJg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCt5Gc1Q5QL7l6Wgv9_65C_ec_G_Q",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:27:02.860571Z"
         },
         {
-            "id": "WbV4bE75FbM",
-            "title": "They Came Without Warning… | Sci-Fi Action Thriller | Full Movie",
-            "url": "https://www.youtube.com/watch?v=WbV4bE75FbM",
-            "duration": 4969.0,
-            "view_count": 1395616,
-            "uploader": "Movie union",
+            "id": "TBzepYD1b64",
+            "title": "Sci-Fi Short Film \"The Lord of All Future Space & Time\" | DUST",
+            "url": "https://www.youtube.com/watch?v=TBzepYD1b64",
+            "duration": 1390.0,
+            "view_count": 237339,
+            "uploader": "DUST and ELECTRIC BLANKET",
             "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/WbV4bE75FbM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCT0gJvpH4EvrLTMBa3AYgnwhyhjA",
-            "added_date": "2026-04-16T15:21:36.214173Z",
-            "source": "youtube"
+            "channel_tags": [
+                "scifi"
+            ],
+            "channel_name": "DUST",
+            "thumbnail": "https://i.ytimg.com/vi/TBzepYD1b64/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvRIkR4a5WMLFjFf436K4IzRp2rg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:27:03.062908Z"
         },
         {
-            "id": "8xYDXqUHjVc",
-            "title": "DESTROYERS | ACTION, SCIFI | Full Movie in English",
-            "url": "https://www.youtube.com/watch?v=8xYDXqUHjVc",
-            "duration": 5570.0,
-            "view_count": 333025,
-            "uploader": "Boxoffice | ACTION | Full Movies",
+            "id": "jsgubGPj8d4",
+            "title": "Sci-Fi Short Film \"The Machine\" | DUST",
+            "url": "https://www.youtube.com/watch?v=jsgubGPj8d4",
+            "duration": 1487.0,
+            "view_count": 394954,
+            "uploader": "DUST",
             "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/8xYDXqUHjVc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDznXQJGvQZqXspvR1eUg0Pe0Nn1g",
-            "added_date": "2026-04-16T15:21:36.417462Z",
-            "source": "youtube"
+            "channel_tags": [
+                "scifi"
+            ],
+            "channel_name": "DUST",
+            "thumbnail": "https://i.ytimg.com/vi/jsgubGPj8d4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABVeb28PtCFGX62NX4AJgkXo5TZg",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:27:03.264980Z"
         },
         {
-            "id": "bFWRHrjyTUA",
-            "title": "🎬 A movie that keeps you on edge until the last second! | Bunker Project 12 | Full movie",
-            "url": "https://www.youtube.com/watch?v=bFWRHrjyTUA",
-            "duration": 5831.0,
-            "view_count": 1118470,
-            "uploader": "Red MovieLand",
+            "id": "Kn0EsPRaMIA",
+            "title": "Sci-Fi Podcast \"CHRYSALIS\" | Part Eleven: Genesis | DUST",
+            "url": "https://www.youtube.com/watch?v=Kn0EsPRaMIA",
+            "duration": 1386.0,
+            "view_count": 12490,
+            "uploader": "DUST",
             "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/bFWRHrjyTUA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzLnQ_5PHcZGBXHrLpBW5sD2Au6Q",
-            "added_date": "2026-04-16T15:21:36.619922Z",
-            "source": "youtube"
+            "channel_tags": [
+                "scifi"
+            ],
+            "channel_name": "DUST",
+            "thumbnail": "https://i.ytimg.com/vi/Kn0EsPRaMIA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZ4Bl24EVjxlaF8aFc-V2DKKUf3w",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:27:03.468672Z"
         },
         {
-            "id": "4MQZLND5zYw",
-            "title": "AFTERMATH 🎬 Exclusive Full Sci-Fi Action Movie Premiere 🎬 English HD 2024",
-            "url": "https://www.youtube.com/watch?v=4MQZLND5zYw",
-            "duration": 5259.0,
-            "view_count": 637621,
-            "uploader": "WATCH ACTION MOVIES NOW",
+            "id": "L94wmFssQbs",
+            "title": "This could be a Black Mirror episode | DUST Sci-Fi | Online Premiere",
+            "url": "https://www.youtube.com/watch?v=L94wmFssQbs",
+            "duration": 1407.0,
+            "view_count": 59158,
+            "uploader": "DUST",
             "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/4MQZLND5zYw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB_-0EesHi6cvLCz_Uzdy0DmJeRJQ",
-            "added_date": "2026-04-16T15:21:36.822682Z",
-            "source": "youtube"
-        },
-        {
-            "id": "BAmYhLWA_KE",
-            "title": "Attraction 2: Invasion | FULL ALIEN ACTION SCI-FI MOVIE | Action Zone",
-            "url": "https://www.youtube.com/watch?v=BAmYhLWA_KE",
-            "duration": 8010.0,
-            "view_count": 304068,
-            "uploader": "ACTION MOVIE ZONE",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/BAmYhLWA_KE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmLIsHD3V7DGV4_DKfjNTSl5gZQA",
-            "added_date": "2026-04-16T15:21:37.027783Z",
-            "source": "youtube"
-        },
-        {
-            "id": "MNv2SG9rwTs",
-            "title": "THE PORTAL - New Hollywood Sci-fi Action English Movie | Stranger Things In Multiverse Of Madness",
-            "url": "https://www.youtube.com/watch?v=MNv2SG9rwTs",
-            "duration": 7297.0,
-            "view_count": 728131,
-            "uploader": "Hollywood Action",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/MNv2SG9rwTs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAp61aiR638wwzAkmohegNvg9Vt8Q",
-            "added_date": "2026-04-16T15:21:37.232858Z",
-            "source": "youtube"
-        },
-        {
-            "id": "LD5ybWHwN3A",
-            "title": "Being FULL MOVIE | Sci-Fi Thriller Movies | Robert John Burke | The Midnight Screening",
-            "url": "https://www.youtube.com/watch?v=LD5ybWHwN3A",
-            "duration": 5101.0,
-            "view_count": 115293,
-            "uploader": "The Midnight Screening",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/LD5ybWHwN3A/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDPiiwDmK1_wAvKPWUt1Y4V1xqzGA",
-            "added_date": "2026-04-16T15:21:37.435312Z",
-            "source": "youtube"
-        },
-        {
-            "id": "cxyw13C8yDY",
-            "title": "Fight For Humanity’s Future | Population Zero | Full HD Sci-Fi Movie",
-            "url": "https://www.youtube.com/watch?v=cxyw13C8yDY",
-            "duration": 5541.0,
-            "view_count": 1038978,
-            "uploader": "We Got Movies",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/cxyw13C8yDY/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD37WmJTxmeYaZadDxDvrhDIEe3cQ",
-            "added_date": "2026-04-16T15:21:37.638423Z",
-            "source": "youtube"
-        },
-        {
-            "id": "1CpitDfxe-8",
-            "title": "The Shadow Men FULL MOVIE | Eric Roberts | Sci-Fi Movies | The Midnight Screening",
-            "url": "https://www.youtube.com/watch?v=1CpitDfxe-8",
-            "duration": 5427.0,
-            "view_count": 123432,
-            "uploader": "The Midnight Screening",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/1CpitDfxe-8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBXJryCVjkYgUeVuJA0tFU-c0ed5w",
-            "added_date": "2026-04-16T15:21:37.843522Z",
-            "source": "youtube"
-        },
-        {
-            "id": "hmu936_lMv8",
-            "title": "Earth's Last Warriors | SCI FI | Full Movie in English",
-            "url": "https://www.youtube.com/watch?v=hmu936_lMv8",
-            "duration": 4958.0,
-            "view_count": 1879874,
-            "uploader": "Boxoffice | SCI-FI | Full Movies",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/hmu936_lMv8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuiPPduOf8IGpgzPcemVCENn_xMA",
-            "added_date": "2026-04-16T15:21:38.045206Z",
-            "source": "youtube"
-        },
-        {
-            "id": "Ha2r9bRIQko",
-            "title": "Reset (2025) | FULL SCI-FI HORROR MOVIE | Adam Holley | Caitlin Westfall | Lorelai Brown",
-            "url": "https://www.youtube.com/watch?v=Ha2r9bRIQko",
-            "duration": 4683.0,
-            "view_count": 168987,
-            "uploader": "Flix For Free",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/Ha2r9bRIQko/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDimt5xMu5t2cPc5A7vjbHjCGUBrQ",
-            "added_date": "2026-04-16T15:21:38.246502Z",
-            "source": "youtube"
-        },
-        {
-            "id": "wbbHk_tg6eE",
-            "title": "THE 7TH DIMENSION - Cracking The Vatican's Matrix | Full SCI-FI THRILLER Movie HD",
-            "url": "https://www.youtube.com/watch?v=wbbHk_tg6eE",
-            "duration": 5721.0,
-            "view_count": 789269,
-            "uploader": "FFF First Contact | Full Free Aliens & SciFi Films",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/wbbHk_tg6eE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDM6Zu0bN3eYJygA1Dg1dVDQaOFzw",
-            "added_date": "2026-04-16T15:21:38.450370Z",
-            "source": "youtube"
-        },
-        {
-            "id": "LY9-WFwrTP8",
-            "title": "Dennis Quaid In STARFALL - Hollywood English Movie | Ben Foster | Full Action Sci-Fi English Movie",
-            "url": "https://www.youtube.com/watch?v=LY9-WFwrTP8",
-            "duration": 5968.0,
-            "view_count": 1376850,
-            "uploader": "Hollywood Action",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/LY9-WFwrTP8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDqAnEyjo8vKa-h0mjSRWNEsI8YzA",
-            "added_date": "2026-04-16T15:21:38.655456Z",
-            "source": "youtube"
-        },
-        {
-            "id": "gFBw2nT5KXA",
-            "title": "😱 A MOVIE That Action Sci-fi Fans Absolutely Need To Watch...Full in English | NORMAN: LOST IN TIME",
-            "url": "https://www.youtube.com/watch?v=gFBw2nT5KXA",
-            "duration": 6296.0,
-            "view_count": 296226,
-            "uploader": "Epic Movie Chronicles",
-            "category": "scifi",
-            "thumbnail": "https://i.ytimg.com/vi/gFBw2nT5KXA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD3TkYkzrwSt0yNDwW_g6M1MjBT0Q",
-            "added_date": "2026-04-16T15:21:38.858679Z",
-            "source": "youtube"
+            "channel_tags": [
+                "scifi"
+            ],
+            "channel_name": "DUST",
+            "thumbnail": "https://i.ytimg.com/vi/L94wmFssQbs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAaLmm7VQerIsRLGP7BzXMHzeIK8w",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:27:03.670969Z"
         }
     ]
 }

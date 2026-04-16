@@ -1,27 +1,25 @@
 # ============================================================
 # Content Discovery Platform — Configuration
 # ============================================================
-# Edit this file to define your platform's content and branding.
-# See examples/ for ready-made configs (NollyHub, AI Hub, GospelStream).
+# This platform scrapes from TRUSTED YouTube channels that have
+# legal licensing agreements for their content. No random search.
 # ============================================================
 
-# ── Site Identity ──
 site:
   name: "ContentHub"
-  tagline: "Discover free videos on YouTube, curated for you"
-  description: "A config-driven content discovery platform. Define your categories, and the pipeline handles the rest."
+  tagline: "Discover free movies from trusted sources"
+  description: "Curated free movies from verified YouTube channels. Action, drama, comedy, horror, sci-fi, classics, documentaries, and Asian cinema."
   theme_color: "#7c3aed"
   accent_color: "#ec4899"
   background_color: "#0a0a1a"
   logo_emoji: "🎬"
   footer_text: ""
   github_repo: "https://github.com/lioneltchami/content-discovery-platform"
-  content_label: "video"
-  content_label_plural: "videos"
+  content_label: "movie"
+  content_label_plural: "movies"
 
-# ── Scraper Settings ──
 scraper:
-  results_per_category: 15
+  results_per_category: 30
   schedule_cron: "0 */6 * * *"
   output_dir: "movies"
   default_sources:
@@ -29,63 +27,109 @@ scraper:
   quality:
     min_resolution: 480
 
-# ── Content Categories ──
+# ── Trusted YouTube Channels ──
+# Instead of random YouTube search (which returns fakes/AI slop),
+# we scrape from verified channels with legal licensing.
+trusted_channels:
+  - name: "Movie Central"
+    url: "https://www.youtube.com/@moviecentral"
+    tags: [action, comedy, drama, horror, scifi, western]
+
+  - name: "FilmRise Movies"
+    url: "https://www.youtube.com/@filmrisemovies"
+    tags: [action, thriller, drama]
+
+  - name: "PopcornFlix"
+    url: "https://www.youtube.com/@Popcornflix"
+    tags: [action, comedy, drama, horror, thriller]
+
+  - name: "Free Movies"
+    url: "https://www.youtube.com/@FreeMovies"
+    tags: [drama, comedy, documentary, indie]
+
+  - name: "PizzaFlix"
+    url: "https://www.youtube.com/@PizzaFlix"
+    tags: [classic, noir, western]
+
+  - name: "Shout Studios"
+    url: "https://www.youtube.com/@ShoutStudios"
+    tags: [action, classic, comedy]
+
+  - name: "Watch Movies Now"
+    url: "https://www.youtube.com/@WatchMoviesNow"
+    tags: [horror, scifi, thriller]
+
+  - name: "Horror Central"
+    url: "https://www.youtube.com/@HorrorCentral"
+    tags: [horror, thriller]
+
+  - name: "Timeless Classic Movies"
+    url: "https://www.youtube.com/@TimelessClassicMovies"
+    tags: [classic, drama, noir]
+
+  - name: "DUST"
+    url: "https://www.youtube.com/@watchdust"
+    tags: [scifi]
+
+  - name: "Free Documentary"
+    url: "https://www.youtube.com/@FreeDocumentary"
+    tags: [documentary]
+
+  - name: "Korean Classic Film"
+    url: "https://www.youtube.com/@KoreanFilm"
+    tags: [asian, classic, drama]
+
+  - name: "Wu Tang Collection"
+    url: "https://www.youtube.com/@WuTangCollection"
+    tags: [asian, action, martial_arts]
+
+  - name: "The Midnight Screening"
+    url: "https://www.youtube.com/@TheMidnightScreening"
+    tags: [action, thriller, scifi]
+
+# ── Categories ──
+# These are the filter buttons on the website.
+# Videos are auto-categorized based on channel tags above.
 categories:
   action:
-    query: "full action movie free"
-    type: movie
-    min_duration: 2400
     icon: "💥"
-    sources: [youtube, dailymotion]
+    display_name: "Action"
 
   comedy:
-    query: "full comedy movie free"
-    type: movie
-    min_duration: 2400
     icon: "😂"
-    sources: [youtube, dailymotion]
+    display_name: "Comedy"
 
   drama:
-    query: "full drama movie free"
-    type: movie
-    min_duration: 2400
     icon: "🎭"
-    sources: [youtube, dailymotion]
+    display_name: "Drama"
 
-  documentary:
-    query: "full documentary free"
-    type: movie
-    min_duration: 1800
-    icon: "🌍"
-    sources: [youtube, dailymotion]
+  horror:
+    icon: "👻"
+    display_name: "Horror"
 
   thriller:
-    query: "full thriller movie free"
-    type: movie
-    min_duration: 2400
     icon: "🔪"
-    sources: [youtube, dailymotion]
+    display_name: "Thriller"
 
   scifi:
-    query: "full sci-fi movie free"
-    type: movie
-    min_duration: 2400
     icon: "🚀"
-    sources: [youtube, dailymotion]
+    display_name: "Sci-Fi"
 
   classic:
-    query: "classic movie full free"
-    type: movie
-    min_duration: 2400
     icon: "🎞️"
-    sources: [youtube, dailymotion]
+    display_name: "Classics"
 
-  animated:
-    query: "full animated movie free"
-    type: movie
-    min_duration: 2400
-    icon: "🧸"
-    sources: [youtube, dailymotion]
+  documentary:
+    icon: "🌍"
+    display_name: "Documentary"
+
+  asian:
+    icon: "🏯"
+    display_name: "Asian Cinema"
+
+  western:
+    icon: "🤠"
+    display_name: "Western"
 
 # ── Sponsorship ──
 sponsorship:

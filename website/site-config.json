@@ -1,16 +1,16 @@
 {
   "site": {
     "name": "ContentHub",
-    "tagline": "Discover free videos on YouTube, curated for you",
-    "description": "A config-driven content discovery platform. Define your categories, and the pipeline handles the rest.",
+    "tagline": "Discover free movies from trusted sources",
+    "description": "Curated free movies from verified YouTube channels. Action, drama, comedy, horror, sci-fi, classics, documentaries, and Asian cinema.",
     "theme_color": "#7c3aed",
     "accent_color": "#ec4899",
     "background_color": "#0a0a1a",
     "logo_emoji": "🎬",
     "footer_text": "",
     "github_repo": "https://github.com/lioneltchami/content-discovery-platform",
-    "content_label": "video",
-    "content_label_plural": "videos"
+    "content_label": "movie",
+    "content_label_plural": "movies"
   },
   "categories": [
     {
@@ -32,9 +32,9 @@
       "type": "movie"
     },
     {
-      "key": "documentary",
-      "display_name": "Documentary",
-      "icon": "🌍",
+      "key": "horror",
+      "display_name": "Horror",
+      "icon": "👻",
       "type": "movie"
     },
     {
@@ -45,24 +45,35 @@
     },
     {
       "key": "scifi",
-      "display_name": "Scifi",
+      "display_name": "Sci-Fi",
       "icon": "🚀",
       "type": "movie"
     },
     {
       "key": "classic",
-      "display_name": "Classic",
+      "display_name": "Classics",
       "icon": "🎞️",
       "type": "movie"
     },
     {
-      "key": "animated",
-      "display_name": "Animated",
-      "icon": "🧸",
+      "key": "documentary",
+      "display_name": "Documentary",
+      "icon": "🌍",
+      "type": "movie"
+    },
+    {
+      "key": "asian",
+      "display_name": "Asian Cinema",
+      "icon": "🏯",
+      "type": "movie"
+    },
+    {
+      "key": "western",
+      "display_name": "Western",
+      "icon": "🤠",
       "type": "movie"
     }
   ],
-  "cartoon_shows": [],
   "sponsorship": {
     "enabled": true,
     "github_sponsors": "",

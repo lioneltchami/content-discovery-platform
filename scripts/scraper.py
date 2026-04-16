@@ -18,90 +18,15 @@ def load_config():
 # Load configuration
 config = load_config()
 
-# Build CATEGORIES from config
-CATEGORIES = {name: cat['query'] for name, cat in config['categories'].items()}
-
-# Build CARTOON_CATEGORIES from config
-CARTOON_CATEGORIES = {
-    f"cartoons/{name}": show['query']
-    for name, show in config.get('cartoon_shows', {}).items()
-}
-
-# Consolidation map for fragmented cartoon subcategories
-CARTOON_CONSOLIDATION_MAP = {
-    "cartoons/adoraemon": "cartoons/doraemon",
-    "cartoons/doraemon_2026": "cartoons/doraemon",
-    "cartoons/doraemon_episode_2026": "cartoons/doraemon",
-    "cartoons/doraemon_today_2026": "cartoons/doraemon",
-    "cartoons/kris_roll_no_21": "cartoons/roll_no_21",
-    "cartoons/oggy_and_the_cockroaches_bad_buzz": "cartoons/oggy_and_the_cockroaches",
-    "cartoons/mr_bean_is_homeless": "cartoons/mr_bean",
-    "cartoons/mr_bean_in_the_snow_cold": "cartoons/mr_bean",
-    "cartoons/mr_bean_s_amazing_new_perfume": "cartoons/mr_bean",
-    "cartoons/safari_bean": "cartoons/mr_bean",
-    "cartoons/farmer_bean": "cartoons/mr_bean",
-    "cartoons/scientist_bean": "cartoons/mr_bean",
-    "cartoons/bean_books_a_holiday": "cartoons/mr_bean",
-    "cartoons/mr_hates_the_rain": "cartoons/mr_bean",
-    "cartoons/what_did_mr_bean_hatch": "cartoons/mr_bean",
-    "cartoons/teddy_hotel": "cartoons/mr_bean",
-    "cartoons/camping": "cartoons/mr_bean",
-    "cartoons/good_dog": "cartoons/mr_bean",
-    "cartoons/dopahar_ka_khaana": "cartoons/various_cartoons",
-    "cartoons/bas_karo_henry": "cartoons/various_cartoons",
-    "cartoons/vrindavan_mein_non": "cartoons/various_cartoons",
-    "cartoons/16_march_2026": "cartoons/various_cartoons",
-    "cartoons/a_monster": "cartoons/various_cartoons",
-    "cartoons/a_new_car_for_christmas": "cartoons/various_cartoons",
-    "cartoons/christmas_cruise": "cartoons/various_cartoons",
-    "cartoons/pishachini": "cartoons/various_cartoons",
-    "cartoons/richie_rich_3_urdu_by_pogo": "cartoons/various_cartoons",
-    "cartoons/the_great_bottle_chase": "cartoons/various_cartoons",
-    "cartoons/the_land_before_time_full": "cartoons/various_cartoons",
-    "cartoons/the_vault": "cartoons/various_cartoons",
-    "cartoons/live_phineas_and_ferb_season_1_full": "cartoons/various_cartoons",
-    "cartoons/johnny_test_hd": "cartoons/various_cartoons",
-    "cartoons/the_daltons": "cartoons/various_cartoons",
-}
-
-# Merge all categories
-ALL_CATEGORIES = {**CATEGORIES, **CARTOON_CATEGORIES}
-
 # Settings from config
 RESULTS_PER_CATEGORY = config['scraper']['results_per_category']
 OUTPUT_DIR = config['scraper']['output_dir']
-
-# Build a min_duration lookup from config
-_MIN_DURATION = {}
-for name, cat in config['categories'].items():
-    _MIN_DURATION[name] = cat.get('min_duration', 2400)
-for name in config.get('cartoon_shows', {}):
-    _MIN_DURATION[f"cartoons/{name}"] = config['cartoon_shows'][name].get('min_duration', 600)
-
-
-def extract_cartoon_name_and_category(title):
-    """Extract cartoon name from video title."""
-    delimiters = r'[|\-:]'
-    parts = re.split(delimiters, title)
-
-    if parts:
-        name = parts[0].strip()
-        name = re.sub(r'(?i)\b(hindi|full episode|cartoon|episodes|kids|in hindi|new episode|latest)\b', '', name).strip()
-        name = re.sub(r'^[^a-zA-Z0-9]+', '', name)
-        name = re.sub(r'[^a-zA-Z0-9]+$', '', name)
-        name = name.strip()
-
-        if 2 < len(name) < 40:
-            sanitized = re.sub(r'[^a-zA-Z0-9]+', '_', name.lower()).strip('_')
-            return name, f"cartoons/{sanitized}"
-
-    return "Various Cartoons", "cartoons/various_cartoons"
 
 
 def generate_site_config(config):
     """Write website/site-config.json from the config for the frontend."""
     categories_list = []
-    for name, cat in config['categories'].items():
+    for name, cat in config.get('categories', {}).items():
         categories_list.append({
             "key": name,
             "display_name": cat.get('display_name', name.replace('_', ' ').title()),
@@ -109,18 +34,9 @@ def generate_site_config(config):
             "type": cat.get('type', 'movie'),
         })
 
-    cartoon_shows_list = []
-    for name, show in config.get('cartoon_shows', {}).items():
-        cartoon_shows_list.append({
-            "key": f"cartoons/{name}",
-            "display_name": show.get('display_name', name.replace('_', ' ').title()),
-            "icon": show.get('icon', '📺'),
-        })
-
     site_config = {
         "site": config.get('site', {}),
         "categories": categories_list,
-        "cartoon_shows": cartoon_shows_list,
         "sponsorship": config.get('sponsorship', {}),
         "api_base_url": config['scraper']['output_dir'],
         "sources": config['scraper'].get('default_sources', ['youtube']),
@@ -159,18 +75,99 @@ def detect_language_tags(title):
     return tags
 
 
-def scrape_movies():
-    """Scrape movies from YouTube and Dailymotion, return them grouped by category."""
+def scrape_from_channels():
+    """Scrape movies from trusted YouTube channels."""
+    all_movies = []
+    channels = config.get('trusted_channels', [])
+    results_per = config['scraper']['results_per_category']
+
+    ydl_opts = {
+        'quiet': True,
+        'extract_flat': True,
+        'playlistend': results_per,
+    }
+
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        for ch in channels:
+            name = ch['name']
+            url = ch['url'] + '/videos'
+            tags = ch.get('tags', [])
+            primary_tag = tags[0] if tags else 'uncategorized'
+            min_dur = ch.get('min_duration', 1200)
+
+            print(f"Scraping channel: {name}...")
+            try:
+                result = ydl.extract_info(url, download=False)
+            except Exception as e:
+                print(f"  Error: {e}")
+                continue
+
+            entries = result.get('entries', []) if result else []
+            for video in entries:
+                try:
+                    if not video:
+                        continue
+                    duration = video.get('duration', 0) or 0
+                    if duration < min_dur:
+                        continue
+
+                    video_id = video.get('id', '')
+                    title = video.get('title', '')
+                    if not video_id or not title:
+                        continue
+
+                    movie_data = {
+                        'id': video_id,
+                        'title': title,
+                        'url': f'https://www.youtube.com/watch?v={video_id}',
+                        'duration': duration,
+                        'view_count': video.get('view_count') or 0,
+                        'uploader': video.get('uploader') or name,
+                        'category': primary_tag,
+                        'channel_tags': tags,
+                        'channel_name': name,
+                        'thumbnail': video.get('thumbnails', [{}])[-1].get('url', '') if video.get('thumbnails') else f'https://i.ytimg.com/vi/{video_id}/hqdefault.jpg',
+                        'source': 'youtube',
+                        'added_date': datetime.utcnow().isoformat() + 'Z',
+                    }
+
+                    lang_tags = detect_language_tags(title)
+                    if lang_tags:
+                        movie_data.update(lang_tags)
+
+                    all_movies.append(movie_data)
+                    print(f"  [{time.strftime('%X')}] {title}")
+                    time.sleep(0.2)
+                except Exception as e:
+                    print(f"  Error processing video: {e}")
+
+            time.sleep(2)
+
+    # Deduplicate by video ID
+    unique = list({m['id']: m for m in all_movies}.values())
+    return unique
+
+
+def scrape_from_search():
+    """Fallback: scrape movies using search queries from categories config (old approach)."""
     all_movies = []
     default_sources = config['scraper'].get('default_sources', ['youtube'])
 
-    # Search prefix per source
+    # Build search categories from config (old-style categories with 'query' field)
+    search_categories = {}
+    for name, cat in config.get('categories', {}).items():
+        if 'query' in cat:
+            search_categories[name] = cat['query']
+
+    if not search_categories:
+        print("No search queries found in categories config.")
+        return []
+
     SEARCH_PREFIXES = {
         'youtube': 'ytsearch',
         'dailymotion': 'dmsearch',
     }
 
-    # yt-dlp options for fast metadata extraction without downloading videos
     ydl_opts = {
         'quiet': True,
         'extract_flat': True,
@@ -178,10 +175,10 @@ def scrape_movies():
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        for category, query in ALL_CATEGORIES.items():
-            # Determine sources for this category
-            cat_config = config['categories'].get(category) or config.get('cartoon_shows', {}).get(category.split('/')[-1], {})
-            sources = cat_config.get('sources', default_sources) if cat_config else default_sources
+        for category, query in search_categories.items():
+            cat_config = config['categories'].get(category, {})
+            sources = cat_config.get('sources', default_sources)
+            min_duration = cat_config.get('min_duration', 2400)
 
             for source in sources:
                 prefix = SEARCH_PREFIXES.get(source)
@@ -207,7 +204,6 @@ def scrape_movies():
                             continue
 
                         duration = video.get('duration', 0)
-                        min_duration = _MIN_DURATION.get(category, 600 if category.startswith("cartoons/") else 2400)
                         if duration and duration < min_duration:
                             continue
 
@@ -235,23 +231,26 @@ def scrape_movies():
                             movie_data.update(lang_tags)
 
                         if movie_data['id'] and movie_data['title']:
-                            if category == "cartoons_auto":
-                                detected_name, new_category = extract_cartoon_name_and_category(movie_data['title'])
-                                movie_data['category'] = new_category
-                                movie_data['show_name'] = detected_name
-
                             all_movies.append(movie_data)
                             print(f"[{time.strftime('%X')}] Added ({source}): {movie_data['title']}")
                             time.sleep(0.2)
                     except Exception as e:
                         print(f"Error processing video in {category} ({source}): {e}")
 
-                time.sleep(2)  # Delay between searches
+                time.sleep(2)
 
-    # Remove duplicates based on video ID
-    unique_movies = {movie['id']: movie for movie in all_movies}.values()
+    unique = list({m['id']: m for m in all_movies}.values())
+    return unique
 
-    return list(unique_movies)
+
+def scrape_movies():
+    """Scrape movies — uses channel-based scraping if trusted_channels exists, else falls back to search."""
+    if config.get('trusted_channels'):
+        print("Using channel-based scraping (trusted_channels)...")
+        return scrape_from_channels()
+    else:
+        print("No trusted_channels found, falling back to search-based scraping...")
+        return scrape_from_search()
 
 
 def load_existing(filepath):
@@ -354,20 +353,13 @@ def save_all(new_movies):
     by_category = {}
     for movie in new_movies:
         cat = movie.get('category', 'uncategorized')
-        # Issue 6: Consolidate fragmented cartoon subcategories
-        cat = CARTOON_CONSOLIDATION_MAP.get(cat, cat)
         by_category.setdefault(cat, []).append(movie)
 
     # ── 2. Save per-category files ──
-    all_cat_keys = set(ALL_CATEGORIES.keys()) | set(by_category.keys())
+    all_cat_keys = set(config.get('categories', {}).keys()) | set(by_category.keys())
 
     for cat in all_cat_keys:
-        if cat == "cartoons_auto":
-            continue
-
         cat_dir = os.path.join(OUTPUT_DIR, cat)
-        # For cartoon subcategories like "cartoons/oggy_and_the_cockroaches",
-        # the filename should be the last part (e.g. "oggy_and_the_cockroaches.json")
         cat_basename = cat.split("/")[-1]
         cat_file = os.path.join(cat_dir, f"{cat_basename}.json")
 
@@ -381,20 +373,8 @@ def save_all(new_movies):
             if m['id'] in existing_dates and existing_dates[m['id']]:
                 m['added_date'] = existing_dates[m['id']]
 
-        # Issue 5: Strip show_name from non-cartoon per-category saves
-        is_cartoon = cat.startswith("cartoons/")
-        if not is_cartoon:
-            for m in unique:
-                m.pop('show_name', None)
-
         print(f"[{cat}] {len(unique)} total movies")
-
-        # Infer show name and if it is a cartoon
-        show_name = cat_basename.replace('_', ' ').title()
-        if unique and 'show_name' in unique[0]:
-            show_name = unique[0]['show_name']
-
-        save_json(unique, cat_file, show_name=show_name, is_cartoon=is_cartoon)
+        save_json(unique, cat_file)
 
     # ── 3. Save combined file (all categories) ──
     combined_file = os.path.join(OUTPUT_DIR, "movies.json")
@@ -408,10 +388,6 @@ def save_all(new_movies):
         if m['id'] in existing_dates and existing_dates[m['id']]:
             m['added_date'] = existing_dates[m['id']]
 
-    # Issue 5: Strip show_name from combined movies.json
-    for m in unique_all:
-        m.pop('show_name', None)
-
     print(f"[all] {len(unique_all)} total movies")
     save_json(unique_all, combined_file)
 
@@ -423,8 +399,6 @@ def save_all(new_movies):
     # ── 5. Generate paginated JSON files ──
     save_paginated(unique_all, OUTPUT_DIR)
     for cat in all_cat_keys:
-        if cat == "cartoons_auto":
-            continue
         cat_dir = os.path.join(OUTPUT_DIR, cat)
         cat_basename = cat.split("/")[-1]
         cat_file = os.path.join(cat_dir, f"{cat_basename}.json")
