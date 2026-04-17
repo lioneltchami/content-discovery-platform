@@ -1,14 +1,14 @@
 {
     "page": 3,
     "total_pages": 3,
-    "total_items": 104,
+    "total_items": 106,
     "items": [
         {
             "id": "Mkax1th-3KI",
             "title": "FANG 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=Mkax1th-3KI",
             "duration": 3598.0,
-            "view_count": 5963,
+            "view_count": 5970,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -26,7 +26,7 @@
             "title": "They Installed a Demonic App | Bedeviled | Full Horror Thriller Movie",
             "url": "https://www.youtube.com/watch?v=T6j_XXAxha0",
             "duration": 5419.0,
-            "view_count": 48164,
+            "view_count": 48377,
             "uploader": "Horror Central",
             "category": "horror",
             "channel_tags": [
@@ -60,7 +60,7 @@
             "title": "The Show Must Go On… Or They Die | Full Horror Movie 2026",
             "url": "https://www.youtube.com/watch?v=G8nqeFAWmzk",
             "duration": 5836.0,
-            "view_count": 1482,
+            "view_count": 1483,
             "uploader": "Horror Central",
             "category": "horror",
             "channel_tags": [
@@ -71,6 +71,45 @@
             "thumbnail": "https://i.ytimg.com/vi/G8nqeFAWmzk/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTIt-XWzoq0U04KfgJqDZ5l2hPmg",
             "source": "youtube",
             "added_date": "2026-04-16T19:52:33.177772Z"
+        },
+        {
+            "id": "3Oed3dL895g",
+            "title": "She Is Cursed By Her Own Demon Child | Maternal Curse | Full Supernatural Horror Movie",
+            "url": "https://www.youtube.com/watch?v=3Oed3dL895g",
+            "duration": 5494.0,
+            "view_count": 428,
+            "uploader": "Movie Central",
+            "category": "horror",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/3Oed3dL895g/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABDyDi3BFIDwFGmrV_BBBnIrb60w",
+            "source": "youtube",
+            "added_date": "2026-04-17T12:58:23.690874Z"
+        },
+        {
+            "id": "5n7iHeP4qDQ",
+            "title": "BARE SKIN  🎬 Full Thriller Horror Movie 🎬 English HD",
+            "url": "https://www.youtube.com/watch?v=5n7iHeP4qDQ",
+            "duration": 8135.0,
+            "view_count": 1580,
+            "uploader": "Watch Movies Now",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "scifi",
+                "thriller"
+            ],
+            "channel_name": "Watch Movies Now",
+            "thumbnail": "https://i.ytimg.com/vi/5n7iHeP4qDQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOChGy1tR89AucsJ-OROWm5UGNbQ",
+            "source": "youtube",
+            "added_date": "2026-04-17T12:59:07.042798Z"
         }
     ]
 }
