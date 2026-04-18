@@ -1,14 +1,14 @@
 {
     "page": 3,
     "total_pages": 3,
-    "total_items": 108,
+    "total_items": 110,
     "items": [
         {
             "id": "Mkax1th-3KI",
             "title": "FANG 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=Mkax1th-3KI",
             "duration": 3598.0,
-            "view_count": 5991,
+            "view_count": 5996,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -26,7 +26,7 @@
             "title": "They Installed a Demonic App | Bedeviled | Full Horror Thriller Movie",
             "url": "https://www.youtube.com/watch?v=T6j_XXAxha0",
             "duration": 5419.0,
-            "view_count": 49587,
+            "view_count": 49832,
             "uploader": "Horror Central",
             "category": "horror",
             "channel_tags": [
@@ -43,7 +43,7 @@
             "title": "This Christmas, the Past Wants Blood | Full Horror Movie in English",
             "url": "https://www.youtube.com/watch?v=-NtozusNKEA",
             "duration": 4200.0,
-            "view_count": 1327,
+            "view_count": 1328,
             "uploader": "Horror Central",
             "category": "horror",
             "channel_tags": [
@@ -77,7 +77,7 @@
             "title": "She Is Cursed By Her Own Demon Child | Maternal Curse | Full Supernatural Horror Movie",
             "url": "https://www.youtube.com/watch?v=3Oed3dL895g",
             "duration": 5494.0,
-            "view_count": 10067,
+            "view_count": 12214,
             "uploader": "Movie Central",
             "category": "horror",
             "channel_tags": [
@@ -98,7 +98,7 @@
             "title": "BARE SKIN  🎬 Full Thriller Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=5n7iHeP4qDQ",
             "duration": 8135.0,
-            "view_count": 8016,
+            "view_count": 9290,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -116,7 +116,7 @@
             "title": "TONIGHT SHE COMES 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=SsTE3KF0skM",
             "duration": 2971.0,
-            "view_count": 2618,
+            "view_count": 3153,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -134,7 +134,7 @@
             "title": "Murdered One Night and Resurrected the Next | Candy Corn | Full 2026 Horror Slasher Thriller Movie",
             "url": "https://www.youtube.com/watch?v=mNSbMIUqvIo",
             "duration": 5099.0,
-            "view_count": 6335,
+            "view_count": 6361,
             "uploader": "Horror Central",
             "category": "horror",
             "channel_tags": [
@@ -145,6 +145,41 @@
             "thumbnail": "https://i.ytimg.com/vi/mNSbMIUqvIo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSEefHGP33yPV7trPrXkp2at5szA",
             "source": "youtube",
             "added_date": "2026-04-18T06:58:19.445723Z"
+        },
+        {
+            "id": "wsJHqYLnCH0",
+            "title": "BEAST NO MORE 🎬 Full Horror Movie 🎬 English HD",
+            "url": "https://www.youtube.com/watch?v=wsJHqYLnCH0",
+            "duration": 5049.0,
+            "view_count": 1665,
+            "uploader": "Watch Movies Now",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "scifi",
+                "thriller"
+            ],
+            "channel_name": "Watch Movies Now",
+            "thumbnail": "https://i.ytimg.com/vi/wsJHqYLnCH0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJpIwf2Ik3t9RUI5aP2k2VxoYD9Q",
+            "source": "youtube",
+            "added_date": "2026-04-18T12:41:15.002912Z"
+        },
+        {
+            "id": "3BJzF6XoerI",
+            "title": "The Cameras Catch What They Can’t See | The Legend of Lake Hollow | Full 2026 Horror Slasher Movie",
+            "url": "https://www.youtube.com/watch?v=3BJzF6XoerI",
+            "duration": 5272.0,
+            "view_count": 223,
+            "uploader": "Horror Central",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "Horror Central",
+            "thumbnail": "https://i.ytimg.com/vi/3BJzF6XoerI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0UkMnJjI_A9Rm9pBiXbPvdqvBzA",
+            "source": "youtube",
+            "added_date": "2026-04-18T12:41:23.645803Z"
         }
     ]
 }
