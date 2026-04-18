@@ -1,14 +1,14 @@
 {
     "page": 8,
     "total_pages": 8,
-    "total_items": 353,
+    "total_items": 354,
     "items": [
         {
             "id": "jH7x7MjCG40",
             "title": "The Mechanik | FilmRise Movies",
             "url": "https://www.youtube.com/watch?v=jH7x7MjCG40",
             "duration": 5640.0,
-            "view_count": 676,
+            "view_count": 2321,
             "uploader": "FilmRise Movies",
             "category": "action",
             "channel_tags": [
@@ -26,7 +26,7 @@
             "title": "For the Defense (1930) WILLIAM POWELL🍕KAY FRANCIS🍕 FULL MOVIE",
             "url": "https://www.youtube.com/watch?v=TJkxo7WXF8A",
             "duration": 3855.0,
-            "view_count": 969,
+            "view_count": 5567,
             "uploader": "PizzaFlix",
             "category": "classic",
             "channel_tags": [
@@ -44,7 +44,7 @@
             "title": "TONIGHT SHE COMES 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=SsTE3KF0skM",
             "duration": 2971.0,
-            "view_count": 1151,
+            "view_count": 2618,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -56,6 +56,23 @@
             "thumbnail": "https://i.ytimg.com/vi/SsTE3KF0skM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUFyq5ZxT_vxNtEz5T9GjQ8FKU4w",
             "source": "youtube",
             "added_date": "2026-04-18T01:26:35.472103Z"
+        },
+        {
+            "id": "mNSbMIUqvIo",
+            "title": "Murdered One Night and Resurrected the Next | Candy Corn | Full 2026 Horror Slasher Thriller Movie",
+            "url": "https://www.youtube.com/watch?v=mNSbMIUqvIo",
+            "duration": 5099.0,
+            "view_count": 6335,
+            "uploader": "Horror Central",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "Horror Central",
+            "thumbnail": "https://i.ytimg.com/vi/mNSbMIUqvIo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSEefHGP33yPV7trPrXkp2at5szA",
+            "source": "youtube",
+            "added_date": "2026-04-18T06:58:19.445723Z"
         }
     ]
 }

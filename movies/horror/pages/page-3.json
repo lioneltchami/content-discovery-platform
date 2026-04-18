@@ -1,14 +1,14 @@
 {
     "page": 3,
     "total_pages": 3,
-    "total_items": 107,
+    "total_items": 108,
     "items": [
         {
             "id": "Mkax1th-3KI",
             "title": "FANG 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=Mkax1th-3KI",
             "duration": 3598.0,
-            "view_count": 5987,
+            "view_count": 5991,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -26,7 +26,7 @@
             "title": "They Installed a Demonic App | Bedeviled | Full Horror Thriller Movie",
             "url": "https://www.youtube.com/watch?v=T6j_XXAxha0",
             "duration": 5419.0,
-            "view_count": 49114,
+            "view_count": 49587,
             "uploader": "Horror Central",
             "category": "horror",
             "channel_tags": [
@@ -77,7 +77,7 @@
             "title": "She Is Cursed By Her Own Demon Child | Maternal Curse | Full Supernatural Horror Movie",
             "url": "https://www.youtube.com/watch?v=3Oed3dL895g",
             "duration": 5494.0,
-            "view_count": 7908,
+            "view_count": 10067,
             "uploader": "Movie Central",
             "category": "horror",
             "channel_tags": [
@@ -98,7 +98,7 @@
             "title": "BARE SKIN  🎬 Full Thriller Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=5n7iHeP4qDQ",
             "duration": 8135.0,
-            "view_count": 6542,
+            "view_count": 8016,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -116,7 +116,7 @@
             "title": "TONIGHT SHE COMES 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=SsTE3KF0skM",
             "duration": 2971.0,
-            "view_count": 1151,
+            "view_count": 2618,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -128,6 +128,23 @@
             "thumbnail": "https://i.ytimg.com/vi/SsTE3KF0skM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDUFyq5ZxT_vxNtEz5T9GjQ8FKU4w",
             "source": "youtube",
             "added_date": "2026-04-18T01:26:35.472103Z"
+        },
+        {
+            "id": "mNSbMIUqvIo",
+            "title": "Murdered One Night and Resurrected the Next | Candy Corn | Full 2026 Horror Slasher Thriller Movie",
+            "url": "https://www.youtube.com/watch?v=mNSbMIUqvIo",
+            "duration": 5099.0,
+            "view_count": 6335,
+            "uploader": "Horror Central",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "thriller"
+            ],
+            "channel_name": "Horror Central",
+            "thumbnail": "https://i.ytimg.com/vi/mNSbMIUqvIo/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBSEefHGP33yPV7trPrXkp2at5szA",
+            "source": "youtube",
+            "added_date": "2026-04-18T06:58:19.445723Z"
         }
     ]
 }
