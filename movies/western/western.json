@@ -1,13 +1,13 @@
 {
-    "last_updated": "2026-04-24T07:51:13.319484Z",
-    "total_movies": 5,
+    "last_updated": "2026-04-24T13:03:14.876021Z",
+    "total_movies": 6,
     "movies": [
         {
             "id": "gE8jWh-FJ94",
             "title": "All Quiet on the Western Front (1930) OSCAR WINNER🍕 LEWIS MILESTONE",
             "url": "https://www.youtube.com/watch?v=gE8jWh-FJ94",
             "duration": 8094.0,
-            "view_count": 6818,
+            "view_count": 6822,
             "uploader": "PizzaFlix",
             "category": "western",
             "channel_tags": [
@@ -91,6 +91,27 @@
             "thumbnail": "https://i.ytimg.com/vi/XvrX8ifmJCI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBZqTp-nuN4Ijfwpt5U6R2FBdGM1w",
             "source": "youtube",
             "added_date": "2026-04-16T19:53:01.141629Z"
+        },
+        {
+            "id": "zMn_VNCX3CA",
+            "title": "A Broken Soldier Returns to the Rodeo | Peace River | 2026 Western Movie",
+            "url": "https://www.youtube.com/watch?v=zMn_VNCX3CA",
+            "duration": 8070.0,
+            "view_count": 295,
+            "uploader": "Movie Central",
+            "category": "western",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/zMn_VNCX3CA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFL7fIohoo6NcXzvWeaJkh-0vVBQ",
+            "source": "youtube",
+            "added_date": "2026-04-24T13:01:47.630026Z"
         }
     ]
 }
