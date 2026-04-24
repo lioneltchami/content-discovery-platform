@@ -1,14 +1,14 @@
 {
     "page": 9,
     "total_pages": 9,
-    "total_items": 410,
+    "total_items": 411,
     "items": [
         {
             "id": "4ZmK0do-J4E",
             "title": "Pandemic | PART 1 of 2 | FULL MOVIE | Tiffani Thiessen, Faye Dunaway | Virus Thriller Drama",
             "url": "https://www.youtube.com/watch?v=4ZmK0do-J4E",
             "duration": 5142.0,
-            "view_count": 10580,
+            "view_count": 12345,
             "uploader": "Shout Studios",
             "category": "thriller",
             "channel_tags": [
@@ -23,7 +23,7 @@
         },
         {
             "id": "OdF4fKFtcbI",
-            "title": "Trouble Comes Sideways | Snowpiercer | Post-Apocalyptic Action Sci-Fi Drama",
+            "title": "Trouble Comes Sideways | Snowpiercer | Post-Apocalyptic Sci-Fi Action",
             "url": "https://www.youtube.com/watch?v=OdF4fKFtcbI",
             "duration": 2743.0,
             "view_count": 0,
@@ -41,7 +41,7 @@
         },
         {
             "id": "dzMUkKLe8FQ",
-            "title": "Justice Never Boarded | Snowpiercer | Post-Apocalyptic Action Sci-Fi Drama",
+            "title": "Justice Never Boarded | Snowpiercer | Post-Apocalyptic Sci-Fi Action",
             "url": "https://www.youtube.com/watch?v=dzMUkKLe8FQ",
             "duration": 2811.0,
             "view_count": 0,
@@ -62,7 +62,7 @@
             "title": "POPEYE'S REVENGE 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=mBVIzmVso94",
             "duration": 3221.0,
-            "view_count": 877,
+            "view_count": 965,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -98,7 +98,7 @@
             "title": "THE DEMON'S CHILD 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=rplKc9cHR_k",
             "duration": 5051.0,
-            "view_count": 824,
+            "view_count": 1672,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -116,7 +116,7 @@
             "title": "A Broken Soldier Returns to the Rodeo | Peace River | 2026 Western Movie",
             "url": "https://www.youtube.com/watch?v=zMn_VNCX3CA",
             "duration": 8070.0,
-            "view_count": 295,
+            "view_count": 1024,
             "uploader": "Movie Central",
             "category": "western",
             "channel_tags": [
@@ -137,7 +137,7 @@
             "title": "SATAN'S SCHOOL FOR GIRLS 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=XLQzMDQdOMo",
             "duration": 4427.0,
-            "view_count": 6554,
+            "view_count": 25982,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -155,7 +155,7 @@
             "title": "One Woman’s Delusion Became Another Woman’s Hell | Barren | 2026 Thriller Drama Movie",
             "url": "https://www.youtube.com/watch?v=UI2kwMwtuZc",
             "duration": 4301.0,
-            "view_count": 34,
+            "view_count": 274,
             "uploader": "Horror Central",
             "category": "thriller",
             "channel_tags": [
@@ -172,16 +172,34 @@
             "title": "Bhutan: Life Between the Middle Ages and the Modern World | Free Documentary",
             "url": "https://www.youtube.com/watch?v=xxf-RtWO6-c",
             "duration": 2552.0,
-            "view_count": 275,
+            "view_count": 6834,
             "uploader": "Free Documentary",
             "category": "documentary",
             "channel_tags": [
                 "documentary"
             ],
             "channel_name": "Free Documentary",
-            "thumbnail": "https://i.ytimg.com/vi/xxf-RtWO6-c/hqdefault_custom_3.jpg?sqp=CNDSrc8G-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8XFVaES22HAAzff0Z9Lf5y1w3ag",
+            "thumbnail": "https://i.ytimg.com/vi/xxf-RtWO6-c/hqdefault_custom_1.jpg?sqp=CNTvrs8G-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDnD0QrONDjb63B8lVFhVssxopcVg",
             "source": "youtube",
             "added_date": "2026-04-24T13:02:49.612513Z"
+        },
+        {
+            "id": "36C74wcr9JI",
+            "title": "eXistenZ | Full Movie",
+            "url": "https://www.youtube.com/watch?v=36C74wcr9JI",
+            "duration": 5842.0,
+            "view_count": 329,
+            "uploader": "FilmRise Movies",
+            "category": "action",
+            "channel_tags": [
+                "action",
+                "thriller",
+                "drama"
+            ],
+            "channel_name": "FilmRise Movies",
+            "thumbnail": "https://i.ytimg.com/vi/36C74wcr9JI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHl1CRILW_bqap0iCYVAO1Sq2qXg",
+            "source": "youtube",
+            "added_date": "2026-04-24T18:38:40.366391Z"
         }
     ]
 }
