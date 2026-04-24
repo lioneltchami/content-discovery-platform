@@ -1,14 +1,14 @@
 {
     "page": 9,
     "total_pages": 9,
-    "total_items": 405,
+    "total_items": 406,
     "items": [
         {
             "id": "4ZmK0do-J4E",
             "title": "Pandemic | PART 1 of 2 | FULL MOVIE | Tiffani Thiessen, Faye Dunaway | Virus Thriller Drama",
             "url": "https://www.youtube.com/watch?v=4ZmK0do-J4E",
             "duration": 5142.0,
-            "view_count": 2961,
+            "view_count": 9285,
             "uploader": "Shout Studios",
             "category": "thriller",
             "channel_tags": [
@@ -62,7 +62,7 @@
             "title": "POPEYE'S REVENGE 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=mBVIzmVso94",
             "duration": 3221.0,
-            "view_count": 323,
+            "view_count": 774,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -92,6 +92,24 @@
             "thumbnail": "https://i.ytimg.com/vi/rqkPbzBHLgM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFJM-xreQgF0MJpn7tBT7ZM-Pt9A",
             "source": "youtube",
             "added_date": "2026-04-24T01:51:15.340529Z"
+        },
+        {
+            "id": "rplKc9cHR_k",
+            "title": "THE DEMON'S CHILD 🎬 Full Horror Movie 🎬 English HD",
+            "url": "https://www.youtube.com/watch?v=rplKc9cHR_k",
+            "duration": 5051.0,
+            "view_count": 176,
+            "uploader": "Watch Movies Now",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "scifi",
+                "thriller"
+            ],
+            "channel_name": "Watch Movies Now",
+            "thumbnail": "https://i.ytimg.com/vi/rplKc9cHR_k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAZ4J60tby_KW1Y19Pn57mUVMK8yQ",
+            "source": "youtube",
+            "added_date": "2026-04-24T07:50:28.037519Z"
         }
     ]
 }
