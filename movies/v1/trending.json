@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-04-27T13:21:09.845145Z",
+    "last_updated": "2026-04-27T19:05:55.389549Z",
     "total_movies": 50,
     "movies": [
         {
@@ -182,7 +182,7 @@
             "title": "[4K] 과부춤 (1983) / Widow Dance (Gwabu-chum)",
             "url": "https://www.youtube.com/watch?v=hkWHyxCZ_jE",
             "duration": 6570.0,
-            "view_count": 687566,
+            "view_count": 688036,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
@@ -406,7 +406,7 @@
             "title": "[4K] 안개는 여자처럼 속삭인다(1982) / Mist Whispers Like Women (Angaeneun yeojacheoleom sogsag-inda)",
             "url": "https://www.youtube.com/watch?v=JjVi0-JcHP8",
             "duration": 5707.0,
-            "view_count": 451581,
+            "view_count": 452064,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
@@ -418,6 +418,24 @@
             "thumbnail": "https://i.ytimg.com/vi/JjVi0-JcHP8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCJCJd8g3TtgM_ln51DCvvrjdj0ug",
             "source": "youtube",
             "added_date": "2026-04-16T16:52:48.030805Z"
+        },
+        {
+            "id": "VR4IxevJ1EE",
+            "title": "[4K] 장미빛 인생(1994) / Rosy Life(Jangmibich insaeng)",
+            "url": "https://www.youtube.com/watch?v=VR4IxevJ1EE",
+            "duration": 5642.0,
+            "view_count": 413468,
+            "uploader": "Korean Classic Film",
+            "category": "asian",
+            "channel_tags": [
+                "asian",
+                "classic",
+                "drama"
+            ],
+            "channel_name": "Korean Classic Film",
+            "thumbnail": "https://i.ytimg.com/vi/VR4IxevJ1EE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBruBPW5s784Y2ttMi54xbkgsLQlA",
+            "source": "youtube",
+            "added_date": "2026-04-16T16:52:49.257504Z"
         },
         {
             "id": "oOzODYq1i1A",
@@ -440,29 +458,11 @@
             "added_date": "2026-04-16T16:51:51.125988Z"
         },
         {
-            "id": "VR4IxevJ1EE",
-            "title": "[4K] 장미빛 인생(1994) / Rosy Life(Jangmibich insaeng)",
-            "url": "https://www.youtube.com/watch?v=VR4IxevJ1EE",
-            "duration": 5642.0,
-            "view_count": 413231,
-            "uploader": "Korean Classic Film",
-            "category": "asian",
-            "channel_tags": [
-                "asian",
-                "classic",
-                "drama"
-            ],
-            "channel_name": "Korean Classic Film",
-            "thumbnail": "https://i.ytimg.com/vi/VR4IxevJ1EE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBruBPW5s784Y2ttMi54xbkgsLQlA",
-            "source": "youtube",
-            "added_date": "2026-04-16T16:52:49.257504Z"
-        },
-        {
             "id": "vE-poEIRGCo",
             "title": "The Tribe That Took Human Heads | Naga: The Last Headhunters | Free Documentary",
             "url": "https://www.youtube.com/watch?v=vE-poEIRGCo",
             "duration": 2898.0,
-            "view_count": 407188,
+            "view_count": 407518,
             "uploader": "Free Documentary",
             "category": "documentary",
             "channel_tags": [
@@ -478,7 +478,7 @@
             "title": "Sci-Fi Short Film \"The Machine\" | DUST",
             "url": "https://www.youtube.com/watch?v=jsgubGPj8d4",
             "duration": 1487.0,
-            "view_count": 405891,
+            "view_count": 406042,
             "uploader": "DUST",
             "category": "scifi",
             "channel_tags": [
@@ -550,7 +550,7 @@
             "title": "Earth Untold: Botswana | Hidden Tales from the Heart of Southern Africa | Free Documentary",
             "url": "https://www.youtube.com/watch?v=L0p3uSXrkqA",
             "duration": 3058.0,
-            "view_count": 353853,
+            "view_count": 355910,
             "uploader": "Free Documentary",
             "category": "documentary",
             "channel_tags": [
@@ -566,7 +566,7 @@
             "title": "The Tribe from the Forbidden Mountains | Zeliangrong People | Free Documentary",
             "url": "https://www.youtube.com/watch?v=xhvzqiC2pmo",
             "duration": 2974.0,
-            "view_count": 324858,
+            "view_count": 325652,
             "uploader": "Free Documentary",
             "category": "documentary",
             "channel_tags": [
@@ -582,7 +582,7 @@
             "title": "강원도의 힘(1998) / The Power of Kangwon Province(Gang-wondo-ui him)",
             "url": "https://www.youtube.com/watch?v=oOT4ArijCA8",
             "duration": 6549.0,
-            "view_count": 316895,
+            "view_count": 317136,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
@@ -620,7 +620,7 @@
             "title": "The Most Dangerous River on Earth | Indonesia: Surviving the Citarum | Free Documentary",
             "url": "https://www.youtube.com/watch?v=CjKiWz-5CHs",
             "duration": 3258.0,
-            "view_count": 294985,
+            "view_count": 295184,
             "uploader": "Free Documentary",
             "category": "documentary",
             "channel_tags": [
@@ -636,7 +636,7 @@
             "title": "World’s Most Dangerous Roads | Narok County, Kenya | Free Documentary",
             "url": "https://www.youtube.com/watch?v=DQLf2glmL5I",
             "duration": 2824.0,
-            "view_count": 292948,
+            "view_count": 293260,
             "uploader": "Free Documentary",
             "category": "documentary",
             "channel_tags": [
@@ -749,7 +749,7 @@
             "title": "Sci-Fi Short Film \"The Lord of All Future Space & Time\" | DUST",
             "url": "https://www.youtube.com/watch?v=TBzepYD1b64",
             "duration": 1390.0,
-            "view_count": 243295,
+            "view_count": 243345,
             "uploader": "DUST and ELECTRIC BLANKET",
             "category": "scifi",
             "channel_tags": [
@@ -822,7 +822,7 @@
             "title": "[4K] 초우(1966) / Green Rain ( Chou )",
             "url": "https://www.youtube.com/watch?v=gzVaW_fyV-Q",
             "duration": 6032.0,
-            "view_count": 212916,
+            "view_count": 213177,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
@@ -840,7 +840,7 @@
             "title": "[4K] 구미호(1994) / The fox with nine tails(Gumiho)",
             "url": "https://www.youtube.com/watch?v=yE2ZOO5Mi7Y",
             "duration": 6451.0,
-            "view_count": 208314,
+            "view_count": 208378,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
@@ -878,7 +878,7 @@
             "title": "[4K] 그 섬에 가고싶다(1993) / To the Starry Island(Geu seom-e gago sipda)",
             "url": "https://www.youtube.com/watch?v=Y6D136RHiVc",
             "duration": 5973.0,
-            "view_count": 201542,
+            "view_count": 201587,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
@@ -914,7 +914,7 @@
             "title": "[4K] 피막(1980) / The Hut(Pimag)",
             "url": "https://www.youtube.com/watch?v=pCpW4TmieIU",
             "duration": 5797.0,
-            "view_count": 190548,
+            "view_count": 190717,
             "uploader": "Korean Classic Film",
             "category": "asian",
             "channel_tags": [
