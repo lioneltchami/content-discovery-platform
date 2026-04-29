@@ -1,14 +1,14 @@
 {
     "page": 10,
     "total_pages": 10,
-    "total_items": 451,
+    "total_items": 454,
     "items": [
         {
             "id": "hhwvnKX63_M",
             "title": "THE SHATTERING 🎬 Full Horror Movie 🎬 English HD",
             "url": "https://www.youtube.com/watch?v=hhwvnKX63_M",
             "duration": 4155.0,
-            "view_count": 266,
+            "view_count": 1022,
             "uploader": "Watch Movies Now",
             "category": "horror",
             "channel_tags": [
@@ -20,6 +20,61 @@
             "thumbnail": "https://i.ytimg.com/vi/hhwvnKX63_M/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBh2XnKUfqeaaHyreHEh8_LReSSkg",
             "source": "youtube",
             "added_date": "2026-04-29T08:02:37.426370Z"
+        },
+        {
+            "id": "kbwO7_gDudE",
+            "title": "A Lawyer Uncovers Deadly Police Corruption | The 6th | Full 2025 Crime Movie",
+            "url": "https://www.youtube.com/watch?v=kbwO7_gDudE",
+            "duration": 6098.0,
+            "view_count": 113,
+            "uploader": "Movie Central",
+            "category": "action",
+            "channel_tags": [
+                "action",
+                "comedy",
+                "drama",
+                "horror",
+                "scifi",
+                "western"
+            ],
+            "channel_name": "Movie Central",
+            "thumbnail": "https://i.ytimg.com/vi/kbwO7_gDudE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB7ot-kWtV7MTru0tR7X1-lI9VAsg",
+            "source": "youtube",
+            "added_date": "2026-04-29T13:25:14.363691Z"
+        },
+        {
+            "id": "J_xpyHgU5TY",
+            "title": "HUSH MONEY 🎬 Full Horror Movie 🎬 English HD",
+            "url": "https://www.youtube.com/watch?v=J_xpyHgU5TY",
+            "duration": 5316.0,
+            "view_count": 434,
+            "uploader": "Watch Movies Now",
+            "category": "horror",
+            "channel_tags": [
+                "horror",
+                "scifi",
+                "thriller"
+            ],
+            "channel_name": "Watch Movies Now",
+            "thumbnail": "https://i.ytimg.com/vi/J_xpyHgU5TY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuQjywYGVnY9n21R06_dexg_hFqg",
+            "source": "youtube",
+            "added_date": "2026-04-29T13:25:56.864798Z"
+        },
+        {
+            "id": "wT_BhsrdQ2A",
+            "title": "Earth Untold: Ethiopia | Hidden Tales from Africa’s Ancient Kingdom | Free Documentary",
+            "url": "https://www.youtube.com/watch?v=wT_BhsrdQ2A",
+            "duration": 3130.0,
+            "view_count": 254,
+            "uploader": "Free Documentary",
+            "category": "documentary",
+            "channel_tags": [
+                "documentary"
+            ],
+            "channel_name": "Free Documentary",
+            "thumbnail": "https://i.ytimg.com/vi/wT_BhsrdQ2A/hqdefault_custom_1.jpg?sqp=CKyNyM8G-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC0hoWvrYfRz6Hnl1jwZ6FhSaiXnA",
+            "source": "youtube",
+            "added_date": "2026-04-29T13:26:17.059413Z"
         }
     ]
 }
