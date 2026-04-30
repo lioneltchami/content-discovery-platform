@@ -1,13 +1,13 @@
 {
-    "last_updated": "2026-04-30T02:05:23.749618Z",
-    "total_movies": 6,
+    "last_updated": "2026-04-30T08:07:03.944293Z",
+    "total_movies": 7,
     "movies": [
         {
             "id": "gE8jWh-FJ94",
             "title": "All Quiet on the Western Front (1930) OSCAR WINNER🍕 LEWIS MILESTONE",
             "url": "https://www.youtube.com/watch?v=gE8jWh-FJ94",
             "duration": 8094.0,
-            "view_count": 6934,
+            "view_count": 6948,
             "uploader": "PizzaFlix",
             "category": "western",
             "channel_tags": [
@@ -79,7 +79,7 @@
             "title": "The Scent of Rain & Lightning FULL MOVIE | Western Movies | Maika Monroe | The Midnight Screening",
             "url": "https://www.youtube.com/watch?v=XvrX8ifmJCI",
             "duration": 6173.0,
-            "view_count": 1970,
+            "view_count": 1972,
             "uploader": "The Midnight Screening",
             "category": "western",
             "channel_tags": [
@@ -97,7 +97,7 @@
             "title": "A Broken Soldier Returns to the Rodeo | Peace River | 2026 Western Movie",
             "url": "https://www.youtube.com/watch?v=zMn_VNCX3CA",
             "duration": 8070.0,
-            "view_count": 15585,
+            "view_count": 17574,
             "uploader": "Movie Central",
             "category": "western",
             "channel_tags": [
@@ -112,6 +112,24 @@
             "thumbnail": "https://i.ytimg.com/vi/zMn_VNCX3CA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBFL7fIohoo6NcXzvWeaJkh-0vVBQ",
             "source": "youtube",
             "added_date": "2026-04-24T13:01:47.630026Z"
+        },
+        {
+            "id": "8o8KZUTCfsE",
+            "title": "Billy the Kid (1930) JOHN MACK BROWN🍕 WALLACE BEERY🍕OUTLAW WESTERN",
+            "url": "https://www.youtube.com/watch?v=8o8KZUTCfsE",
+            "duration": 5820.0,
+            "view_count": 1066,
+            "uploader": "PizzaFlix",
+            "category": "western",
+            "channel_tags": [
+                "classic",
+                "noir",
+                "western"
+            ],
+            "channel_name": "PizzaFlix",
+            "thumbnail": "https://i.ytimg.com/vi/8o8KZUTCfsE/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDI_OSORWfW3ZiD8iBYnUz51x4inA",
+            "source": "youtube",
+            "added_date": "2026-04-30T08:06:01.979579Z"
         }
     ]
 }
