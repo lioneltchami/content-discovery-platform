@@ -1,6 +1,14 @@
 {
-  "last_updated": "2026-05-02T12:50:12.630947Z",
+  "last_updated": "2026-05-02T18:45:33.720622Z",
   "history": [
+    {
+      "timestamp": "2026-05-02T18:45:33.720616Z",
+      "added": [
+        "7W0-gnhoufk",
+        "cQaxRT2KD6o"
+      ],
+      "added_count": 2
+    },
     {
       "timestamp": "2026-05-02T12:50:12.630940Z",
       "added": [
@@ -385,13 +393,6 @@
       "timestamp": "2026-04-20T13:08:53.060101Z",
       "added": [],
       "added_count": 0
-    },
-    {
-      "timestamp": "2026-04-20T07:54:09.565394Z",
-      "added": [
-        "ucQuR_UB25A"
-      ],
-      "added_count": 1
     }
   ]
 }
