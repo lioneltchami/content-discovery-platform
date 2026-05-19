@@ -1,6 +1,11 @@
 {
-  "last_updated": "2026-05-19T14:38:48.076667Z",
+  "last_updated": "2026-05-19T19:43:52.539641Z",
   "history": [
+    {
+      "timestamp": "2026-05-19T19:43:52.539625Z",
+      "added": [],
+      "added_count": 0
+    },
     {
       "timestamp": "2026-05-19T14:38:48.076661Z",
       "added": [],
@@ -245,13 +250,6 @@
       "timestamp": "2026-05-07T13:30:29.505611Z",
       "added": [],
       "added_count": 0
-    },
-    {
-      "timestamp": "2026-05-07T08:19:30.611018Z",
-      "added": [
-        "Vgn5_KBjC18"
-      ],
-      "added_count": 1
     }
   ]
 }
