@@ -1,6 +1,11 @@
 {
-  "last_updated": "2026-11-20T23:30:04.764158Z",
+  "last_updated": "2026-11-21T04:51:54.171763Z",
   "history": [
+    {
+      "timestamp": "2026-11-21T04:51:54.171757Z",
+      "added": [],
+      "added_count": 0
+    },
     {
       "timestamp": "2026-11-20T23:30:04.764152Z",
       "added": [],
@@ -243,11 +248,6 @@
     },
     {
       "timestamp": "2026-11-03T13:16:59.542794Z",
-      "added": [],
-      "added_count": 0
-    },
-    {
-      "timestamp": "2026-11-03T00:12:53.193664Z",
       "added": [],
       "added_count": 0
     }
